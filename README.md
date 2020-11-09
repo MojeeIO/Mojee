@@ -1,4 +1,4 @@
-# Welcome to Mojee :spock-hand"
+# Welcome to Mojee :zany_face:
 
 ## What the is Mojee?
 
