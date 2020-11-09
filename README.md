@@ -1,6 +1,6 @@
 # Welcome to Mojee :zany_face:
 
-## What the is Mojee?
+## What is Mojee?
 
 Mojee is a lightning :zap: fast Emoji library for .NET & TypeScript (.ts is coming soon).
 
