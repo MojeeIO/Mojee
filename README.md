@@ -37,7 +37,7 @@ The console output from the above sample would be:
 
 ## Getting Started
 
-Within seconds, Mojee can be added to any .NET Core project using NuGet.
+Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio.
 
 ```sh
 # Install using dotnet CLI
