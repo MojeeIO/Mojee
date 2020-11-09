@@ -288,4 +288,6 @@ Todays most 100 most popular emojis are supported for free, which covers approxi
 :cherry_blossom: | :rose: | :new_moon_with_face: | :sunny: | :star: | :zap: | :fire: | :sparkles: | :tada: | :hearts:
 :crown: | :notes: | :camera: | :arrow_right: | :arrow_left: | :arrow_forward: | :recycle: | :white_check_mark: | :heavy_check_mark: | :red_circle:
 
+Please see the [License Key Configuration](https://github.com/MojeeIO/Mojee/wiki/License-Key-Configuration) guide for instructions on how to add your Mojee License key to a project.
+
 [Purchasing](https://mojee.io/pricing) a **Pro** or **Team** license key will unlock the full power of Mojee with support for all 1743 emojis.
