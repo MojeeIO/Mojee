@@ -49,6 +49,38 @@ dotnet add package Mojee
 Install-Package Mojee
 ```
 
+The following sequence of commands could be used to create a new .NET Console project using the `dotnet` CLI, then add Mojee, and finally open the new project in Visual Studio Code.
+
+```sh
+mkdir MojeeDemo          # Make a new folder
+cd MojeeDemo             # Move into the new folder
+dotnet new console       # Create a new .NET Console app
+dotnet add package Mojee # Add Mojee to your new project
+code .                   # Open in Visual Studio Code
+```
+
+The `MojeeIO` API is now available within your app. The following sample demonstrates a basic Console app scenario with Mojee.
+
+```csharp
+using System;
+using MojeeIO;
+
+namespace MojeeDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Search for emojis
+            Mojee.Search("smile").ToList()
+                .ForEach(emoji => Console.Write(emoji));
+
+            Console.ReadKey();
+        }
+    }
+}
+```
+
 # API Docs
 
 ## Mojee Class
