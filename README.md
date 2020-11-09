@@ -71,10 +71,10 @@ namespace MojeeDemo
     {
         static void Main(string[] args)
         {
-            // Search for emojis
-            Mojee.Search("smile").ToList()
-                .ForEach(emoji => Console.Write(emoji));
+            // Replace all shortcodes with an emoji
+            var result = Mojee.Replace("Hello, world :+1:");
 
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
