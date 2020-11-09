@@ -6,7 +6,7 @@ Mojee is a lightning :zap: fast Emoji library for .NET & TypeScript (.ts is comi
 
 ![Mojee - A lighting fast Emoji libraries](https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png)
 
-Mojee's big party trick is the ultra high-performance parse and replacement of emoji `:short-codes:` within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji `:short-codes:` found with actual emoji character instances. Here's a basic Mojee `Replace` sample:
+Mojee's big party trick is the ultra-high-performance parse and replacement of emoji `:short-codes:` within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji `:short-codes:` found with actual emoji character instances. Here's a basic Mojee `Replace` sample:
 
 ```csharp
 // Replace all shortcodes with an emoji
@@ -55,7 +55,7 @@ Install-Package Mojee
 
 ### `Replace` static method
 
-The static method `Mojee.Replace` will replace all emoji shortcodes in a string with unicode emoji characters.
+The static method `Mojee.Replace` will replace all emoji shortcodes in a string with Unicode emoji characters.
 
 ```csharp
 string Mojee.Replace(string text)
@@ -88,7 +88,7 @@ Argument | Type | Description
 
 Returns a new string with all matched `:short-codes:` replaced with the result from the `evaluator`.
 
-A basic use-case for the `evaluator` would be logging each emoji match. In the following sample we keep a simple count of the emoji shortcode matches that occur within a string.
+A basic use-case for the `evaluator` would be logging each emoji match. In the following sample, we keep a simple count of the emoji shortcode matches that occur within a string.
 
 #### Example
 
@@ -136,7 +136,7 @@ Argument | Type | Description
 -- | -- | --
 `query` | `string` | Any substring, exact Emoji Shortcode, or a Shortcode starting with.
 
-Returns the matched Emoji instances as a `IEnumerable<Emoji>`. 
+Returns the matched Emoji instances as an `IEnumerable<Emoji>`. 
 
 #### Example
 
@@ -274,6 +274,18 @@ Emoji: 😄
 
 Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless a license key is provided. 
 
-The most 50 most popular emojis are supported for free, which covers approximately 80% of the emojis commonly used today.
+The most 100 most popular emojis are supported for free, which covers approximately 80% of the emojis commonly used today. The following table documents the 100 emojis currently supported by Mojee.
+
+:grinning: | :smiley: | :smile: | :grin: | :satisfied: | :sweat_smile: | :joy: | :wink: | :blush: | :innocent:
+ -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+:heart_eyes: | :kissing_heart: | :relaxed: | :kissing_closed_eyes: | :yum: | :stuck_out_tongue: | :stuck_out_tongue_winking_eye: | :stuck_out_tongue_closed_eyes: | :neutral_face: | :expressionless:
+:no_mouth: | :smirk: | :unamused: | :grimacing: | :relieved: | :pensive: | :sleepy: | :sleeping: | :mask: | :sunglasses:
+:confused: | :flushed: | :disappointed_relieved: | :cry: | :sob: | :scream: | :confounded: | :persevere: | :disappointed: | :sweat:
+:weary: | :tired_face: | :triumph: | :rage: | :angry: | :smiling_imp: | :skull: | :heart_eyes_cat: | :see_no_evil: | :speak_no_evil:
+:kiss: | :cupid: | :sparkling_heart: | :heartpulse: | :heartbeat: | :revolving_hearts: | :two_hearts: | :broken_heart: | :heart: | :yellow_heart:
+:green_heart: | :blue_heart: | :purple_heart: | :100: | :collision: | :wave: | :raised_hand: | :ok_hand: | :v: | :point_left:
+:point_right: | :point_down: | :thumbsup: | :punch: | :clap: | :raised_hands: | :pray: | :muscle: | :eyes: | :information_desk_person:
+:cherry_blossom: | :rose: | :new_moon_with_face: | :sunny: | :star: | :zap: | :fire: | :sparkles: | :tada: | :hearts:
+:crown: | :notes: | :camera: | :arrow_right: | :arrow_left: | :arrow_forward: | :recycle: | :white_check_mark: | :heavy_check_mark: | :red_circle:
 
 [Purchasing](https://mojee.io/pricing) a **Pro** or **Team** license key will unlock the full power of Mojee with support for all 1743 emojis.
