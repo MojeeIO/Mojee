@@ -190,7 +190,6 @@ The console output from the above sample would be:
 😋: :yum:
 😁: :grin:
 😊: :blush:
-☺️: :relaxed:
 😆: :laughing:
 😍: :heart_eyes:
 😈: :smiling_imp:
