@@ -272,9 +272,9 @@ Emoji: 😄
 
 ## Licensing
 
-Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless a license key is provided. 
+Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless a license key is [purchased](https://mojee.io/pricing).
 
-The most 100 most popular emojis are supported for free, which covers approximately 80% of the emojis commonly used today. The following table documents the 100 emojis currently supported by Mojee.
+Todays most 100 most popular emojis are supported for free, which covers approximately 80% of all emojis used. The following table documents the 100 emojis currently supported in the free (no license key) version of Mojee.
 
 :grinning: | :smiley: | :smile: | :grin: | :satisfied: | :sweat_smile: | :joy: | :wink: | :blush: | :innocent:
  -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
