@@ -1,5 +1,7 @@
 # Welcome to Mojee :zany_face:
 
+[![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
+
 ## What is Mojee?
 
 [Mojee](https://mojee.io/) is a lightning :zap: fast Emoji library for .NET & TypeScript (.ts is coming soon).
@@ -37,7 +39,7 @@ The console output from the above sample would be:
 
 ## Getting Started
 
-Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio.
+Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio. [![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
 
 ```sh
 # Install using dotnet CLI
