@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <title>Welcome</title>
+        <meta name="description" content="Inject page description here" />
+
+        <script>(function(){var el=document.documentElement,m=localStorage.getItem("doc_theme"),wm=window.matchMedia;if(m==="dark"||(!m&&wm&&wm("(prefers-color-scheme: dark)").matches)){el.classList.add("dark")}else{el.classList.remove("dark")}})();</script>
+
+        <link href="resources/css/docs.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+    <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+
+    <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+    <div class="container relative flex items-center justify-between flex-grow pr-6 md:justify-start">
+        <!-- Mobile menu button skeleton -->
+        <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center flex-shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px flex-shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+        <div v-cloak id="docs-sidebar-toggle"></div>
+
+        <!-- Logo -->
+        <div class="flex">
+            <div class="flex items-center md:pl-6 md:w-72">
+                <span class="dark:text-white text-2xl font-semibold">
+                    <a href="./">Mojee</a>
+                </span>
+                <span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">docs</span>
+            </div>
+
+            <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+        </div>
+
+        <div class="flex justify-between md:flex-grow">
+            <!-- Top Nav -->
+            <nav class="hidden md:flex">
+                <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                    <li class="md:mr-6">
+                        <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://mojee.io/">Home</a>
+                    </li>
+                    <li class="md:mr-6">
+                        <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://mojee.io/emojis">Emojis</a>
+                    </li>
+                    <li class="md:mr-6">
+                        <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://mojee.io/pricing">Pricing</a>
+                    </li>
+                    <li class="md:mr-6">
+                        <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://github.com/MojeeIO/Mojee">GitHub</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Header Right Skeleton -->
+            <div v-cloak class="flex justify-end flex-grow skeleton">
+
+                <!-- Search input mock -->
+                <!-- <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                    <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                    </div>
+
+                    <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                    style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search docs" />
+                </div> -->
+
+                <!-- Mobile search button mock -->
+                <!-- <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                </div> -->
+
+                <!-- Dark mode switch placehokder -->
+                <div class="w-10 h-10 lg:ml-2"></div>
+
+                <!-- History button mock -->
+                <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                </div>
+            </div>
+
+            <div v-cloak class="flex items-center justify-end flex-grow">
+                <!-- <div id="docs-mobile-search-button"></div> -->
+                <!-- <doc-search-desktop></doc-search-desktop> -->
+
+                <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                <doc-history></doc-history>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <div class="container relative flex bg-white">
+        <!-- Sidebar Skeleton -->
+        <div v-cloak class="fixed top-0 z-40 flex flex-col flex-shrink-0 w-4/5 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar md:top-20 sm:w-1/2 md:w-72 md:z-0 md:border-r md:h-screen md:sticky md:transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+
+            <!-- Render this div, if config.showSidebarFilter is `true` -->
+            <div class="mt-6 px-6">
+                <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none md:text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+            </div>
+
+            <div class="pl-6 mt-4 mb-4 md:mt-6">
+                <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+            </div>
+        </div>
+
+        <doc-sidebar v-cloak></doc-sidebar>
+
+        <div class="flex-grow min-w-0 dark:bg-dark-850">
+            <div class="flex">
+    <div class="flex-grow min-w-0">
+        <main class="relative px-6 pt-6 pb-16 mx-auto md:px-16">
+            <div class="docs-markdown" id="docs-content">
+                <!-- Rendered if sidebar right is enabled -->
+                <div id="docs-sidebar-right-toggle"></div>
+               
+                <!-- Page content  -->
+<doc-anchor-target id="welcome-to-mojee-zany_face">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-mojee-zany_face">#</doc-anchor-trigger>
+        <span>Welcome to Mojee :zany_face:</span>
+    </h1>
+</doc-anchor-target>
+<p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
+<doc-anchor-target id="what-is-mojee">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-mojee">#</doc-anchor-trigger>
+        <span>What is Mojee?</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://mojee.io/">Mojee</a> is a lightning :zap: fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
+<p><img src="https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png" alt="Mojee - A lighting fast Emoji libraries" /></p>
+<p>Mojee's big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji <code v-pre>:short-codes:</code> found with actual emoji character instances. Here's a basic Mojee <code v-pre>Replace</code> sample:</p>
+<pre v-highlight:csharp><code v-pre>// Replace all shortcodes with an emoji
+var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
+
+Console.WriteLine(result);</code></pre>
+<p>The console output from the above sample would be:</p>
+<pre v-highlight><code v-pre>Hello, world 😄</code></pre>
+<p>Mojee is also amazing at Emoji search. Search for any term and Mojee will hand back a collection of emoji results. The following sample demonstrates a basic emoji search using Mojee.</p>
+<pre v-highlight:csharp><code v-pre>// Search for emojis
+Mojee.Search(&quot;smile&quot;).ToList()
+     .ForEach(emoji =&gt; Console.Write(emoji));</code></pre>
+<p>The console output from the above sample would be:</p>
+<pre v-highlight><code v-pre>😄 😸 😃 😺 😅</code></pre>
+<doc-anchor-target id="getting-started">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getting-started">#</doc-anchor-trigger>
+        <span>Getting Started</span>
+    </h2>
+</doc-anchor-target>
+<p>Within seconds, Mojee can be added to any .NET Core project using the <a href="https://www.nuget.org/packages/mojee">NuGet package</a>, or search for <code v-pre>Mojee</code> from within the NuGet Package Manager in Visual Studio. <a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
+<pre v-highlight:sh><code v-pre># Install using dotnet CLI
+dotnet add package Mojee
+
+# or,
+
+# Instal using NuGet CLI
+Install-Package Mojee</code></pre>
+<p>The following sequence of commands could be used to create a new .NET Console project using the <code v-pre>dotnet</code> CLI, then add Mojee, and finally open the new project in Visual Studio Code.</p>
+<pre v-highlight:sh><code v-pre>mkdir MojeeDemo          # Make a new folder
+cd MojeeDemo             # Move into the new folder
+dotnet new console       # Create a new .NET Console app
+dotnet add package Mojee # Add Mojee to your new project
+code .                   # Open in Visual Studio Code</code></pre>
+<p>The <code v-pre>MojeeIO</code> API is now available within your app. The following sample demonstrates a basic Console app scenario with Mojee.</p>
+<pre v-highlight:csharp><code v-pre>using System;
+using MojeeIO;
+
+namespace MojeeDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Replace all shortcodes with an emoji
+            var result = Mojee.Replace(&quot;Hello, world :+1:&quot;);
+
+            Console.WriteLine(result);
+            Console.ReadKey();
+        }
+    }
+}</code></pre>
+<doc-anchor-target id="api-docs">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#api-docs">#</doc-anchor-trigger>
+        <span>API Docs</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="mojee-class">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mojee-class">#</doc-anchor-trigger>
+        <span>Mojee Class</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="replace-static-method">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#replace-static-method">#</doc-anchor-trigger>
+        <span><code v-pre>Replace</code> static method</span>
+    </h3>
+</doc-anchor-target>
+<p>The static method <code v-pre>Mojee.Replace</code> will replace all emoji shortcodes in a string with Unicode emoji characters.</p>
+<pre v-highlight:csharp><code v-pre>string Mojee.Replace(string text)</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>text</code></td>
+<td><code v-pre>string</code></td>
+<td>The input text to perform the replacement on.</td>
+</tr>
+</tbody>
+</table>
+<p>Returns a new string with all matched <code v-pre>:short-codes:</code> replaced.</p>
+<h4 id="example">Example</h4>
+<pre v-highlight:csharp><code v-pre>var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
+
+Console.WriteLine(result);</code></pre>
+<p>The <code v-pre>Replace</code> method also has a handy overload where an <code v-pre>EmojiMatch</code> evaluator can be passed. Each matched <code v-pre>:short-code:</code> found by Mojee is passed to the <code v-pre>evaluator</code> for custom processing.</p>
+<pre v-highlight:csharp><code v-pre>string Mojee.Replace(string text, Func&lt;EmojiMatch, string&gt; evaluator)</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>text</code></td>
+<td><code v-pre>string</code></td>
+<td>The input text to perform the replacement on.</td>
+</tr>
+<tr>
+<td><code v-pre>evaluator</code></td>
+<td><code v-pre>Func&lt;EmojiMatch, string&gt;</code></td>
+<td>The function evaluating a replacement string based on the matched Emoji. Returning <code v-pre>null</code> keeps the original capture as is.</td>
+</tr>
+</tbody>
+</table>
+<p>Returns a new string with all matched <code v-pre>:short-codes:</code> replaced with the result from the <code v-pre>evaluator</code>.</p>
+<p>A basic use-case for the <code v-pre>evaluator</code> would be logging each emoji match. In the following sample, we keep a simple count of the emoji shortcode matches that occur within a string.</p>
+<h4 id="example-1">Example</h4>
+<pre v-highlight:csharp><code v-pre>static void Main(string[] args)
+{
+    var count = 0;
+    
+    var result = Mojee.Replace(&quot;:+1: Hello, world :smile:&quot;, match =&gt; 
+    {
+        count++;
+
+        // Any custom processing of the
+        // emoji match can happen here.
+
+        // Return the Emoji character
+        return match.Emoji.Character;
+    });
+
+    Console.WriteLine($&quot;Count: {count}&quot;);
+    Console.WriteLine(result);
+
+    Console.ReadKey();
+}</code></pre>
+<p>The console output from the above sample would be:</p>
+<pre v-highlight><code v-pre>Count: 2
+👍 Hello, world 😄</code></pre>
+<doc-anchor-target id="search-static-method">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#search-static-method">#</doc-anchor-trigger>
+        <span><code v-pre>Search</code> static method</span>
+    </h3>
+</doc-anchor-target>
+<p>Search for emojis.</p>
+<p>Search by any Shortcode substring (<code v-pre>&quot;cat&quot;</code>), or by an exact Emoji Shortcode (<code v-pre>&quot;:smile:&quot;</code>), or if a Shortcode startsWith (<code v-pre>&quot;:smi&quot;</code>).</p>
+<pre v-highlight:csharp><code v-pre>IEnumerable&lt;Emoji&gt; Mojee.Search(string query)</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>query</code></td>
+<td><code v-pre>string</code></td>
+<td>Any substring, exact Emoji Shortcode, or a Shortcode starting with.</td>
+</tr>
+</tbody>
+</table>
+<p>Returns the matched Emoji instances as an <code v-pre>IEnumerable&lt;Emoji&gt;</code>.</p>
+<h4 id="example-2">Example</h4>
+<pre v-highlight:csharp><code v-pre>var result = Mojee.Search(&quot;smile&quot;);
+
+result.ToList().ForEach(emoji =&gt; 
+{
+    Console.WriteLine($&quot;{emoji}: {emoji.Shortcode}&quot;);
+});</code></pre>
+<p>The console output from the above sample would be:</p>
+<pre v-highlight><code v-pre>😄: :smile:
+😃: :smiley:
+😅: :sweat_smile:
+😋: :yum:
+😁: :grin:
+😊: :blush:
+😆: :laughing:
+😍: :heart_eyes:
+😈: :smiling_imp:
+😻: :heart_eyes_cat:</code></pre>
+<doc-anchor-target id="emojimatch-class">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#emojimatch-class">#</doc-anchor-trigger>
+        <span>EmojiMatch Class</span>
+    </h2>
+</doc-anchor-target>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>Emoji</code></td>
+<td><code v-pre>Emoji</code></td>
+<td>The captured Emoji. <code v-pre>readonly</code></td>
+</tr>
+<tr>
+<td><code v-pre>Index</code></td>
+<td><code v-pre>int</code></td>
+<td>The position in the original string where the first character of the captured Emoji is found. <code v-pre>readonly</code></td>
+</tr>
+<tr>
+<td><code v-pre>Length</code></td>
+<td><code v-pre>int</code></td>
+<td>Gets the length of the Emoji capture. <code v-pre>readonly</code></td>
+</tr>
+<tr>
+<td><code v-pre>Type</code></td>
+<td><code v-pre>MatchType</code></td>
+<td>The match type - specifies what Emoji identifier was captured. <code v-pre>readonly</code></td>
+</tr>
+</tbody>
+</table>
+<doc-anchor-target id="matchtype-enum">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#matchtype-enum">#</doc-anchor-trigger>
+        <span>MatchType Enum</span>
+    </h2>
+</doc-anchor-target>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>Shortcode</code></td>
+<td>An Emoji was captured by Shortcode</td>
+</tr>
+</tbody>
+</table>
+<doc-anchor-target id="emoji-class">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#emoji-class">#</doc-anchor-trigger>
+        <span>Emoji Class</span>
+    </h2>
+</doc-anchor-target>
+<p>Represents a single Emoji instance.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>Id</code></td>
+<td><code v-pre>string</code></td>
+<td>A unique identifier based on the unicode code point value.</td>
+</tr>
+<tr>
+<td><code v-pre>Shortcode</code></td>
+<td><code v-pre>string</code></td>
+<td>The unique short name for this Emoji (e.g. <code v-pre>:smile:</code>).</td>
+</tr>
+<tr>
+<td><code v-pre>Aliases</code></td>
+<td><code v-pre>IReadOnlyList&lt;string&gt;</code></td>
+<td>A list of Shortcode alias names.</td>
+</tr>
+<tr>
+<td><code v-pre>Character</code></td>
+<td><code v-pre>string</code></td>
+<td>The unicode code point value for this Emoji.</td>
+</tr>
+<tr>
+<td><code v-pre>UnicodeChars</code></td>
+<td><code v-pre>char[]</code></td>
+<td>Characters of the Character string.</td>
+</tr>
+<tr>
+<td><code v-pre>Emoticon</code></td>
+<td><code v-pre>string?</code></td>
+<td>The emoticon string pattern for this Emoji.</td>
+</tr>
+<tr>
+<td><code v-pre>Description</code></td>
+<td><code v-pre>string?</code></td>
+<td>A basic description of this Emoji or related keywords.</td>
+</tr>
+<tr>
+<td><code v-pre>Tags</code></td>
+<td><code v-pre>IReadOnlyList&lt;string&gt;</code></td>
+<td>A list of tags related to this Emoji.</td>
+</tr>
+<tr>
+<td><code v-pre>Order</code></td>
+<td><code v-pre>int</code></td>
+<td>The order of this Emoji within the collection of Emojis.</td>
+</tr>
+<tr>
+<td><code v-pre>Category</code></td>
+<td><code v-pre>Category</code></td>
+<td>The Emoji Category.</td>
+</tr>
+</tbody>
+</table>
+<doc-anchor-target id="get-static-method">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#get-static-method">#</doc-anchor-trigger>
+        <span><code v-pre>Get</code> static method</span>
+    </h3>
+</doc-anchor-target>
+<h4 id="example-3">Example</h4>
+<pre v-highlight:csharp><code v-pre>var emoji = Emoji.Get(&quot;smile&quot;);
+Console.Write($&quot;{emoji.Shortcode}: {emoji}&quot;);
+// smile: 😄</code></pre>
+<doc-anchor-target id="getall-static-method">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#getall-static-method">#</doc-anchor-trigger>
+        <span><code v-pre>GetAll</code> static method</span>
+    </h3>
+</doc-anchor-target>
+<p>Gets the list of all supported Emojis.</p>
+<pre v-highlight:csharp><code v-pre>IReadOnlyList&lt;Emoji&gt; Emoji.GetAll()</code></pre>
+<h4 id="example-4">Example</h4>
+<pre v-highlight:csharp><code v-pre>// Get the first 5 emojis
+var emojis = Emoji.GetAll()
+    .Take(5)
+    .ToList();
+
+// Iterate through the list of emojis
+emojis.ForEach(emoji =&gt; 
+{
+    // Write the emojis to the Console
+    Console.WriteLine(emoji);
+});</code></pre>
+<p>The console output from the above sample would be:</p>
+<pre v-highlight><code v-pre>😀
+😃
+😄
+😁
+😆</code></pre>
+<doc-anchor-target id="tryget-static-method">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tryget-static-method">#</doc-anchor-trigger>
+        <span><code v-pre>TryGet</code> static method</span>
+    </h3>
+</doc-anchor-target>
+<p>Tries to get an Emoji object based on the supplied shortcode. See also <code v-pre>Emoji.Get(string)</code>.</p>
+<pre v-highlight:csharp><code v-pre>bool Emoji.TryGet(string shortcode, out Emoji emoji)</code></pre>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>shortcode</code></td>
+<td><code v-pre>string</code></td>
+<td>A Shortcode. Colons are optional (both values are valid: <code v-pre>&quot;:smile:&quot;</code> and <code v-pre>&quot;smile&quot;</code>).</td>
+</tr>
+<tr>
+<td><code v-pre>out</code></td>
+<td><code v-pre>Emoji</code></td>
+<td>The found Emoji or null.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-5">Example</h4>
+<pre v-highlight:csharp><code v-pre>var matched = Emoji.TryGet(&quot;smile&quot;, out var emoji);
+
+Console.WriteLine($&quot;Found something? {matched}&quot;);
+Console.WriteLine(emoji);</code></pre>
+<p>The console output from the above sample would be:</p>
+<pre v-highlight><code v-pre>Found something? True
+Emoji: 😄</code></pre>
+<doc-anchor-target id="licensing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#licensing">#</doc-anchor-trigger>
+        <span>Licensing</span>
+    </h2>
+</doc-anchor-target>
+<p>Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless a license key is <a href="https://mojee.io/pricing">purchased</a>.</p>
+<p>The 100 most popular emojis used on Twitter are supported for free, which covers approximately 4 out of every 5 emojis tweeted. The following table documents the 100 emojis currently supported in the free (no license key) version of Mojee. With each new release, Mojee will be updated with the latest 100 most popular emojis used on Twitter.</p>
+<table>
+<thead>
+<tr>
+<th>:grinning:</th>
+<th>:smiley:</th>
+<th>:smile:</th>
+<th>:grin:</th>
+<th>:satisfied:</th>
+<th>:sweat_smile:</th>
+<th>:joy:</th>
+<th>:wink:</th>
+<th>:blush:</th>
+<th>:innocent:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:heart_eyes:</td>
+<td>:kissing_heart:</td>
+<td>:relaxed:</td>
+<td>:kissing_closed_eyes:</td>
+<td>:yum:</td>
+<td>:stuck_out_tongue:</td>
+<td>:stuck_out_tongue_winking_eye:</td>
+<td>:stuck_out_tongue_closed_eyes:</td>
+<td>:neutral_face:</td>
+<td>:expressionless:</td>
+</tr>
+<tr>
+<td>:no_mouth:</td>
+<td>:smirk:</td>
+<td>:unamused:</td>
+<td>:grimacing:</td>
+<td>:relieved:</td>
+<td>:pensive:</td>
+<td>:sleepy:</td>
+<td>:sleeping:</td>
+<td>:mask:</td>
+<td>:sunglasses:</td>
+</tr>
+<tr>
+<td>:confused:</td>
+<td>:flushed:</td>
+<td>:disappointed_relieved:</td>
+<td>:cry:</td>
+<td>:sob:</td>
+<td>:scream:</td>
+<td>:confounded:</td>
+<td>:persevere:</td>
+<td>:disappointed:</td>
+<td>:sweat:</td>
+</tr>
+<tr>
+<td>:weary:</td>
+<td>:tired_face:</td>
+<td>:triumph:</td>
+<td>:rage:</td>
+<td>:angry:</td>
+<td>:smiling_imp:</td>
+<td>:skull:</td>
+<td>:heart_eyes_cat:</td>
+<td>:see_no_evil:</td>
+<td>:speak_no_evil:</td>
+</tr>
+<tr>
+<td>:kiss:</td>
+<td>:cupid:</td>
+<td>:sparkling_heart:</td>
+<td>:heartpulse:</td>
+<td>:heartbeat:</td>
+<td>:revolving_hearts:</td>
+<td>:two_hearts:</td>
+<td>:broken_heart:</td>
+<td>:heart:</td>
+<td>:yellow_heart:</td>
+</tr>
+<tr>
+<td>:green_heart:</td>
+<td>:blue_heart:</td>
+<td>:purple_heart:</td>
+<td>:100:</td>
+<td>:collision:</td>
+<td>:wave:</td>
+<td>:raised_hand:</td>
+<td>:ok_hand:</td>
+<td>:v:</td>
+<td>:point_left:</td>
+</tr>
+<tr>
+<td>:point_right:</td>
+<td>:point_down:</td>
+<td>:thumbsup:</td>
+<td>:punch:</td>
+<td>:clap:</td>
+<td>:raised_hands:</td>
+<td>:pray:</td>
+<td>:muscle:</td>
+<td>:eyes:</td>
+<td>:information_desk_person:</td>
+</tr>
+<tr>
+<td>:cherry_blossom:</td>
+<td>:rose:</td>
+<td>:new_moon_with_face:</td>
+<td>:sunny:</td>
+<td>:star:</td>
+<td>:zap:</td>
+<td>:fire:</td>
+<td>:sparkles:</td>
+<td>:tada:</td>
+<td>:hearts:</td>
+</tr>
+<tr>
+<td>:crown:</td>
+<td>:notes:</td>
+<td>:camera:</td>
+<td>:arrow_right:</td>
+<td>:arrow_left:</td>
+<td>:arrow_forward:</td>
+<td>:recycle:</td>
+<td>:white_check_mark:</td>
+<td>:heavy_check_mark:</td>
+<td>:red_circle:</td>
+</tr>
+</tbody>
+</table>
+<p>Please see the <a href="https://github.com/MojeeIO/Mojee/wiki/License-Key-Configuration">License Key Configuration</a> guide for instructions on how to add your Mojee License key to a project.</p>
+<p><a href="https://mojee.io/pricing">Purchasing</a> a <strong>Pro</strong> or <strong>Team</strong> license key will unlock the full power of Mojee with support for all 1743 emojis.</p>
+
+    
+                <!-- Required only on API pages -->
+                <doc-toolbar-member-filter-no-results />
+            </div>
+        </main>
+    </div>
+    
+    <!-- Rendered if sidebar right is enabled -->
+    <!-- Sidebar right skeleton-->
+    <div v-cloak class="fixed top-0 bottom-0 right-0 transform translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:flex-shrink-0 lg:pt-6 lg:transform-none lg:w-56 lg:z-0 md:w-72 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+        <div class="pl-5">
+            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+        </div>
+    </div>
+    
+    <!-- User should be able to hide sidebar right -->
+    <doc-sidebar-right v-cloak></doc-sidebar-right>
+</div>
+
+        </div>
+    </div>
+
+    <!-- <doc-search-mobile></doc-search-mobile> -->
+    <doc-back-to-top></doc-back-to-top>
+</div>
+
+
+        <div id="docs-overlay-target"></div>
+
+        <script>window.__DOCS__ = { "title": "Welcome", icon: "file" }</script>
+        <script type="text/javascript" src="resources/js/config.js"></script>
+        <script type="text/javascript" src="resources/js/docs.js"></script>
+    </body>
+</html>
