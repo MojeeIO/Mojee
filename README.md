@@ -1,3 +1,6 @@
+---
+title: Welcome
+---
 # Welcome to Mojee :zany_face:
 
 [![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
