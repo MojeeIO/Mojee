@@ -42,7 +42,9 @@ The console output from the above sample would be:
 
 ## Getting Started
 
-Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio. [![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
+Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio. 
+
+[![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
 
 ```sh
 # Install using dotnet CLI
