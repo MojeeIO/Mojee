@@ -124,7 +124,7 @@
 <doc-anchor-target id="welcome-to-mojee-zany_face">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-mojee-zany_face">#</doc-anchor-trigger>
-        <span>Welcome to Mojee :zany_face:</span>
+        <span>Welcome to Mojee 🤪</span>
     </h1>
 </doc-anchor-target>
 <p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
@@ -134,11 +134,11 @@
         <span>What is Mojee?</span>
     </h2>
 </doc-anchor-target>
-<p><a href="https://mojee.io/">Mojee</a> is a lightning :zap: fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
+<p><a href="https://mojee.io/">Mojee</a> is a lightning ⚡ fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
 <p><img src="https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png" alt="Mojee - A lighting fast Emoji libraries" /></p>
 <p>Mojee's big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji <code v-pre>:short-codes:</code> found with actual emoji character instances. Here's a basic Mojee <code v-pre>Replace</code> sample:</p>
 <pre v-highlight:csharp><code v-pre>// Replace all shortcodes with an emoji
-var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
+var result = Mojee.Replace(&quot;Hello, world 😄&quot;);
 
 Console.WriteLine(result);</code></pre>
 <p>The console output from the above sample would be:</p>
@@ -180,7 +180,7 @@ namespace MojeeDemo
         static void Main(string[] args)
         {
             // Replace all shortcodes with an emoji
-            var result = Mojee.Replace(&quot;Hello, world :+1:&quot;);
+            var result = Mojee.Replace(&quot;Hello, world 👍&quot;);
 
             Console.WriteLine(result);
             Console.ReadKey();
@@ -225,7 +225,7 @@ namespace MojeeDemo
 </table>
 <p>Returns a new string with all matched <code v-pre>:short-codes:</code> replaced.</p>
 <h4 id="example">Example</h4>
-<pre v-highlight:csharp><code v-pre>var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
+<pre v-highlight:csharp><code v-pre>var result = Mojee.Replace(&quot;Hello, world 😄&quot;);
 
 Console.WriteLine(result);</code></pre>
 <p>The <code v-pre>Replace</code> method also has a handy overload where an <code v-pre>EmojiMatch</code> evaluator can be passed. Each matched <code v-pre>:short-code:</code> found by Mojee is passed to the <code v-pre>evaluator</code> for custom processing.</p>
@@ -258,7 +258,7 @@ Console.WriteLine(result);</code></pre>
 {
     var count = 0;
     
-    var result = Mojee.Replace(&quot;:+1: Hello, world :smile:&quot;, match =&gt; 
+    var result = Mojee.Replace(&quot;👍 Hello, world 😄&quot;, match =&gt; 
     {
         count++;
 
@@ -284,7 +284,7 @@ Console.WriteLine(result);</code></pre>
     </h3>
 </doc-anchor-target>
 <p>Search for emojis.</p>
-<p>Search by any Shortcode substring (<code v-pre>&quot;cat&quot;</code>), or by an exact Emoji Shortcode (<code v-pre>&quot;:smile:&quot;</code>), or if a Shortcode startsWith (<code v-pre>&quot;:smi&quot;</code>).</p>
+<p>Search by any Shortcode substring (<code v-pre>&quot;cat&quot;</code>), or by an exact Emoji Shortcode (<code v-pre>&quot;😄&quot;</code>), or if a Shortcode startsWith (<code v-pre>&quot;:smi&quot;</code>).</p>
 <pre v-highlight:csharp><code v-pre>IEnumerable&lt;Emoji&gt; Mojee.Search(string query)</code></pre>
 <table>
 <thead>
@@ -311,16 +311,16 @@ result.ToList().ForEach(emoji =&gt;
     Console.WriteLine($&quot;{emoji}: {emoji.Shortcode}&quot;);
 });</code></pre>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>😄: :smile:
-😃: :smiley:
-😅: :sweat_smile:
-😋: :yum:
-😁: :grin:
-😊: :blush:
-😆: :laughing:
-😍: :heart_eyes:
-😈: :smiling_imp:
-😻: :heart_eyes_cat:</code></pre>
+<pre v-highlight><code v-pre>😄: 😄
+😃: 😃
+😅: 😅
+😋: 😋
+😁: 😁
+😊: 😊
+😆: 😆
+😍: 😍
+😈: 😈
+😻: 😻</code></pre>
 <doc-anchor-target id="emojimatch-class">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#emojimatch-class">#</doc-anchor-trigger>
@@ -402,7 +402,7 @@ result.ToList().ForEach(emoji =&gt;
 <tr>
 <td><code v-pre>Shortcode</code></td>
 <td><code v-pre>string</code></td>
-<td>The unique short name for this Emoji (e.g. <code v-pre>:smile:</code>).</td>
+<td>The unique short name for this Emoji (e.g. <code v-pre>😄</code>).</td>
 </tr>
 <tr>
 <td><code v-pre>Aliases</code></td>
@@ -502,7 +502,7 @@ emojis.ForEach(emoji =&gt;
 <tr>
 <td><code v-pre>shortcode</code></td>
 <td><code v-pre>string</code></td>
-<td>A Shortcode. Colons are optional (both values are valid: <code v-pre>&quot;:smile:&quot;</code> and <code v-pre>&quot;smile&quot;</code>).</td>
+<td>A Shortcode. Colons are optional (both values are valid: <code v-pre>&quot;😄&quot;</code> and <code v-pre>&quot;smile&quot;</code>).</td>
 </tr>
 <tr>
 <td><code v-pre>out</code></td>
@@ -530,126 +530,126 @@ Emoji: 😄</code></pre>
 <table>
 <thead>
 <tr>
-<th>:grinning:</th>
-<th>:smiley:</th>
-<th>:smile:</th>
-<th>:grin:</th>
-<th>:satisfied:</th>
-<th>:sweat_smile:</th>
-<th>:joy:</th>
-<th>:wink:</th>
-<th>:blush:</th>
-<th>:innocent:</th>
+<th>😀</th>
+<th>😃</th>
+<th>😄</th>
+<th>😁</th>
+<th>😆</th>
+<th>😅</th>
+<th>😂</th>
+<th>😉</th>
+<th>😊</th>
+<th>😇</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>:heart_eyes:</td>
-<td>:kissing_heart:</td>
-<td>:relaxed:</td>
-<td>:kissing_closed_eyes:</td>
-<td>:yum:</td>
-<td>:stuck_out_tongue:</td>
-<td>:stuck_out_tongue_winking_eye:</td>
-<td>:stuck_out_tongue_closed_eyes:</td>
-<td>:neutral_face:</td>
-<td>:expressionless:</td>
+<td>😍</td>
+<td>😘</td>
+<td>☺️</td>
+<td>😚</td>
+<td>😋</td>
+<td>😛</td>
+<td>😜</td>
+<td>😝</td>
+<td>😐</td>
+<td>😑</td>
 </tr>
 <tr>
-<td>:no_mouth:</td>
-<td>:smirk:</td>
-<td>:unamused:</td>
-<td>:grimacing:</td>
-<td>:relieved:</td>
-<td>:pensive:</td>
-<td>:sleepy:</td>
-<td>:sleeping:</td>
-<td>:mask:</td>
-<td>:sunglasses:</td>
+<td>😶</td>
+<td>😏</td>
+<td>😒</td>
+<td>😬</td>
+<td>😌</td>
+<td>😔</td>
+<td>😪</td>
+<td>😴</td>
+<td>😷</td>
+<td>😎</td>
 </tr>
 <tr>
-<td>:confused:</td>
-<td>:flushed:</td>
-<td>:disappointed_relieved:</td>
-<td>:cry:</td>
-<td>:sob:</td>
-<td>:scream:</td>
-<td>:confounded:</td>
-<td>:persevere:</td>
-<td>:disappointed:</td>
-<td>:sweat:</td>
+<td>😕</td>
+<td>😳</td>
+<td>😥</td>
+<td>😢</td>
+<td>😭</td>
+<td>😱</td>
+<td>😖</td>
+<td>😣</td>
+<td>😞</td>
+<td>😓</td>
 </tr>
 <tr>
-<td>:weary:</td>
-<td>:tired_face:</td>
-<td>:triumph:</td>
-<td>:rage:</td>
-<td>:angry:</td>
-<td>:smiling_imp:</td>
-<td>:skull:</td>
-<td>:heart_eyes_cat:</td>
-<td>:see_no_evil:</td>
-<td>:speak_no_evil:</td>
+<td>😩</td>
+<td>😫</td>
+<td>😤</td>
+<td>😡</td>
+<td>😠</td>
+<td>😈</td>
+<td>💀</td>
+<td>😻</td>
+<td>🙈</td>
+<td>🙊</td>
 </tr>
 <tr>
-<td>:kiss:</td>
-<td>:cupid:</td>
-<td>:sparkling_heart:</td>
-<td>:heartpulse:</td>
-<td>:heartbeat:</td>
-<td>:revolving_hearts:</td>
-<td>:two_hearts:</td>
-<td>:broken_heart:</td>
-<td>:heart:</td>
-<td>:yellow_heart:</td>
+<td>💋</td>
+<td>💘</td>
+<td>💖</td>
+<td>💗</td>
+<td>💓</td>
+<td>💞</td>
+<td>💕</td>
+<td>💔</td>
+<td>❤️</td>
+<td>💛</td>
 </tr>
 <tr>
-<td>:green_heart:</td>
-<td>:blue_heart:</td>
-<td>:purple_heart:</td>
-<td>:100:</td>
-<td>:collision:</td>
-<td>:wave:</td>
-<td>:raised_hand:</td>
-<td>:ok_hand:</td>
-<td>:v:</td>
-<td>:point_left:</td>
+<td>💚</td>
+<td>💙</td>
+<td>💜</td>
+<td>💯</td>
+<td>💥</td>
+<td>👋</td>
+<td>✋</td>
+<td>👌</td>
+<td>✌️</td>
+<td>👈</td>
 </tr>
 <tr>
-<td>:point_right:</td>
-<td>:point_down:</td>
-<td>:thumbsup:</td>
-<td>:punch:</td>
-<td>:clap:</td>
-<td>:raised_hands:</td>
-<td>:pray:</td>
-<td>:muscle:</td>
-<td>:eyes:</td>
-<td>:information_desk_person:</td>
+<td>👉</td>
+<td>👇</td>
+<td>👍</td>
+<td>👊</td>
+<td>👏</td>
+<td>🙌</td>
+<td>🙏</td>
+<td>💪</td>
+<td>👀</td>
+<td>💁</td>
 </tr>
 <tr>
-<td>:cherry_blossom:</td>
-<td>:rose:</td>
-<td>:new_moon_with_face:</td>
-<td>:sunny:</td>
-<td>:star:</td>
-<td>:zap:</td>
-<td>:fire:</td>
-<td>:sparkles:</td>
-<td>:tada:</td>
-<td>:hearts:</td>
+<td>🌸</td>
+<td>🌹</td>
+<td>🌚</td>
+<td>☀️</td>
+<td>⭐</td>
+<td>⚡</td>
+<td>🔥</td>
+<td>✨</td>
+<td>🎉</td>
+<td>♥️</td>
 </tr>
 <tr>
-<td>:crown:</td>
-<td>:notes:</td>
-<td>:camera:</td>
-<td>:arrow_right:</td>
-<td>:arrow_left:</td>
-<td>:arrow_forward:</td>
-<td>:recycle:</td>
-<td>:white_check_mark:</td>
-<td>:heavy_check_mark:</td>
-<td>:red_circle:</td>
+<td>👑</td>
+<td>🎶</td>
+<td>📷</td>
+<td>➡️</td>
+<td>⬅️</td>
+<td>▶️</td>
+<td>♻️</td>
+<td>✅</td>
+<td>✔️</td>
+<td>🔴</td>
 </tr>
 </tbody>
 </table>
