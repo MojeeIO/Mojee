@@ -6,11 +6,11 @@
 
         <title>Welcome | Mojee Documentation</title>
 
-        <meta name="description" content="Mojee is a lightning ⚡ fast Emoji library for .NET &amp; TypeScript (.ts is coming soon)." />
+        <meta name="description" content="Mojee is a lightning :zap: fast Emoji library for .NET &amp; TypeScript (.ts is coming soon)." />
 
         <script>(function(){var el=document.documentElement,m=localStorage.getItem("doc_theme"),wm=window.matchMedia;if(m==="dark"||(!m&&wm&&wm("(prefers-color-scheme: dark)").matches)){el.classList.add("dark")}else{el.classList.remove("dark")}})();</script>
 
-        <link href="resources/css/docs.css" rel="stylesheet" />
+        <link href="resources/css/retype.css" rel="stylesheet" />
     </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -57,19 +57,19 @@
             <div v-cloak class="flex justify-end flex-grow skeleton">
 
                 <!-- Search input mock -->
-                <!-- <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
                     <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
                     </div>
 
                     <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
                     style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search docs" />
-                </div> -->
+                </div>
 
                 <!-- Mobile search button mock -->
-                <!-- <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                <div class="flex items-center justify-center w-10 h-10 lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
-                </div> -->
+                </div>
 
                 <!-- Dark mode switch placehokder -->
                 <div class="w-10 h-10 lg:ml-2"></div>
@@ -81,8 +81,8 @@
             </div>
 
             <div v-cloak class="flex items-center justify-end flex-grow">
-                <!-- <div id="docs-mobile-search-button"></div> -->
-                <!-- <doc-search-desktop></doc-search-desktop> -->
+                <div id="docs-mobile-search-button"></div>
+                <doc-search-desktop></doc-search-desktop>
 
                 <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
                 <doc-history></doc-history>
@@ -139,7 +139,7 @@
 <p><img src="https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png" alt="Mojee - A lighting fast Emoji libraries" /></p>
 <p>Mojee's big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji <code v-pre>:short-codes:</code> found with actual emoji character instances. Here's a basic Mojee <code v-pre>Replace</code> sample:</p>
 <pre v-highlight:csharp><code v-pre>// Replace all shortcodes with an emoji
-var result = Mojee.Replace(&quot;Hello, world 😄&quot;);
+var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
 
 Console.WriteLine(result);</code></pre>
 <p>The console output from the above sample would be:</p>
@@ -182,7 +182,7 @@ namespace MojeeDemo
         static void Main(string[] args)
         {
             // Replace all shortcodes with an emoji
-            var result = Mojee.Replace(&quot;Hello, world 👍&quot;);
+            var result = Mojee.Replace(&quot;Hello, world :+1:&quot;);
 
             Console.WriteLine(result);
             Console.ReadKey();
@@ -227,7 +227,7 @@ namespace MojeeDemo
 </table>
 <p>Returns a new string with all matched <code v-pre>:short-codes:</code> replaced.</p>
 <h4 id="example">Example</h4>
-<pre v-highlight:csharp><code v-pre>var result = Mojee.Replace(&quot;Hello, world 😄&quot;);
+<pre v-highlight:csharp><code v-pre>var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
 
 Console.WriteLine(result);</code></pre>
 <p>The <code v-pre>Replace</code> method also has a handy overload where an <code v-pre>EmojiMatch</code> evaluator can be passed. Each matched <code v-pre>:short-code:</code> found by Mojee is passed to the <code v-pre>evaluator</code> for custom processing.</p>
@@ -260,7 +260,7 @@ Console.WriteLine(result);</code></pre>
 {
     var count = 0;
     
-    var result = Mojee.Replace(&quot;👍 Hello, world 😄&quot;, match =&gt; 
+    var result = Mojee.Replace(&quot;:+1: Hello, world :smile:&quot;, match =&gt; 
     {
         count++;
 
@@ -286,7 +286,7 @@ Console.WriteLine(result);</code></pre>
     </h3>
 </doc-anchor-target>
 <p>Search for emojis.</p>
-<p>Search by any Shortcode substring (<code v-pre>&quot;cat&quot;</code>), or by an exact Emoji Shortcode (<code v-pre>&quot;😄&quot;</code>), or if a Shortcode startsWith (<code v-pre>&quot;:smi&quot;</code>).</p>
+<p>Search by any Shortcode substring (<code v-pre>&quot;cat&quot;</code>), or by an exact Emoji Shortcode (<code v-pre>&quot;:smile:&quot;</code>), or if a Shortcode startsWith (<code v-pre>&quot;:smi&quot;</code>).</p>
 <pre v-highlight:csharp><code v-pre>IEnumerable&lt;Emoji&gt; Mojee.Search(string query)</code></pre>
 <table>
 <thead>
@@ -313,16 +313,16 @@ result.ToList().ForEach(emoji =&gt;
     Console.WriteLine($&quot;{emoji}: {emoji.Shortcode}&quot;);
 });</code></pre>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>😄: 😄
-😃: 😃
-😅: 😅
-😋: 😋
-😁: 😁
-😊: 😊
-😆: 😆
-😍: 😍
-😈: 😈
-😻: 😻</code></pre>
+<pre v-highlight><code v-pre>😄: :smile:
+😃: :smiley:
+😅: :sweat_smile:
+😋: :yum:
+😁: :grin:
+😊: :blush:
+😆: :laughing:
+😍: :heart_eyes:
+😈: :smiling_imp:
+😻: :heart_eyes_cat:</code></pre>
 <doc-anchor-target id="emojimatch-class">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#emojimatch-class">#</doc-anchor-trigger>
@@ -404,7 +404,7 @@ result.ToList().ForEach(emoji =&gt;
 <tr>
 <td><code v-pre>Shortcode</code></td>
 <td><code v-pre>string</code></td>
-<td>The unique short name for this Emoji (e.g. <code v-pre>😄</code>).</td>
+<td>The unique short name for this Emoji (e.g. <code v-pre>:smile:</code>).</td>
 </tr>
 <tr>
 <td><code v-pre>Aliases</code></td>
@@ -504,7 +504,7 @@ emojis.ForEach(emoji =&gt;
 <tr>
 <td><code v-pre>shortcode</code></td>
 <td><code v-pre>string</code></td>
-<td>A Shortcode. Colons are optional (both values are valid: <code v-pre>&quot;😄&quot;</code> and <code v-pre>&quot;smile&quot;</code>).</td>
+<td>A Shortcode. Colons are optional (both values are valid: <code v-pre>&quot;:smile:&quot;</code> and <code v-pre>&quot;smile&quot;</code>).</td>
 </tr>
 <tr>
 <td><code v-pre>out</code></td>
@@ -682,7 +682,7 @@ Emoji: 😄</code></pre>
         </div>
     </div>
 
-    <!-- <doc-search-mobile></doc-search-mobile> -->
+    <doc-search-mobile></doc-search-mobile>
     <doc-back-to-top></doc-back-to-top>
 </div>
 
@@ -690,7 +690,8 @@ Emoji: 😄</code></pre>
         <div id="docs-overlay-target"></div>
 
         <script>window.__DOCS__ = { "title": "Welcome", icon: "file" }</script>
+
         <script type="text/javascript" src="resources/js/config.js"></script>
-        <script type="text/javascript" src="resources/js/docs.js"></script>
+        <script type="text/javascript" src="resources/js/retype.js"></script>
     </body>
 </html>
