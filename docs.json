@@ -3,11 +3,13 @@
     "version": "1.1.0",
     "cname": "docs.mojee.io",
 
-    "title": " | Mojee Documentation",
+    "meta": {
+      "title": " | Mojee Documentation"
+    },
 
-    "siteLogo": {
-      "text": "Mojee",
-      "labelText": "docs"
+    "identity": {
+      "title": "Mojee",
+      "label": "docs"
     },
     
     "links": [{
