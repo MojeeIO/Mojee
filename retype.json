@@ -9,7 +9,8 @@
 
     "identity": {
       "title": "Mojee",
-      "label": "docs"
+      "label": "docs",
+      "logo": "static/logo.svg"
     },
     
     "links": [{
