@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="turbo-cache-control" content="no-cache">
 
-    <title>License Key Configuration | Mojee Documentation</title>
-
-    <meta name="description" content="A Mojee license key can be purchased online at mojee.io/pricing." />
+    <title>Interpreter | Mojee Documentation</title>
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -173,7 +171,28 @@
 
 
         <div class="flex-grow min-w-0 dark:bg-dark-850">
-            <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+            <!-- Render "toolbar" template here on api pages -->            <!-- Toolbar Skeleton -->
+<div v-cloak class="sticky z-20 flex items-center justify-between h-16 px-6 bg-white border-b border-gray-200 md:h-20 md:pl-16 md:top-20 top-16 skeleton dark:bg-dark-850 dark:border-dark-650">
+    <div class="flex flex-grow">
+        <div class="w-24 h-8 mr-3 bg-gray-200 rounded loading dark:bg-dark-600"></div>
+        <div class="w-24 h-8 mr-3 bg-gray-200 rounded loading md:hidden lg:block dark:bg-dark-600"></div>
+        <div class="hidden w-24 h-8 mr-3 bg-gray-200 rounded loading sm:block md:hidden xl:block dark:bg-dark-600"></div>
+        <div class="hidden w-24 h-8 mr-3 bg-gray-200 rounded loading sm:block md:hidden xl:block dark:bg-dark-600"></div>
+    </div>
+    <div class="items-center hidden lg:flex">
+        <div class="w-24 h-4 ml-3 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+
+        <span class="relative ml-3 bg-white border border-gray-400 btn dark:bg-dark-600 dark:border-dark-650"><svg xmlns="http://www.w3.org/2000/svg" class="mr-1 -ml-1 icon-base" width="14" height="14" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M12 23c-.15 0-.31-.04-.45-.11C11.2 22.72 3 18.54 3 12V5c0-.42.26-.79.65-.94l8-3c.23-.08.48-.08.7 0l8 3c.39.15.65.52.65.94v7c0 6.54-8.2 10.72-8.55 10.89-.14.07-.3.11-.45.11zM5 5.69V12c0 4.55 5.39 7.95 7 8.86 1.61-.92 7-4.33 7-8.86V5.69l-7-2.63-7 2.63z"></path></g></svg><span>Access</span></span>
+
+        <div class="relative flex items-center ml-3" style="width: 12.4375rem;"><input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear border border-gray-400 rounded md:text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400" type="text" placeholder="Filter"></div>
+    </div>
+
+    <span class="relative inline-flex items-center justify-center w-8 h-8 p-0 text-sm font-medium leading-none text-gray-900 whitespace-no-wrap bg-white border border-gray-400 rounded cursor-pointer select-none lg:hidden sm:w-auto sm:px-3 dark:border-dark-650 dark:text-white dark:bg-dark-550 focus:outline-none"><svg xmlns="http://www.w3.org/2000/svg" class="mb-0 icon-base sm:mr-1" width="14" height="14" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"><g fill="currentColor"><path d="M14 22c-.15 0-.31-.04-.45-.11l-4-2A.988.988 0 019 19v-6.17L1.24 3.65a.995.995 0 01-.14-1.07c.16-.35.51-.58.9-.58h20c.39 0 .74.23.91.58s.11.77-.14 1.07L15 12.83V21a.999.999 0 01-1 1zm-3-3.62l2 1v-6.92c0-.24.08-.47.24-.65L19.84 4H4.16l6.61 7.81c.15.18.24.41.24.65v5.92z"></path></g></svg><span class="hidden sm:inline">Filters</span></span>
+</div>
+
+<doc-toolbar v-cloak></doc-toolbar>
+
+<!-- Render page content -->
             <div class="flex">
     <div class="flex-grow min-w-0 px-6 md:px-16">
         <main class="relative pt-6 pb-16">
@@ -182,56 +201,227 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="license-key-configuration" class="break-words">
+<doc-anchor-target id="interpreter-class" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#license-key-configuration">#</doc-anchor-trigger>
-        <span>License Key Configuration</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interpreter-class">#</doc-anchor-trigger>
+        <span>Interpreter Class</span>
     </h1>
 </doc-anchor-target>
-<p>A Mojee license key can be purchased online at <a href="https://mojee.io/pricing">mojee.io/pricing</a>.</p>
-<p>A license key is required to unlock all 1743 emojis supported by Mojee. Without a License Key, only the 100 most popular emoji's are supported. See the <a href="https://github.com/MojeeIO/Mojee#licensing">README</a> for more licensing details.</p>
-<p>Once a license key has been purchased, you will be sent an email with a key included. To add the license key to your Mojee project, two easy steps are required:</p>
-<doc-anchor-target id="step-1-set-licensekey">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-set-licensekey">#</doc-anchor-trigger>
-        <span>Step 1 – Set LicenseKey</span>
-    </h2>
-</doc-anchor-target>
-<p>In your project root, at the same level as the <strong>.csproj</strong> file, do you have an <strong>appsettings.json</strong> file? If no, please create that file, then add the following <code v-pre>Mojee</code> configuration section. Replace <code v-pre>your-license-key-here</code> with your actual license key string.</p>
-<pre v-highlight:json><code v-pre>{
-    &quot;Mojee&quot;: {
-        &quot;LicenseKey&quot;: &quot;your-license-key-here&quot;
-    }
-}</code></pre>
-<p>If your project already has an <strong>appsettings.json</strong> file, the final content might look something like the following:</p>
-<pre v-highlight:json><code v-pre>{
-    &quot;Logging&quot;: {
-        &quot;LogLevel&quot;: {
-            &quot;Default&quot;: &quot;Information&quot;,
-            &quot;Microsoft&quot;: &quot;Warning&quot;,
-            &quot;Microsoft.Hosting.Lifetime&quot;: &quot;Information&quot;
-        }
-    },
-    &quot;AllowedHosts&quot;: &quot;*&quot;,
-    &quot;Mojee&quot;: {
-        &quot;LicenseKey&quot;: &quot;your-license-key-here&quot;
-    }
-}</code></pre>
-<doc-anchor-target id="step-2-copytooutputdirectory">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-copytooutputdirectory">#</doc-anchor-trigger>
-        <span>Step 2 – CopyToOutputDirectory</span>
-    </h2>
-</doc-anchor-target>
-<p>Within your projects <strong>.csproj</strong> file, add the following section inside the <code v-pre>&lt;Project&gt;</code> node:</p>
-<pre v-highlight:markup><code v-pre>&lt;ItemGroup&gt;
-    &lt;None Update=&quot;appsettings.json&quot;&gt;
-        &lt;CopyToOutputDirectory&gt;Always&lt;/CopyToOutputDirectory&gt;
-    &lt;/None&gt;
-&lt;/ItemGroup&gt;</code></pre>
-<p>The above section instructs the build process to copy the <strong>appsettings.json</strong> to your <code v-pre>/bin</code> folder during compilation. Your <strong>appsettings.json</strong> file should be deployed along side your projects compiled <strong>.dll</strong> files.</p>
-<p>Mojee is now unlocked and ready for the world.</p>
-<p><strong>NOTE:</strong> Please protect your license key. Do not commit to a public source code repository or share anywhere outside of your organization. It is your responsibility to protect your license key.</p>
+
+<doc-member-group id="fields">
+    <template #title>Fields</template>
+
+<doc-member id="field-interpreterhashmethodhash" name="InterpreterHashMethodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly static O InterpreterHashMethodHash">
+        <template #name><h3>InterpreterHashMethodHash</h3></template>
+    </doc-member>
+
+<doc-member id="field-assemblygettypesmethodhash" name="AssemblyGetTypesMethodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly static O AssemblyGetTypesMethodHash">
+        <template #name><h3>AssemblyGetTypesMethodHash</h3></template>
+    </doc-member>
+
+<doc-member id="field-assemblygetpropertiesmethodhash" name="AssemblyGetPropertiesMethodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly static O AssemblyGetPropertiesMethodHash">
+        <template #name><h3>AssemblyGetPropertiesMethodHash</h3></template>
+    </doc-member>
+
+<doc-member id="field-assemblyprophash" name="AssemblyPropHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly static O AssemblyPropHash">
+        <template #name><h3>AssemblyPropHash</h3></template>
+    </doc-member>
+
+<doc-member id="field-typetypehash" name="TypeTypeHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly static O TypeTypeHash">
+        <template #name><h3>TypeTypeHash</h3></template>
+    </doc-member>
+
+<doc-member id="field-assemblytypehash" name="AssemblyTypeHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly static O AssemblyTypeHash">
+        <template #name><h3>AssemblyTypeHash</h3></template>
+    </doc-member>
+
+<doc-member id="field-intcache" name="IntCache" type="System.Collections.Concurrent.ConcurrentDictionary<MojeeIO.Licensing.LicenseImpl.Interpreter.O, MojeeIO.Licensing.LicenseImpl.Interpreter>" access="private" signature="private readonly static ConcurrentDictionary<O, Interpreter> IntCache">
+        <template #name><h3>IntCache</h3></template>
+    </doc-member>
+
+<doc-member id="field-typecache" name="TypeCache" type="System.Collections.Concurrent.ConcurrentDictionary<MojeeIO.Licensing.LicenseImpl.Interpreter.O, System.Lazy<System.Type>>" access="private" signature="private readonly static ConcurrentDictionary<O, Lazy<Type>> TypeCache">
+        <template #name><h3>TypeCache</h3></template>
+    </doc-member>
+
+<doc-member id="field-ctorcache" name="CtorCache" type="System.Collections.Concurrent.ConcurrentDictionary<MojeeIO.Licensing.LicenseImpl.Interpreter.O, System.Func<System.Object[], System.Object>>" access="private" signature="private readonly static ConcurrentDictionary<O, Func<Object[], Object>> CtorCache">
+        <template #name><h3>CtorCache</h3></template>
+    </doc-member>
+
+<doc-member id="field-methodcache" name="MethodCache" type="System.Collections.Concurrent.ConcurrentDictionary<MojeeIO.Licensing.LicenseImpl.Interpreter.O, System.Func<System.Object, System.Object[], System.Object>>" access="private" signature="private readonly static ConcurrentDictionary<O, Func<Object, Object[], Object>> MethodCache">
+        <template #name><h3>MethodCache</h3></template>
+    </doc-member>
+
+<doc-member id="field-propcache" name="PropCache" type="System.Collections.Concurrent.ConcurrentDictionary<MojeeIO.Licensing.LicenseImpl.Interpreter.O, System.Func<System.Object, System.Object>>" access="private" signature="private readonly static ConcurrentDictionary<O, Func<Object, Object>> PropCache">
+        <template #name><h3>PropCache</h3></template>
+    </doc-member>
+
+<doc-member id="field-_hash" name="_hash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O" access="private" signature="private readonly O _hash">
+        <template #name><h3>_hash</h3></template>
+    </doc-member>
+
+<doc-member id="field-_sibling" name="_sibling" type="System.Type" access="private" signature="private readonly Type _sibling">
+        <template #name><h3>_sibling</h3></template>
+    </doc-member>
+</doc-member-group>
+
+<doc-member-group id="methods">
+    <template #title>Methods</template>
+
+<doc-member id="method-.cctor" name=".cctor" returns="System.Void" access="private" signature="private static Interpreter()">
+        <template #name><h3>.cctor</h3></template>
+    </doc-member>
+
+<doc-member id="method-.ctor" name=".ctor" returns="System.Void" params="Type, O" access="private" signature="private Interpreter(Type sibling, O typeHash)">
+        <template #name><h3>.ctor</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="sibling" type="System.Type"></doc-parameter>
+                <doc-parameter name="typeHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-create" name="Create" returns="MojeeIO.Licensing.LicenseImpl.Interpreter" params="O" signature="public static Interpreter Create(O typeHash)">
+        <template #name><h3>Create</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="typeHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-resolvetype" name="ResolveType" returns="System.Type" access="private" signature="private Type ResolveType()">
+        <template #name><h3>ResolveType</h3></template>
+    </doc-member>
+
+<doc-member id="method-ctr" name="Ctr" returns="System.Object" params="O, Object[]" signature="public Object Ctr(O ctrHash, Object[] args)">
+        <template #name><h3>Ctr</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="ctrHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+                <doc-parameter name="args" type="System.Object[]"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-getmethod" name="GetMethod" returns="System.Func<System.Object, System.Object[], System.Object>" params="O" signature="public Func<Object, Object[], Object> GetMethod(O methodHash)">
+        <template #name><h3>GetMethod</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="methodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-fn" name="Fn" returns="T" params="Object, O, Object[]" signature="public T Fn(Object o, O methodHash, Object[] args)">
+        <template #name><h3>Fn</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="o" type="System.Object"></doc-parameter>
+                <doc-parameter name="methodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+                <doc-parameter name="args" type="System.Object[]"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-fn" name="Fn" returns="T" params="Object, O, Boolean, Object[]" access="private" signature="private T Fn(Object o, O methodHash, Boolean wrap, Object[] args)">
+        <template #name><h3>Fn</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="o" type="System.Object"></doc-parameter>
+                <doc-parameter name="methodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+                <doc-parameter name="wrap" type="System.Boolean"></doc-parameter>
+                <doc-parameter name="args" type="System.Object[]"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-action" name="Action" returns="System.Void" params="Object, O, Object[]" signature="public Void Action(Object o, O methodHash, Object[] args)">
+        <template #name><h3>Action</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="o" type="System.Object"></doc-parameter>
+                <doc-parameter name="methodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+                <doc-parameter name="args" type="System.Object[]"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-action" name="Action" returns="System.Void" params="Object, O, Boolean, Object[]" access="private" signature="private Void Action(Object o, O methodHash, Boolean wrap, Object[] args)">
+        <template #name><h3>Action</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="o" type="System.Object"></doc-parameter>
+                <doc-parameter name="methodHash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+                <doc-parameter name="wrap" type="System.Boolean"></doc-parameter>
+                <doc-parameter name="args" type="System.Object[]"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-matchprop" name="MatchProp" returns="System.Func<System.Object, System.Object>" params="Type, O" access="private" signature="private static Func<Object, Object> MatchProp(Type type, O hash)">
+        <template #name><h3>MatchProp</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="type" type="System.Type"></doc-parameter>
+                <doc-parameter name="hash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-matchctor" name="MatchCtor" returns="System.Func<System.Object[], System.Object>" params="Type, O" access="private" signature="private static Func<Object[], Object> MatchCtor(Type type, O hash)">
+        <template #name><h3>MatchCtor</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="type" type="System.Type"></doc-parameter>
+                <doc-parameter name="hash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-matchmethod" name="MatchMethod" returns="System.Func<System.Object, System.Object[], System.Object>" params="Type, O" access="private" signature="private static Func<Object, Object[], Object> MatchMethod(Type type, O hash)">
+        <template #name><h3>MatchMethod</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="type" type="System.Type"></doc-parameter>
+                <doc-parameter name="hash" type="MojeeIO.Licensing.LicenseImpl.Interpreter.O"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-o" name="o" returns="MojeeIO.Licensing.LicenseImpl.Interpreter.O" params="Object[]" signature="public static O o(Object[] names)">
+        <template #name><h3>o</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="names" type="System.Object[]"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+
+<doc-member id="method-jointobytes" name="JoinToBytes" returns="System.Byte[]" params="Byte[], IEnumerable<Object>" access="private" signature="private static Byte[] JoinToBytes(Byte[] separator, IEnumerable<Object> item)">
+        <template #name><h3>JoinToBytes</h3></template>
+
+        <template #parameters>
+            <doc-parameters>
+                <doc-parameter name="separator" type="System.Byte[]"></doc-parameter>
+                <doc-parameter name="item" type="System.Collections.Generic.IEnumerable<System.Object>"></doc-parameter>
+            </doc-parameters>
+        </template>
+    </doc-member>
+</doc-member-group>
+
 
     
                 <!-- Required only on API pages -->
@@ -273,6 +463,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "License Key Configuration", icon: "file" }</script>
+        <script>window.__DOCS__ = { "title": "Interpreter", icon: "file" }</script>
     </body>
 </html>
