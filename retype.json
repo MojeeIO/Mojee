@@ -37,6 +37,12 @@
     ],
 
     "footer": {
-      "copyright": "© Copyright 2008-{{ year }}. [Object.NET, Inc.](https://object.net/) All rights reserved."
+      "copyright": "© Copyright 2008-{{ year }}. [Object.NET, Inc.](https://object.net/) All rights reserved.",
+      "links": [
+        {
+          "text": "LICENSE",
+          "link": "/LICENSE/"
+        }
+      ]
     }
   }
