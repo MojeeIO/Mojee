@@ -11,7 +11,7 @@ title: Welcome
 
 ![Mojee - A lighting fast Emoji libraries](https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png)
 
-Mojee's big party trick is the ultra-high-performance parse and replacement of emoji `:short-codes:` within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji `:short-codes:` found with actual emoji character instances. Here's a basic Mojee `Replace` sample:
+Mojee's big party trick is the ultra-high-performance parse and replacement of emoji `:short-codes:` within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji `:short-codes:` into emoji characters. Here's a basic Mojee `Replace` sample:
 
 ```csharp
 // Replace all shortcodes with an emoji
@@ -26,7 +26,7 @@ The console output from the above sample would be:
 Hello, world 😄
 ```
 
-Mojee is also amazing at Emoji search. Search for any term and Mojee will hand back a collection of emoji results. The following sample demonstrates a basic emoji search using Mojee.
+Mojee is also amazing at Emoji search. Search for any term and Mojee will hand back a collection of emoji results. The following sample demonstrates a basic emoji search.
 
 ```csharp
 // Search for emojis
@@ -326,6 +326,6 @@ The 100 most popular emojis used on Twitter are supported for free, which covers
 :cherry_blossom: | :rose: | :new_moon_with_face: | :sunny: | :star: | :zap: | :fire: | :sparkles: | :tada: | :hearts:
 :crown: | :notes: | :camera: | :arrow_right: | :arrow_left: | :arrow_forward: | :recycle: | :white_check_mark: | :heavy_check_mark: | :red_circle:
 
-Please see the [License Key Configuration](https://github.com/MojeeIO/Mojee/wiki/License-Key-Configuration) guide for instructions on how to add your Mojee License key to a project.
+Please see the [License Key Configuration](license_key_configuration.md) guide for instructions on how to add your Mojee License key to a project.
 
 [Purchasing](https://mojee.io/pricing) a **Pro** or **Team** license key will unlock the full power of Mojee with support for all 1743 emojis.

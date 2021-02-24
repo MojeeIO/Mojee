@@ -185,7 +185,7 @@
 <doc-anchor-target id="welcome-to-mojee-zany_face" class="break-words">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-mojee-zany_face">#</doc-anchor-trigger>
-        <span>Welcome to Mojee 🤪</span>
+        <span>Welcome to Mojee <span class="docs-emoji">🤪</span></span>
     </h1>
 </doc-anchor-target>
 <p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
@@ -195,16 +195,16 @@
         <span>What is Mojee?</span>
     </h2>
 </doc-anchor-target>
-<p><a href="https://mojee.io/">Mojee</a> is a lightning ⚡ fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
+<p><a href="https://mojee.io/">Mojee</a> is a lightning <span class="docs-emoji">⚡</span> fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
 <p><img src="https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png" alt="Mojee - A lighting fast Emoji libraries" /></p>
-<p>Mojee's big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert any emoji <code v-pre>:short-codes:</code> found with actual emoji character instances. Here's a basic Mojee <code v-pre>Replace</code> sample:</p>
+<p>Mojee&#39;s big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji <code v-pre>:short-codes:</code> into emoji characters. Here&#39;s a basic Mojee <code v-pre>Replace</code> sample:</p>
 <pre v-highlight:csharp><code v-pre>// Replace all shortcodes with an emoji
 var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
 
 Console.WriteLine(result);</code></pre>
 <p>The console output from the above sample would be:</p>
 <pre v-highlight><code v-pre>Hello, world 😄</code></pre>
-<p>Mojee is also amazing at Emoji search. Search for any term and Mojee will hand back a collection of emoji results. The following sample demonstrates a basic emoji search using Mojee.</p>
+<p>Mojee is also amazing at Emoji search. Search for any term and Mojee will hand back a collection of emoji results. The following sample demonstrates a basic emoji search.</p>
 <pre v-highlight:csharp><code v-pre>// Search for emojis
 Mojee.Search(&quot;smile&quot;).ToList()
      .ForEach(emoji =&gt; Console.Write(emoji));</code></pre>
@@ -622,130 +622,130 @@ Emoji: 😄</code></pre>
 <table>
 <thead>
 <tr>
-<th>😀</th>
-<th>😃</th>
-<th>😄</th>
-<th>😁</th>
-<th>😆</th>
-<th>😅</th>
-<th>😂</th>
-<th>😉</th>
-<th>😊</th>
-<th>😇</th>
+<th><span class="docs-emoji">😀</span></th>
+<th><span class="docs-emoji">😃</span></th>
+<th><span class="docs-emoji">😄</span></th>
+<th><span class="docs-emoji">😁</span></th>
+<th><span class="docs-emoji">😆</span></th>
+<th><span class="docs-emoji">😅</span></th>
+<th><span class="docs-emoji">😂</span></th>
+<th><span class="docs-emoji">😉</span></th>
+<th><span class="docs-emoji">😊</span></th>
+<th><span class="docs-emoji">😇</span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>😍</td>
-<td>😘</td>
-<td>☺️</td>
-<td>😚</td>
-<td>😋</td>
-<td>😛</td>
-<td>😜</td>
-<td>😝</td>
-<td>😐</td>
-<td>😑</td>
+<td><span class="docs-emoji">😍</span></td>
+<td><span class="docs-emoji">😘</span></td>
+<td><span class="docs-emoji">☺️</span></td>
+<td><span class="docs-emoji">😚</span></td>
+<td><span class="docs-emoji">😋</span></td>
+<td><span class="docs-emoji">😛</span></td>
+<td><span class="docs-emoji">😜</span></td>
+<td><span class="docs-emoji">😝</span></td>
+<td><span class="docs-emoji">😐</span></td>
+<td><span class="docs-emoji">😑</span></td>
 </tr>
 <tr>
-<td>😶</td>
-<td>😏</td>
-<td>😒</td>
-<td>😬</td>
-<td>😌</td>
-<td>😔</td>
-<td>😪</td>
-<td>😴</td>
-<td>😷</td>
-<td>😎</td>
+<td><span class="docs-emoji">😶</span></td>
+<td><span class="docs-emoji">😏</span></td>
+<td><span class="docs-emoji">😒</span></td>
+<td><span class="docs-emoji">😬</span></td>
+<td><span class="docs-emoji">😌</span></td>
+<td><span class="docs-emoji">😔</span></td>
+<td><span class="docs-emoji">😪</span></td>
+<td><span class="docs-emoji">😴</span></td>
+<td><span class="docs-emoji">😷</span></td>
+<td><span class="docs-emoji">😎</span></td>
 </tr>
 <tr>
-<td>😕</td>
-<td>😳</td>
-<td>😥</td>
-<td>😢</td>
-<td>😭</td>
-<td>😱</td>
-<td>😖</td>
-<td>😣</td>
-<td>😞</td>
-<td>😓</td>
+<td><span class="docs-emoji">😕</span></td>
+<td><span class="docs-emoji">😳</span></td>
+<td><span class="docs-emoji">😥</span></td>
+<td><span class="docs-emoji">😢</span></td>
+<td><span class="docs-emoji">😭</span></td>
+<td><span class="docs-emoji">😱</span></td>
+<td><span class="docs-emoji">😖</span></td>
+<td><span class="docs-emoji">😣</span></td>
+<td><span class="docs-emoji">😞</span></td>
+<td><span class="docs-emoji">😓</span></td>
 </tr>
 <tr>
-<td>😩</td>
-<td>😫</td>
-<td>😤</td>
-<td>😡</td>
-<td>😠</td>
-<td>😈</td>
-<td>💀</td>
-<td>😻</td>
-<td>🙈</td>
-<td>🙊</td>
+<td><span class="docs-emoji">😩</span></td>
+<td><span class="docs-emoji">😫</span></td>
+<td><span class="docs-emoji">😤</span></td>
+<td><span class="docs-emoji">😡</span></td>
+<td><span class="docs-emoji">😠</span></td>
+<td><span class="docs-emoji">😈</span></td>
+<td><span class="docs-emoji">💀</span></td>
+<td><span class="docs-emoji">😻</span></td>
+<td><span class="docs-emoji">🙈</span></td>
+<td><span class="docs-emoji">🙊</span></td>
 </tr>
 <tr>
-<td>💋</td>
-<td>💘</td>
-<td>💖</td>
-<td>💗</td>
-<td>💓</td>
-<td>💞</td>
-<td>💕</td>
-<td>💔</td>
-<td>❤️</td>
-<td>💛</td>
+<td><span class="docs-emoji">💋</span></td>
+<td><span class="docs-emoji">💘</span></td>
+<td><span class="docs-emoji">💖</span></td>
+<td><span class="docs-emoji">💗</span></td>
+<td><span class="docs-emoji">💓</span></td>
+<td><span class="docs-emoji">💞</span></td>
+<td><span class="docs-emoji">💕</span></td>
+<td><span class="docs-emoji">💔</span></td>
+<td><span class="docs-emoji">❤️</span></td>
+<td><span class="docs-emoji">💛</span></td>
 </tr>
 <tr>
-<td>💚</td>
-<td>💙</td>
-<td>💜</td>
-<td>💯</td>
-<td>💥</td>
-<td>👋</td>
-<td>✋</td>
-<td>👌</td>
-<td>✌️</td>
-<td>👈</td>
+<td><span class="docs-emoji">💚</span></td>
+<td><span class="docs-emoji">💙</span></td>
+<td><span class="docs-emoji">💜</span></td>
+<td><span class="docs-emoji">💯</span></td>
+<td><span class="docs-emoji">💥</span></td>
+<td><span class="docs-emoji">👋</span></td>
+<td><span class="docs-emoji">✋</span></td>
+<td><span class="docs-emoji">👌</span></td>
+<td><span class="docs-emoji">✌️</span></td>
+<td><span class="docs-emoji">👈</span></td>
 </tr>
 <tr>
-<td>👉</td>
-<td>👇</td>
-<td>👍</td>
-<td>👊</td>
-<td>👏</td>
-<td>🙌</td>
-<td>🙏</td>
-<td>💪</td>
-<td>👀</td>
-<td>💁</td>
+<td><span class="docs-emoji">👉</span></td>
+<td><span class="docs-emoji">👇</span></td>
+<td><span class="docs-emoji">👍</span></td>
+<td><span class="docs-emoji">👊</span></td>
+<td><span class="docs-emoji">👏</span></td>
+<td><span class="docs-emoji">🙌</span></td>
+<td><span class="docs-emoji">🙏</span></td>
+<td><span class="docs-emoji">💪</span></td>
+<td><span class="docs-emoji">👀</span></td>
+<td><span class="docs-emoji">💁</span></td>
 </tr>
 <tr>
-<td>🌸</td>
-<td>🌹</td>
-<td>🌚</td>
-<td>☀️</td>
-<td>⭐</td>
-<td>⚡</td>
-<td>🔥</td>
-<td>✨</td>
-<td>🎉</td>
-<td>♥️</td>
+<td><span class="docs-emoji">🌸</span></td>
+<td><span class="docs-emoji">🌹</span></td>
+<td><span class="docs-emoji">🌚</span></td>
+<td><span class="docs-emoji">☀️</span></td>
+<td><span class="docs-emoji">⭐</span></td>
+<td><span class="docs-emoji">⚡</span></td>
+<td><span class="docs-emoji">🔥</span></td>
+<td><span class="docs-emoji">✨</span></td>
+<td><span class="docs-emoji">🎉</span></td>
+<td><span class="docs-emoji">♥️</span></td>
 </tr>
 <tr>
-<td>👑</td>
-<td>🎶</td>
-<td>📷</td>
-<td>➡️</td>
-<td>⬅️</td>
-<td>▶️</td>
-<td>♻️</td>
-<td>✅</td>
-<td>✔️</td>
-<td>🔴</td>
+<td><span class="docs-emoji">👑</span></td>
+<td><span class="docs-emoji">🎶</span></td>
+<td><span class="docs-emoji">📷</span></td>
+<td><span class="docs-emoji">➡️</span></td>
+<td><span class="docs-emoji">⬅️</span></td>
+<td><span class="docs-emoji">▶️</span></td>
+<td><span class="docs-emoji">♻️</span></td>
+<td><span class="docs-emoji">✅</span></td>
+<td><span class="docs-emoji">✔️</span></td>
+<td><span class="docs-emoji">🔴</span></td>
 </tr>
 </tbody>
 </table>
-<p>Please see the <a href="https://github.com/MojeeIO/Mojee/wiki/License-Key-Configuration">License Key Configuration</a> guide for instructions on how to add your Mojee License key to a project.</p>
+<p>Please see the <a href="license_key_configuration">License Key Configuration</a> guide for instructions on how to add your Mojee License key to a project.</p>
 <p><a href="https://mojee.io/pricing">Purchasing</a> a <strong>Pro</strong> or <strong>Team</strong> license key will unlock the full power of Mojee with support for all 1743 emojis.</p>
 
     
@@ -761,7 +761,7 @@ Emoji: 😄</code></pre>
             </li>
         </ul>
     </div>
-    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2008-2021. <a href="https://object.net/">Object.NET, Inc.</a> All rights reserved.</p>
+    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>&#169; Copyright 2008-2021. <a href="https://object.net/">Object.NET, Inc.</a> All rights reserved.</p>
 </div>
 </footer>
 

@@ -1,2 +1,2 @@
-- [Welcome](README.md)
+- [Welcome to Mojee](README.md)
 - [License Key Configuration](license_key_configuration.md)

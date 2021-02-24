@@ -28,13 +28,6 @@
         "link": "https://github.com/MojeeIO/Mojee"
       }
     ],
-  
-    "nav": [
-      {
-        "path": "/",
-        "icon": "home"
-      }
-    ],
 
     "footer": {
       "copyright": "© Copyright 2008-{{ year }}. [Object.NET, Inc.](https://object.net/) All rights reserved.",
