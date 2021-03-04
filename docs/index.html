@@ -182,9 +182,9 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="welcome-to-mojee-zany_face" class="break-words">
+<doc-anchor-target id="welcome-to-mojee" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-mojee-zany_face">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-mojee">#</doc-anchor-trigger>
         <span>Welcome to Mojee <span class="docs-emoji">🤪</span></span>
     </h1>
 </doc-anchor-target>
@@ -198,18 +198,26 @@
 <p><a href="https://mojee.io/">Mojee</a> is a lightning <span class="docs-emoji">⚡</span> fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
 <p><img src="https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png" alt="Mojee - A lighting fast Emoji libraries" /></p>
 <p>Mojee&#39;s big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji <code v-pre>:short-codes:</code> into emoji characters. Here&#39;s a basic Mojee <code v-pre>Replace</code> sample:</p>
-<pre v-highlight:csharp><code v-pre>// Replace all shortcodes with an emoji
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">// Replace all shortcodes with an emoji
 var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
 
 Console.WriteLine(result);</code></pre>
+</doc-codeblock></div>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>Hello, world 😄</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">Hello, world 😄</code></pre>
+</doc-codeblock></div>
 <p>Mojee is also amazing at Emoji search. Search for any term and Mojee will hand back a collection of emoji results. The following sample demonstrates a basic emoji search.</p>
-<pre v-highlight:csharp><code v-pre>// Search for emojis
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">// Search for emojis
 Mojee.Search(&quot;smile&quot;).ToList()
      .ForEach(emoji =&gt; Console.Write(emoji));</code></pre>
+</doc-codeblock></div>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>😄 😸 😃 😺 😅</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">😄 😸 😃 😺 😅</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="getting-started">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#getting-started">#</doc-anchor-trigger>
@@ -218,21 +226,26 @@ Mojee.Search(&quot;smile&quot;).ToList()
 </doc-anchor-target>
 <p>Within seconds, Mojee can be added to any .NET Core project using the <a href="https://www.nuget.org/packages/mojee">NuGet package</a>, or search for <code v-pre>Mojee</code> from within the NuGet Package Manager in Visual Studio.</p>
 <p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
-<pre v-highlight:bash><code v-pre># Install using dotnet CLI
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-bash"><code v-pre class="language-bash"># Install using dotnet CLI
 dotnet add package Mojee
 
 # or,
 
 # Instal using NuGet CLI
 Install-Package Mojee</code></pre>
+</doc-codeblock></div>
 <p>The following sequence of commands could be used to create a new .NET Console project using the <code v-pre>dotnet</code> CLI, then add Mojee, and finally open the new project in Visual Studio Code.</p>
-<pre v-highlight:bash><code v-pre>mkdir MojeeDemo          # Make a new folder
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-bash"><code v-pre class="language-bash">mkdir MojeeDemo          # Make a new folder
 cd MojeeDemo             # Move into the new folder
 dotnet new console       # Create a new .NET Console app
 dotnet add package Mojee # Add Mojee to your new project
 code .                   # Open in Visual Studio Code</code></pre>
+</doc-codeblock></div>
 <p>The <code v-pre>MojeeIO</code> API is now available within your app. The following sample demonstrates a basic Console app scenario with Mojee.</p>
-<pre v-highlight:csharp><code v-pre>using System;
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">using System;
 using MojeeIO;
 
 namespace MojeeDemo
@@ -249,6 +262,7 @@ namespace MojeeDemo
         }
     }
 }</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="api-docs">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#api-docs">#</doc-anchor-trigger>
@@ -268,7 +282,9 @@ namespace MojeeDemo
     </h3>
 </doc-anchor-target>
 <p>The static method <code v-pre>Mojee.Replace</code> will replace all emoji shortcodes in a string with Unicode emoji characters.</p>
-<pre v-highlight:csharp><code v-pre>string Mojee.Replace(string text)</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">string Mojee.Replace(string text)</code></pre>
+</doc-codeblock></div>
 <table>
 <thead>
 <tr>
@@ -292,11 +308,15 @@ namespace MojeeDemo
         <span>Example</span>
     </h4>
 </doc-anchor-target>
-<pre v-highlight:csharp><code v-pre>var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">var result = Mojee.Replace(&quot;Hello, world :smile:&quot;);
 
 Console.WriteLine(result);</code></pre>
+</doc-codeblock></div>
 <p>The <code v-pre>Replace</code> method also has a handy overload where an <code v-pre>EmojiMatch</code> evaluator can be passed. Each matched <code v-pre>:short-code:</code> found by Mojee is passed to the <code v-pre>evaluator</code> for custom processing.</p>
-<pre v-highlight:csharp><code v-pre>string Mojee.Replace(string text, Func&lt;EmojiMatch, string&gt; evaluator)</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">string Mojee.Replace(string text, Func&lt;EmojiMatch, string&gt; evaluator)</code></pre>
+</doc-codeblock></div>
 <table>
 <thead>
 <tr>
@@ -326,7 +346,8 @@ Console.WriteLine(result);</code></pre>
         <span>Example</span>
     </h4>
 </doc-anchor-target>
-<pre v-highlight:csharp><code v-pre>static void Main(string[] args)
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">static void Main(string[] args)
 {
     var count = 0;
     
@@ -346,9 +367,12 @@ Console.WriteLine(result);</code></pre>
 
     Console.ReadKey();
 }</code></pre>
+</doc-codeblock></div>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>Count: 2
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">Count: 2
 👍 Hello, world 😄</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="search-static-method">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#search-static-method">#</doc-anchor-trigger>
@@ -357,7 +381,9 @@ Console.WriteLine(result);</code></pre>
 </doc-anchor-target>
 <p>Search for emojis.</p>
 <p>Search by any Shortcode substring (<code v-pre>&quot;cat&quot;</code>), or by an exact Emoji Shortcode (<code v-pre>&quot;:smile:&quot;</code>), or if a Shortcode startsWith (<code v-pre>&quot;:smi&quot;</code>).</p>
-<pre v-highlight:csharp><code v-pre>IEnumerable&lt;Emoji&gt; Mojee.Search(string query)</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">IEnumerable&lt;Emoji&gt; Mojee.Search(string query)</code></pre>
+</doc-codeblock></div>
 <table>
 <thead>
 <tr>
@@ -381,14 +407,17 @@ Console.WriteLine(result);</code></pre>
         <span>Example</span>
     </h4>
 </doc-anchor-target>
-<pre v-highlight:csharp><code v-pre>var result = Mojee.Search(&quot;smile&quot;);
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">var result = Mojee.Search(&quot;smile&quot;);
 
 result.ToList().ForEach(emoji =&gt; 
 {
     Console.WriteLine($&quot;{emoji}: {emoji.Shortcode}&quot;);
 });</code></pre>
+</doc-codeblock></div>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>😄: :smile:
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">😄: :smile:
 😃: :smiley:
 😅: :sweat_smile:
 😋: :yum:
@@ -398,6 +427,7 @@ result.ToList().ForEach(emoji =&gt;
 😍: :heart_eyes:
 😈: :smiling_imp:
 😻: :heart_eyes_cat:</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="emojimatch-class">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#emojimatch-class">#</doc-anchor-trigger>
@@ -535,9 +565,11 @@ result.ToList().ForEach(emoji =&gt;
         <span>Example</span>
     </h4>
 </doc-anchor-target>
-<pre v-highlight:csharp><code v-pre>var emoji = Emoji.Get(&quot;smile&quot;);
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">var emoji = Emoji.Get(&quot;smile&quot;);
 Console.Write($&quot;{emoji.Shortcode}: {emoji}&quot;);
 // smile: 😄</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="getall-static-method">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#getall-static-method">#</doc-anchor-trigger>
@@ -545,14 +577,17 @@ Console.Write($&quot;{emoji.Shortcode}: {emoji}&quot;);
     </h3>
 </doc-anchor-target>
 <p>Gets the list of all supported Emojis.</p>
-<pre v-highlight:csharp><code v-pre>IReadOnlyList&lt;Emoji&gt; Emoji.GetAll()</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">IReadOnlyList&lt;Emoji&gt; Emoji.GetAll()</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="example-4">
     <h4>
         <doc-anchor-trigger class="header-anchor-trigger" to="#example-4">#</doc-anchor-trigger>
         <span>Example</span>
     </h4>
 </doc-anchor-target>
-<pre v-highlight:csharp><code v-pre>// Get the first 5 emojis
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">// Get the first 5 emojis
 var emojis = Emoji.GetAll()
     .Take(5)
     .ToList();
@@ -563,12 +598,15 @@ emojis.ForEach(emoji =&gt;
     // Write the emojis to the Console
     Console.WriteLine(emoji);
 });</code></pre>
+</doc-codeblock></div>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>😀
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">😀
 😃
 😄
 😁
 😆</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="tryget-static-method">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#tryget-static-method">#</doc-anchor-trigger>
@@ -576,7 +614,9 @@ emojis.ForEach(emoji =&gt;
     </h3>
 </doc-anchor-target>
 <p>Tries to get an Emoji object based on the supplied shortcode. See also <code v-pre>Emoji.Get(string)</code>.</p>
-<pre v-highlight:csharp><code v-pre>bool Emoji.TryGet(string shortcode, out Emoji emoji)</code></pre>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">bool Emoji.TryGet(string shortcode, out Emoji emoji)</code></pre>
+</doc-codeblock></div>
 <table>
 <thead>
 <tr>
@@ -604,13 +644,17 @@ emojis.ForEach(emoji =&gt;
         <span>Example</span>
     </h4>
 </doc-anchor-target>
-<pre v-highlight:csharp><code v-pre>var matched = Emoji.TryGet(&quot;smile&quot;, out var emoji);
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-csharp"><code v-pre class="language-csharp">var matched = Emoji.TryGet(&quot;smile&quot;, out var emoji);
 
 Console.WriteLine($&quot;Found something? {matched}&quot;);
 Console.WriteLine(emoji);</code></pre>
+</doc-codeblock></div>
 <p>The console output from the above sample would be:</p>
-<pre v-highlight><code v-pre>Found something? True
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">Found something? True
 Emoji: 😄</code></pre>
+</doc-codeblock></div>
 <doc-anchor-target id="licensing">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#licensing">#</doc-anchor-trigger>

@@ -189,9 +189,11 @@
     </h1>
 </doc-anchor-target>
 <p>A Mojee license key can be purchased online at <a href="https://mojee.io/pricing">mojee.io/pricing</a>.</p>
-<p>A license key is required to unlock all 1743 emojis supported by Mojee. Without a License Key, only the 100 most popular emoji&#39;s are supported. See <a href="#licensing">licensing</a> for more details.</p>
+<p>A license key is required to unlock all 1743 emojis supported by Mojee. Without a License Key, only the 100 most popular emoji&#39;s are supported. See <a href="..#licensing">licensing</a> for more details.</p>
 <p>Once a license key has been purchased, you will be sent an email with a key included. To add the license key to your Mojee project, two easy steps are required:</p>
-<doc-alert type="danger" title="Please protect your license key"><p>Please do not commit your Mojee license key to a public source code repository or share anywhere outside of your organization. It is your responsibility to protect your license key.</p>
+<doc-alert type="danger">
+<template #title>Please protect your license key</template>
+<p>Please do not commit your Mojee license key to a public source code repository or share anywhere outside of your organization. It is your responsibility to protect your license key.</p>
 </doc-alert>
 <doc-anchor-target id="steps-to-unlock-mojee">
     <h2>
@@ -199,20 +201,23 @@
         <span>Steps to unlock Mojee</span>
     </h2>
 </doc-anchor-target>
-<doc-anchor-target id="oneset-license-key">
+<doc-anchor-target id="set-license-key">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#oneset-license-key">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#set-license-key">#</doc-anchor-trigger>
         <span><span class="docs-emoji">1️⃣</span>&#160;Set license key</span>
     </h3>
 </doc-anchor-target>
 <p>In your project root, at the same level as the <strong>.csproj</strong> file, do you have an <strong>appsettings.json</strong> file? If no, please create that file, then add the following <code v-pre>Mojee</code> configuration section. Replace <code v-pre>your-license-key-here</code> with your actual license key string.</p>
-<pre v-highlight:json><code v-pre>{
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-json"><code v-pre class="language-json">{
     &quot;Mojee&quot;: {
         &quot;LicenseKey&quot;: &quot;your-license-key-here&quot;
     }
 }</code></pre>
+</doc-codeblock></div>
 <p>If your project already has an <strong>appsettings.json</strong> file, the final content might look something like the following:</p>
-<pre v-highlight:json><code v-pre>{
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-json"><code v-pre class="language-json">{
     &quot;Logging&quot;: {
         &quot;LogLevel&quot;: {
             &quot;Default&quot;: &quot;Information&quot;,
@@ -225,18 +230,21 @@
         &quot;LicenseKey&quot;: &quot;your-license-key-here&quot;
     }
 }</code></pre>
-<doc-anchor-target id="twocopy-to-output-directory">
+</doc-codeblock></div>
+<doc-anchor-target id="copy-to-output-directory">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#twocopy-to-output-directory">#</doc-anchor-trigger>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#copy-to-output-directory">#</doc-anchor-trigger>
         <span><span class="docs-emoji">2️⃣</span>&#160;Copy to output directory</span>
     </h3>
 </doc-anchor-target>
 <p>Within your projects <strong>.csproj</strong> file, add the following section inside the <code v-pre>&lt;Project&gt;</code> node:</p>
-<pre v-highlight:markup><code v-pre>&lt;ItemGroup&gt;
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-markup"><code v-pre class="language-markup">&lt;ItemGroup&gt;
     &lt;None Update=&quot;appsettings.json&quot;&gt;
         &lt;CopyToOutputDirectory&gt;Always&lt;/CopyToOutputDirectory&gt;
     &lt;/None&gt;
 &lt;/ItemGroup&gt;</code></pre>
+</doc-codeblock></div>
 <p>The above section instructs the build process to copy the <strong>appsettings.json</strong> to your <code v-pre>/bin</code> folder during compilation. Your <strong>appsettings.json</strong> file should be deployed along side your projects compiled <strong>.dll</strong> files.</p>
 <p>Mojee is now unlocked and ready for the world.</p>
 
