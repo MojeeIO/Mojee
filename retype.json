@@ -1,6 +1,6 @@
 {
     "input": "./",
-    "output": "retype",
+    "output": ".retype",
     "version": "1.1.0",
     "cname": "docs.mojee.io",
 
@@ -24,6 +24,9 @@
       }, {
         "text": "Pricing",
         "link": "https://mojee.io/pricing"
+      }, {
+        "text": "Docs",
+        "link": "/"
       }, {
         "text": "GitHub",
         "link": "https://github.com/MojeeIO/Mojee"
