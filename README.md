@@ -9,7 +9,7 @@ title: Welcome
 
 [Mojee](https://mojee.io/) is a lightning :zap: fast Emoji library for .NET & TypeScript (.ts is coming soon).
 
-![Mojee - A lighting fast Emoji libraries](https://user-images.githubusercontent.com/62210/97496776-14ea7880-192f-11eb-9c49-68c7260ff76d.png)
+![Mojee - A lighting fast Emoji libraries](static/hero.png)
 
 Mojee's big party trick is the ultra-high-performance parse and replacement of emoji `:short-codes:` within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji `:short-codes:` into emoji characters. Here's a basic Mojee `Replace` sample:
 
