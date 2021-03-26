@@ -1,5 +1,6 @@
 ---
 title: LICENSE
+layout: page
 ---
 # Mojee Software License Agreement
 
