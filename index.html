@@ -232,16 +232,21 @@ Mojee.Search(&quot;smile&quot;).ToList()
 </doc-anchor-target>
 <p>Within seconds, Mojee can be added to any .NET Core project using the <a href="https://www.nuget.org/packages/mojee">NuGet package</a>, or search for <code v-pre>Mojee</code> from within the NuGet Package Manager in Visual Studio.</p>
 <p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
+<doc-tabs>
+<doc-tab id="dotnet-cli">
+<template #title>dotnet CLI</template>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-bash"><code v-pre class="language-bash"># Install using dotnet CLI
-dotnet add package Mojee
-
-# or,
-
-# Instal using NuGet CLI
-Install-Package Mojee</code></pre>
+<pre class="language-bash"><code v-pre class="language-bash">dotnet add package Mojee</code></pre>
 </doc-codeblock></div>
-<p>The following sequence of commands could be used to create a new .NET Console project using the <code v-pre>dotnet</code> CLI, then add Mojee, and finally open the new project in Visual Studio Code.</p>
+</doc-tab>
+<doc-tab id="nuget-cli">
+<template #title>NuGet CLI</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">Install-Package Mojee</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+</doc-tabs>
+<p>The following sequence of commands could be used to create a new .NET Console project using the <code v-pre>dotnet</code> CLI, add Mojee to the project, and finally open the new project in Visual Studio Code.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-bash"><code v-pre class="language-bash">mkdir MojeeDemo          # Make a new folder
 cd MojeeDemo             # Move into the new folder
