@@ -46,17 +46,17 @@ Within seconds, Mojee can be added to any .NET Core project using the [NuGet pac
 
 [![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
 
+||| dotnet CLI
 ```sh
-# Install using dotnet CLI
 dotnet add package Mojee
-
-# or,
-
-# Instal using NuGet CLI
+```
+||| NuGet CLI
+```sh
 Install-Package Mojee
 ```
+|||
 
-The following sequence of commands could be used to create a new .NET Console project using the `dotnet` CLI, then add Mojee, and finally open the new project in Visual Studio Code.
+The following sequence of commands could be used to create a new .NET Console project using the `dotnet` CLI, add Mojee to the project, and finally open the new project in Visual Studio Code.
 
 ```sh
 mkdir MojeeDemo          # Make a new folder
