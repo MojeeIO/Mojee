@@ -1,20 +1,19 @@
 {
     "input": "./",
     "output": ".retype",
-    "version": "1.1.0",
     "cname": "docs.mojee.io",
 
     "meta": {
       "title": " | Mojee Documentation"
     },
 
-    "identity": {
+    "branding": {
       "title": "Mojee",
       "label": "docs",
       "logo": "static/logo.svg",
       "logoDark": "static/logo-dark.svg"
     },
-    
+
     "links": [{
         "text": "Home",
         "link": "https://mojee.io/"
