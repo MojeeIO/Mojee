@@ -14,12 +14,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - uses: actions/checkout@v2
+        with:
+          repository: fabriciomurta/mojee-dev
+          ssh-key: ${{ secrets.MOJEE_DEV_DEPLOY_KEY }}
+          path: mojee-dev-${{ github.run_id }}-${{ github.run_number }}
+
+      - name: move private repo to same level
+        shell: bash
+        run: mv mojee-dev-${{ github.run_id }}-${{ github.run_number }} ../mojee-dev
+
       - uses: actions/setup-dotnet@v1
         with:
           dotnet-version: 5.0.x
 
-      - uses: fabriciomurta/ragha-build@v1.3.0
+      - uses: retypeapp/action-build@v1
 
-      - uses: fabriciomurta/ragha-github@v1.3.0
+      - uses: retypeapp/action-github-pages@v1
         with:
           update-branch: true
