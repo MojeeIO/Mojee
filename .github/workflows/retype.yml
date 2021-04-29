@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
-          repository: fabriciomurta/mojee-dev
+          repository: mojeeio/mojee-dev
           ssh-key: ${{ secrets.MOJEE_DEV_DEPLOY_KEY }}
           path: mojee-dev-${{ github.run_id }}-${{ github.run_number }}
 
