@@ -1,5 +1,6 @@
 ---
 title: Welcome
+icon: home
 ---
 # Welcome to Mojee :zany_face:
 
@@ -42,7 +43,7 @@ The console output from the above sample would be:
 
 ## Getting Started
 
-Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio. 
+Within seconds, Mojee can be added to any .NET Core project using the [NuGet package](https://www.nuget.org/packages/mojee), or search for `Mojee` from within the NuGet Package Manager in Visual Studio.
 
 [![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
 
@@ -135,8 +136,8 @@ A basic use-case for the `evaluator` would be logging each emoji match. In the f
 static void Main(string[] args)
 {
     var count = 0;
-    
-    var result = Mojee.Replace(":+1: Hello, world :smile:", match => 
+
+    var result = Mojee.Replace(":+1: Hello, world :smile:", match =>
     {
         count++;
 
@@ -163,7 +164,7 @@ Count: 2
 
 ### `Search` static method
 
-Search for emojis. 
+Search for emojis.
 
 Search by any Shortcode substring (`"cat"`), or by an exact Emoji Shortcode (`":smile:"`), or if a Shortcode startsWith (`":smi"`).
 
@@ -175,14 +176,14 @@ Argument | Type | Description
 -- | -- | --
 `query` | `string` | Any substring, exact Emoji Shortcode, or a Shortcode starting with.
 
-Returns the matched Emoji instances as an `IEnumerable<Emoji>`. 
+Returns the matched Emoji instances as an `IEnumerable<Emoji>`.
 
 #### Example
 
 ```csharp
 var result = Mojee.Search("smile");
 
-result.ToList().ForEach(emoji => 
+result.ToList().ForEach(emoji =>
 {
     Console.WriteLine($"{emoji}: {emoji.Shortcode}");
 });
@@ -262,7 +263,7 @@ var emojis = Emoji.GetAll()
     .ToList();
 
 // Iterate through the list of emojis
-emojis.ForEach(emoji => 
+emojis.ForEach(emoji =>
 {
     // Write the emojis to the Console
     Console.WriteLine(emoji);

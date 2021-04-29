@@ -1,3 +1,6 @@
+---
+icon: shield-check
+---
 # License Key Configuration
 
 A Mojee license key can be purchased online at [mojee.io/pricing](https://mojee.io/pricing).
@@ -54,6 +57,6 @@ Within your projects **.csproj** file, add the following section inside the `<Pr
 </ItemGroup>
 ```
 
-The above section instructs the build process to copy the **appsettings.json** to your `/bin` folder during compilation. Your **appsettings.json** file should be deployed along side your projects compiled **.dll** files. 
+The above section instructs the build process to copy the **appsettings.json** to your `/bin` folder during compilation. Your **appsettings.json** file should be deployed along side your projects compiled **.dll** files.
 
 Mojee is now unlocked and ready for the world.
