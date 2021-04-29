@@ -202,7 +202,11 @@
     </h2>
 </doc-anchor-target>
 <p><a href="https://mojee.io/">Mojee</a> is a lightning <span class="docs-emoji">⚡</span> fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
-<p><img src="static/hero.png" alt="Mojee - A lighting fast Emoji libraries" /></p>
+<p><figure class="content-center">
+    <img src="static/hero.png" alt="Mojee - A lighting fast Emoji libraries" />
+    <figcaption class="caption">Mojee - A lighting fast Emoji libraries</figcaption>
+</figure>
+</p>
 <p>Mojee&#39;s big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji <code v-pre>:short-codes:</code> into emoji characters. Here&#39;s a basic Mojee <code v-pre>Replace</code> sample:</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-csharp"><code v-pre class="language-csharp">// Replace all shortcodes with an emoji
@@ -361,8 +365,8 @@ Console.WriteLine(result);</code></pre>
 <pre class="language-csharp"><code v-pre class="language-csharp">static void Main(string[] args)
 {
     var count = 0;
-    
-    var result = Mojee.Replace(&quot;:+1: Hello, world :smile:&quot;, match =&gt; 
+
+    var result = Mojee.Replace(&quot;:+1: Hello, world :smile:&quot;, match =&gt;
     {
         count++;
 
@@ -421,7 +425,7 @@ Console.WriteLine(result);</code></pre>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-csharp"><code v-pre class="language-csharp">var result = Mojee.Search(&quot;smile&quot;);
 
-result.ToList().ForEach(emoji =&gt; 
+result.ToList().ForEach(emoji =&gt;
 {
     Console.WriteLine($&quot;{emoji}: {emoji.Shortcode}&quot;);
 });</code></pre>
@@ -604,7 +608,7 @@ var emojis = Emoji.GetAll()
     .ToList();
 
 // Iterate through the list of emojis
-emojis.ForEach(emoji =&gt; 
+emojis.ForEach(emoji =&gt;
 {
     // Write the emojis to the Console
     Console.WriteLine(emoji);
