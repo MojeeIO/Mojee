@@ -14,9 +14,11 @@
       "logoDark": "static/logo-dark.svg"
     },
 
-    "code": [{
-      "input": "../mojee-dev/src/csharp"
-    }],
+    "code": [
+      {
+        "input": "../mojee-dev/src/csharp/Mojee"
+      }
+    ],
 
     "links": [{
         "text": "Home",
