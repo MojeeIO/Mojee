@@ -217,61 +217,8 @@
 <p>A lightning fast Emoji library for .NET and TypeScript.</p>
 
 
-<doc-member-group id="fields">
-    <template #title>Fields</template>
-
-    <doc-member id="field-_searchtrees" name="_searchTrees" type="Lazy<(SuffixTree<Emoji> Tree, int Offset, bool MatchStartOnly)[]>" access="private" signature="private readonly static Lazy<(SuffixTree<Emoji> Tree, int Offset, bool MatchStartOnly)[]> _searchTrees">
-        <template #name><h3>_searchTrees</h3></template>
-    </doc-member>
-
-    <doc-member id="field-_statemachinefull" name="_stateMachineFull" type="Lazy<int[][]>" access="private" signature="private readonly static Lazy<int[][]> _stateMachineFull">
-        <template #name><h3>_stateMachineFull</h3></template>
-    </doc-member>
-
-    <doc-member id="field-_statemachineshortcodesonly" name="_stateMachineShortcodesOnly" type="Lazy<int[][]>" access="private" signature="private readonly static Lazy<int[][]> _stateMachineShortcodesOnly">
-        <template #name><h3>_stateMachineShortcodesOnly</h3></template>
-    </doc-member>
-
-    <doc-member id="field-_statemachinesource" name="_stateMachineSource" type="Lazy<(Emoji emoji, MatchType type, string term)[]>" access="private" signature="private readonly static Lazy<(Emoji emoji, MatchType type, string term)[]> _stateMachineSource">
-        <template #name><h3>_stateMachineSource</h3></template>
-    </doc-member>
-</doc-member-group>
-
 <doc-member-group id="methods">
     <template #title>Methods</template>
-
-    <doc-member id="method-.cctor" name=".cctor" returns="void" access="private" signature="private static Mojee()">
-        <template #name><h3>.cctor</h3></template>
-    </doc-member>
-
-    <doc-member id="method-arehyphensmatched" name="AreHyphensMatched" returns="bool" params="ReadOnlySpan<char>, ReadOnlySpan<char>, ReadOnlySpan<Span>, ReadOnlySpan<int>, int, int" access="private" signature="private static bool AreHyphensMatched(ReadOnlySpan<char> str, ReadOnlySpan<char> query, ReadOnlySpan<Span> pattern, ReadOnlySpan<int> indexes, int maxExtraChunks, int offset = 0)">
-        <template #name><h3>AreHyphensMatched</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="str" type="System.ReadOnlySpan<char>"></doc-parameter>
-                <doc-parameter name="query" type="System.ReadOnlySpan<char>"></doc-parameter>
-                <doc-parameter name="pattern" type="System.ReadOnlySpan<MojeeIO.Internal.Span>"></doc-parameter>
-                <doc-parameter name="indexes" type="System.ReadOnlySpan<int>"></doc-parameter>
-                <doc-parameter name="maxExtraChunks" type="int"></doc-parameter>
-                <doc-parameter name="offset" type="int"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
-    <doc-member id="method-binarysearchlow" name="BinarySearchLow" returns="int" params="string[], string, int, int, int" access="private" signature="private static int BinarySearchLow(string[] array, string value, int initialStart, int start, int end)">
-        <template #name><h3>BinarySearchLow</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="array" type="string[]"></doc-parameter>
-                <doc-parameter name="value" type="string"></doc-parameter>
-                <doc-parameter name="initialStart" type="int"></doc-parameter>
-                <doc-parameter name="start" type="int"></doc-parameter>
-                <doc-parameter name="end" type="int"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
 
     <doc-overload-group overload-id="group-match">
         <doc-member id="method-match" overload-id="group-match" name="Match" returns="IEnumerable<Match>" params="string" signature="public static IEnumerable<Match> Match(string text)">
@@ -300,61 +247,7 @@
 <p>Match <see cref="T:MojeeIO.Emoji"/> identifiers of the specified type.</p>
 
         </doc-member>
-
-        <doc-member id="method-match-2" overload-id="group-match" name="Match" returns="IEnumerable<Match>" params="string, bool, bool" access="private" signature="private static IEnumerable<Match> Match(string text, bool includeShortcodes, bool includeCharacters)">
-            <template #name><h3>Match</h3></template>
-
-            <template #parameters>
-                <doc-parameters>
-                    <doc-parameter name="text" type="string"></doc-parameter>
-                    <doc-parameter name="includeShortcodes" type="bool"></doc-parameter>
-                    <doc-parameter name="includeCharacters" type="bool"></doc-parameter>
-                </doc-parameters>
-            </template>
-        </doc-member>
     </doc-overload-group>
-
-    <doc-member id="method-matchquerychunk" name="MatchQueryChunk" returns="bool" params="bool, ReadOnlySpan<char>, ReadOnlySpan<char>, ReadOnlySpan<Span>, ReadOnlySpan<int>, int, int" access="private" signature="private static bool MatchQueryChunk(bool isHyphendAdded, ReadOnlySpan<char> str, ReadOnlySpan<char> query, ReadOnlySpan<Span> pattern, ReadOnlySpan<int> indexes, int maxExtraChunks, int offset)">
-        <template #name><h3>MatchQueryChunk</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="isHyphendAdded" type="bool"></doc-parameter>
-                <doc-parameter name="str" type="System.ReadOnlySpan<char>"></doc-parameter>
-                <doc-parameter name="query" type="System.ReadOnlySpan<char>"></doc-parameter>
-                <doc-parameter name="pattern" type="System.ReadOnlySpan<MojeeIO.Internal.Span>"></doc-parameter>
-                <doc-parameter name="indexes" type="System.ReadOnlySpan<int>"></doc-parameter>
-                <doc-parameter name="maxExtraChunks" type="int"></doc-parameter>
-                <doc-parameter name="offset" type="int"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
-    <doc-member id="method-matchqueryhyphen" name="MatchQueryHyphen" returns="bool" params="ReadOnlySpan<char>, ReadOnlySpan<char>, ReadOnlySpan<Span>, ReadOnlySpan<int>, int, int" access="private" signature="private static bool MatchQueryHyphen(ReadOnlySpan<char> str, ReadOnlySpan<char> query, ReadOnlySpan<Span> pattern, ReadOnlySpan<int> indexes, int maxExtraChunks, int offset)">
-        <template #name><h3>MatchQueryHyphen</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="str" type="System.ReadOnlySpan<char>"></doc-parameter>
-                <doc-parameter name="query" type="System.ReadOnlySpan<char>"></doc-parameter>
-                <doc-parameter name="pattern" type="System.ReadOnlySpan<MojeeIO.Internal.Span>"></doc-parameter>
-                <doc-parameter name="indexes" type="System.ReadOnlySpan<int>"></doc-parameter>
-                <doc-parameter name="maxExtraChunks" type="int"></doc-parameter>
-                <doc-parameter name="offset" type="int"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
-    <doc-member id="method-normalizesearchquery" name="NormalizeSearchQuery" returns="string" params="string, int[]" access="private" signature="private static string NormalizeSearchQuery(string query, out int[] removedIndexes)">
-        <template #name><h3>NormalizeSearchQuery</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="query" type="string"></doc-parameter>
-                <doc-parameter name="removedIndexes" type="int[]"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
 
     <doc-overload-group overload-id="group-replace">
         <doc-member id="method-replace" overload-id="group-replace" name="Replace" returns="string" params="string" signature="public static string Replace(string text)">
@@ -400,19 +293,6 @@
         </doc-member>
     </doc-overload-group>
 
-    <doc-member id="method-replaceimpl" name="ReplaceImpl" returns="string" params="string, Func<Match, string?>, bool, bool" access="private" signature="private static string ReplaceImpl(string text, Func<Match, string?> evaluator, bool includeShortcodes, bool includeCharacters)">
-        <template #name><h3>ReplaceImpl</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="text" type="string"></doc-parameter>
-                <doc-parameter name="evaluator" type="System.Func<MojeeIO.Match, string?>"></doc-parameter>
-                <doc-parameter name="includeShortcodes" type="bool"></doc-parameter>
-                <doc-parameter name="includeCharacters" type="bool"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
     <doc-member id="method-search" name="Search" returns="IEnumerable<Emoji>" params="string" signature="public static IEnumerable<Emoji> Search(string query)">
         <template #name><h3>Search</h3></template>
 
@@ -422,75 +302,8 @@
             </doc-parameters>
         </template>
 
-<p>Search for emojis. Search by any substring (&quot;cat&quot;), or by an exact <see cref="P:MojeeIO.Emoji.Shortcode"/> (&quot;<span class="docs-emoji">😄</span>&quot;), or if a Shortcode startsWith (&quot;:smi&quot;).</p>
+<p>Search for emojis. Search by any substring (&quot;cat&quot;), or by an exact <see cref="P:MojeeIO.Emoji.Shortcode"/> (&quot;<span class="docs-emoji">&#x1F604;</span>&quot;), or if a Shortcode startsWith (&quot;:smi&quot;).</p>
 
-    </doc-member>
-
-    <doc-overload-group overload-id="group-searchbyexactprefix">
-        <doc-member id="method-searchbyexactprefix" overload-id="group-searchbyexactprefix" name="SearchByExactPrefix" returns="IEnumerable<Emoji>" params="string" access="private" signature="private static IEnumerable<Emoji> SearchByExactPrefix(string shortcodePrefix)">
-            <template #name><h3>SearchByExactPrefix</h3></template>
-
-            <template #parameters>
-                <doc-parameters>
-                    <doc-parameter name="shortcodePrefix" type="string"></doc-parameter>
-                </doc-parameters>
-            </template>
-        </doc-member>
-
-        <doc-member id="method-searchbyexactprefix-1" overload-id="group-searchbyexactprefix" name="SearchByExactPrefix" returns="IEnumerable<Emoji>" params="string, OrderedKeyValues<string, Emoji>" access="private" signature="private static IEnumerable<Emoji> SearchByExactPrefix(string itemPrefix, OrderedKeyValues<string, Emoji> ordered)">
-            <template #name><h3>SearchByExactPrefix</h3></template>
-
-            <template #parameters>
-                <doc-parameters>
-                    <doc-parameter name="itemPrefix" type="string"></doc-parameter>
-                    <doc-parameter name="ordered" type="MojeeIO.Internal.OrderedKeyValues<string, MojeeIO.Emoji>"></doc-parameter>
-                </doc-parameters>
-            </template>
-        </doc-member>
-    </doc-overload-group>
-
-    <doc-member id="method-searchbyexactsuffix" name="SearchByExactSuffix" returns="IEnumerable<Emoji>" params="string" access="private" signature="private static IEnumerable<Emoji> SearchByExactSuffix(string shortcodeSuffix)">
-        <template #name><h3>SearchByExactSuffix</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="shortcodeSuffix" type="string"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
-    <doc-member id="method-searchexact" name="SearchExact" returns="IEnumerable<Emoji>" params="string" access="private" signature="private static IEnumerable<Emoji> SearchExact(string shortcode)">
-        <template #name><h3>SearchExact</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="shortcode" type="string"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
-    <doc-member id="method-searchintree" name="SearchInTree" returns="IEnumerable<Emoji>" params="string" access="internal" signature="internal static IEnumerable<Emoji> SearchInTree(string query)">
-        <template #name><h3>SearchInTree</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="query" type="string"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
-
-    <doc-member id="method-searchintreeimpl" name="SearchInTreeImpl" returns="void" params="SuffixTreeNode<Emoji>, int, Dictionary<SuffixTreeSource<Emoji>, int>?, Dictionary<SuffixTreeSource<Emoji>, int>, int" access="private" signature="private static void SearchInTreeImpl(SuffixTreeNode<Emoji> node, int queryLengthPlus1, Dictionary<SuffixTreeSource<Emoji>, int>? allowed, Dictionary<SuffixTreeSource<Emoji>, int> matched, int terminalOffset)">
-        <template #name><h3>SearchInTreeImpl</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="node" type="MojeeIO.Internal.SuffixTreeNode<MojeeIO.Emoji>"></doc-parameter>
-                <doc-parameter name="queryLengthPlus1" type="int"></doc-parameter>
-                <doc-parameter name="allowed" type="System.Collections.Generic.Dictionary<MojeeIO.Internal.SuffixTreeSource<MojeeIO.Emoji>, int>?"></doc-parameter>
-                <doc-parameter name="matched" type="System.Collections.Generic.Dictionary<MojeeIO.Internal.SuffixTreeSource<MojeeIO.Emoji>, int>"></doc-parameter>
-                <doc-parameter name="terminalOffset" type="int"></doc-parameter>
-            </doc-parameters>
-        </template>
     </doc-member>
 </doc-member-group>
 
@@ -515,7 +328,7 @@
 </ul>
 
     </div>
-    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>&#169; Copyright 2008-2021. <a href="https://object.net/">Object.NET, Inc.</a> All rights reserved.</p>
+    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2008-2021. <a href="https://object.net/">Object.NET, Inc.</a> All rights reserved.</p>
 </div>
 </footer>
 

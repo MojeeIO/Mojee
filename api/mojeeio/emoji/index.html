@@ -282,35 +282,10 @@
 <p>A list of tags related to this Emoji.</p>
 
     </doc-member>
-
-    <doc-member id="property-unicodechars" name="UnicodeChars" type="char[]" access="internal" signature="internal char[] UnicodeChars { internal get; }">
-        <template #name><h3>UnicodeChars</h3></template>
-
-<p>Characters of the <see cref="P:MojeeIO.Emoji.Character"/> string.</p>
-
-    </doc-member>
 </doc-member-group>
 
 <doc-member-group id="methods">
     <template #title>Methods</template>
-
-    <doc-member id="method-.ctor" name=".ctor" returns="void" params="string, string, string[], string, string?, string?, string[], int, Category" access="internal" signature="internal Emoji(string id, string shortcode, string[] aliases, string unicode, string? emoticon, string? description, string[] tags, int order, Category category)">
-        <template #name><h3>.ctor</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="id" type="string"></doc-parameter>
-                <doc-parameter name="shortcode" type="string"></doc-parameter>
-                <doc-parameter name="aliases" type="string[]"></doc-parameter>
-                <doc-parameter name="unicode" type="string"></doc-parameter>
-                <doc-parameter name="emoticon" type="string?"></doc-parameter>
-                <doc-parameter name="description" type="string?"></doc-parameter>
-                <doc-parameter name="tags" type="string[]"></doc-parameter>
-                <doc-parameter name="order" type="int"></doc-parameter>
-                <doc-parameter name="category" type="MojeeIO.Category"></doc-parameter>
-            </doc-parameters>
-        </template>
-    </doc-member>
 
     <doc-member id="method-get" name="Get" returns="Emoji" params="string" signature="public static Emoji Get(string shortcode)">
         <template #name><h3>Get</h3></template>
@@ -330,16 +305,6 @@
 
 <p>Gets the list of all supported <see cref="T:MojeeIO.Emoji"/> objects.</p>
 
-    </doc-member>
-
-    <doc-member id="method-normalizeshortcode" name="NormalizeShortcode" returns="string" params="string" access="private" signature="private static string NormalizeShortcode(string shortcode)">
-        <template #name><h3>NormalizeShortcode</h3></template>
-
-        <template #parameters>
-            <doc-parameters>
-                <doc-parameter name="shortcode" type="string"></doc-parameter>
-            </doc-parameters>
-        </template>
     </doc-member>
 
     <doc-member id="method-tostring" name="ToString" returns="string" signature="public sealed string ToString()">
@@ -385,7 +350,7 @@
 </ul>
 
     </div>
-    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>&#169; Copyright 2008-2021. <a href="https://object.net/">Object.NET, Inc.</a> All rights reserved.</p>
+    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2008-2021. <a href="https://object.net/">Object.NET, Inc.</a> All rights reserved.</p>
 </div>
 </footer>
 
