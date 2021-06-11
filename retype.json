@@ -8,7 +8,6 @@
     },
 
     "branding": {
-      "title": "Mojee",
       "label": "docs",
       "logo": "static/logo.svg",
       "logoDark": "static/logo-dark.svg"
