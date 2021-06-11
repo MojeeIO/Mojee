@@ -4,13 +4,11 @@ icon: home
 ---
 # Welcome to Mojee :zany_face:
 
-[![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
-
 ## What is Mojee?
 
 [Mojee](https://mojee.io/) is a lightning :zap: fast Emoji library for .NET & TypeScript (.ts is coming soon).
 
-![Mojee - A lighting fast Emoji libraries](static/hero.png)
+![](static/hero.png)
 
 Mojee's big party trick is the ultra-high-performance parse and replacement of emoji `:short-codes:` within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji `:short-codes:` into emoji characters. Here's a basic Mojee `Replace` sample:
 
@@ -47,15 +45,15 @@ Within seconds, Mojee can be added to any .NET Core project using the [NuGet pac
 
 [![NuGet Status](https://img.shields.io/nuget/v/Mojee.svg)](https://www.nuget.org/packages/Mojee)
 
-||| dotnet CLI
++++ dotnet CLI
 ```sh
 dotnet add package Mojee
 ```
-||| NuGet CLI
++++ NuGet CLI
 ```sh
 Install-Package Mojee
 ```
-|||
++++
 
 The following sequence of commands could be used to create a new .NET Console project using the `dotnet` CLI, add Mojee to the project, and finally open the new project in Visual Studio Code.
 
