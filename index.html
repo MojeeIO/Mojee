@@ -7,7 +7,7 @@
 
     <title>Welcome | Mojee Documentation</title>
 
-    <meta name="description" content="Mojee is a lightning :zap: fast Emoji library for .NET &amp; TypeScript (.ts is coming soon)." />
+    <meta name="description" content="Mojee is a lightning ⚡ fast Emoji library for .NET &amp; TypeScript (.ts is coming soon)." />
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -30,13 +30,12 @@
         <!-- Logo -->
         <div class="flex items-center justify-between h-full py-2 md:w-75">
             <div class="flex items-center px-2 md:px-6">
-                <span id="docs-site-logo" class="dark:text-white text-2xl leading-snug font-semibold line-clamp-1 md:line-clamp-2">
-                    <a href="/">
-                        <img class="dark:hidden" src="/static/logo.svg">
-                        <img class="hidden dark:block" src="/static/logo-dark.svg">
-                    </a>
-                </span>
-                <span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">docs</span>
+                <a id="docs-site-logo" href="/" class="flex items-center leading-snug text-2xl">
+                    <span class="flex-grow-0 flex-shrink-0 overflow-hidden">
+                        <img class="max-h-10 dark:hidden md:inline-block" src="/static/logo.svg">
+                        <img class="max-h-10 hidden dark:inline-block" src="/static/logo-dark.svg">
+                    </span>
+                </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">docs</span>
             </div>
 
             <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -195,7 +194,6 @@
         <span>Welcome to Mojee <span class="docs-emoji">&#x1F92A;</span></span>
     </h1>
 </doc-anchor-target>
-<p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
 <doc-anchor-target id="what-is-mojee">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-mojee">#</doc-anchor-trigger>
@@ -204,8 +202,8 @@
 </doc-anchor-target>
 <p><a href="https://mojee.io/">Mojee</a> is a lightning <span class="docs-emoji">&#x26A1;</span> fast Emoji library for .NET &amp; TypeScript (.ts is coming soon).</p>
 <p><figure class="content-center">
-    <img src="static/hero.png" alt="Mojee - A lighting fast Emoji libraries" />
-    <figcaption class="caption">Mojee - A lighting fast Emoji libraries</figcaption>
+    <img src="static/hero.png" alt="" />
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
 <p>Mojee&#x27;s big party trick is the ultra-high-performance parse and replacement of emoji <code v-pre>:short-codes:</code> within a block of text. Pass a string of text to Mojee, and Mojee will convert valid emoji <code v-pre>:short-codes:</code> into emoji characters. Here&#x27;s a basic Mojee <code v-pre>Replace</code> sample:</p>
@@ -236,7 +234,13 @@ Mojee.Search(&quot;smile&quot;).ToList()
     </h2>
 </doc-anchor-target>
 <p>Within seconds, Mojee can be added to any .NET Core project using the <a href="https://www.nuget.org/packages/mojee">NuGet package</a>, or search for <code v-pre>Mojee</code> from within the NuGet Package Manager in Visual Studio.</p>
-<p><a href="https://www.nuget.org/packages/Mojee"><img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" /></a></p>
+<p><figure class="content-center">
+    <a href="https://www.nuget.org/packages/Mojee">
+        <img src="https://img.shields.io/nuget/v/Mojee.svg" alt="NuGet Status" />
+    </a>
+    <figcaption class="caption">NuGet Status</figcaption>
+</figure>
+</p>
 <doc-tabs>
 <doc-tab id="dotnet-cli">
 <template #title>dotnet CLI</template>
@@ -301,7 +305,7 @@ namespace MojeeDemo
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-csharp"><code v-pre class="language-csharp">string Mojee.Replace(string text)</code></pre>
 </doc-codeblock></div>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Argument</th>
@@ -333,7 +337,7 @@ Console.WriteLine(result);</code></pre>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-csharp"><code v-pre class="language-csharp">string Mojee.Replace(string text, Func&lt;EmojiMatch, string&gt; evaluator)</code></pre>
 </doc-codeblock></div>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Argument</th>
@@ -400,7 +404,7 @@ Console.WriteLine(result);</code></pre>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-csharp"><code v-pre class="language-csharp">IEnumerable&lt;Emoji&gt; Mojee.Search(string query)</code></pre>
 </doc-codeblock></div>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Argument</th>
@@ -450,7 +454,7 @@ result.ToList().ForEach(emoji =&gt;
         <span>EmojiMatch Class</span>
     </h2>
 </doc-anchor-target>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Property</th>
@@ -487,7 +491,7 @@ result.ToList().ForEach(emoji =&gt;
         <span>MatchType Enum</span>
     </h2>
 </doc-anchor-target>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Property</th>
@@ -508,7 +512,7 @@ result.ToList().ForEach(emoji =&gt;
     </h2>
 </doc-anchor-target>
 <p>Represents a single Emoji instance.</p>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Property</th>
@@ -633,7 +637,7 @@ emojis.ForEach(emoji =&gt;
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-csharp"><code v-pre class="language-csharp">bool Emoji.TryGet(string shortcode, out Emoji emoji)</code></pre>
 </doc-codeblock></div>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th>Argument</th>
@@ -679,7 +683,7 @@ Emoji: 😄</code></pre>
 </doc-anchor-target>
 <p>Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless a license key is <a href="https://mojee.io/pricing">purchased</a>.</p>
 <p>The 100 most popular emojis used on Twitter are supported for free, which covers approximately 4 out of every 5 emojis tweeted. The following table documents the 100 emojis currently supported in the free (no license key) version of Mojee. With each new release, Mojee will be updated with the latest 100 most popular emojis used on Twitter.</p>
-<table>
+<table class="comfortable">
 <thead>
 <tr>
 <th><span class="docs-emoji">&#x1F600;</span></th>
@@ -808,20 +812,30 @@ Emoji: 😄</code></pre>
 <p>Please see the <a href="license_key_configuration">License Key Configuration</a> guide for instructions on how to add your Mojee License key to a project.</p>
 <p><a href="https://mojee.io/pricing">Purchasing</a> a <strong>Pro</strong> or <strong>Team</strong> license key will unlock the full power of Mojee with support for all 1743 emojis.</p>
 
-    
+
+
+
                 <!-- Required only on API pages -->
                 <doc-toolbar-member-filter-no-results />
             </div>
 
-            
+            <div class="flex flex-wrap items-center justify-between mt-14">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/MojeeIO/Mojee/blob/master/README.md" target="_blank" rel="noopener">
+        <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        <span>Edit this page</span>
+    </a>
+
+    <!--<p class="my-2.5 text-gray-500 dark:text-dark-350 text-sm">Last updated on <strong>2021-03-14</strong> by <strong>Geoffrey McGill</strong></p>-->
+</div>
+
 <nav class="flex mt-14">
     <div class="w-1/2">
     </div>
 
     <div class="w-1/2">
-        <a class="px-6 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/license_key_configuration">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/license_key_configuration">
             <span>
-                <span class="block text-right text-xs font-normal text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
                 <span class="block mt-1">License Key Configuration</span>
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
