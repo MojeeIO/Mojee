@@ -14,11 +14,18 @@
       "logoDark": "static/logo-dark.svg"
     },
 
-    "code": [
-      {
-        "input": "../mojee-dev/src/csharp/Mojee"
-      }
-    ],
+    "api": {
+      "projects": [
+        {
+          "input": "../mojee-dev/src/csharp/Mojee"
+        }
+      ]
+    },
+
+    "edit": {
+      "repo": "https://github.com/MojeeIO/Mojee/",
+      "branch": "master"
+    },
 
     "links": [{
         "text": "Home",
