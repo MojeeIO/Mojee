@@ -6,7 +6,7 @@ icon: home
 
 ## What is Mojee?
 
-[Mojee](https://mojee.io/) is a lightning :zap: fast Emoji library for .NET & TypeScript (.ts is coming soon).
+[Mojee](https://mojee.io/) is a lightning :zap: fast Emoji library for .NET.
 
 ![](static/hero.png)
 
