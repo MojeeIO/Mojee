@@ -24,8 +24,8 @@ jobs:
         shell: bash
         run: mv mojee-dev-${{ github.run_id }}-${{ github.run_number }} ../mojee-dev
 
-      - uses: retypeapp/action-build@@v2.0.0-preview
+      - uses: retypeapp/action-build@v2.0.0-preview
 
-      - uses: retypeapp/action-github-pages@@v2.0.0-preview
+      - uses: retypeapp/action-github-pages@v2.0.0-preview
         with:
           update-branch: true
