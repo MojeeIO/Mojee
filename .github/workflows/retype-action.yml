@@ -13,8 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - uses: actions/checkout@v2
         with:
           repository: mojeeio/mojee-dev
           ssh-key: ${{ secrets.MOJEE_DEV_DEPLOY_KEY }}
@@ -24,8 +22,8 @@ jobs:
         shell: bash
         run: mv mojee-dev-${{ github.run_id }}-${{ github.run_number }} ../mojee-dev
 
-      - uses: retypeapp/action-build@v2
+      - uses: retypeapp/action-build@next
 
-      - uses: retypeapp/action-github-pages@v2
+      - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
