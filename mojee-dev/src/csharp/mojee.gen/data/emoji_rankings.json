@@ -1,0 +1,5072 @@
+﻿[
+  {
+    "char": "😂",
+    "id": "1F602",
+    "name": "FACE WITH TEARS OF JOY",
+    "score": 2948584948
+  },
+  {
+    "char": "❤️",
+    "id": "2764",
+    "name": "HEAVY BLACK HEART",
+    "score": 1446419791
+  },
+  {
+    "char": "😍",
+    "id": "1F60D",
+    "name": "SMILING FACE WITH HEART-SHAPED EYES",
+    "score": 1050923201
+  },
+  {
+    "char": "😭",
+    "id": "1F62D",
+    "name": "LOUDLY CRYING FACE",
+    "score": 977643152
+  },
+  {
+    "char": "♻️",
+    "id": "267B",
+    "name": "BLACK UNIVERSAL RECYCLING SYMBOL",
+    "score": 966852407
+  },
+  {
+    "char": "♥️",
+    "id": "2665",
+    "name": "BLACK HEART SUIT",
+    "score": 779067389
+  },
+  {
+    "char": "😊",
+    "id": "1F60A",
+    "name": "SMILING FACE WITH SMILING EYES",
+    "score": 676536748
+  },
+  {
+    "char": "💕",
+    "id": "1F495",
+    "name": "TWO HEARTS",
+    "score": 523232128
+  },
+  {
+    "char": "😒",
+    "id": "1F612",
+    "name": "UNAMUSED FACE",
+    "score": 516375694
+  },
+  {
+    "char": "😘",
+    "id": "1F618",
+    "name": "FACE THROWING A KISS",
+    "score": 503820273
+  },
+  {
+    "char": "😩",
+    "id": "1F629",
+    "name": "WEARY FACE",
+    "score": 454107006
+  },
+  {
+    "char": "😔",
+    "id": "1F614",
+    "name": "PENSIVE FACE",
+    "score": 445045035
+  },
+  {
+    "char": "☺️",
+    "id": "263A",
+    "name": "WHITE SMILING FACE",
+    "score": 409480251
+  },
+  {
+    "char": "😁",
+    "id": "1F601",
+    "name": "GRINNING FACE WITH SMILING EYES",
+    "score": 401928956
+  },
+  {
+    "char": "👌",
+    "id": "1F44C",
+    "name": "OK HAND SIGN",
+    "score": 379646570
+  },
+  {
+    "char": "😏",
+    "id": "1F60F",
+    "name": "SMIRKING FACE",
+    "score": 353766142
+  },
+  {
+    "char": "😉",
+    "id": "1F609",
+    "name": "WINKING FACE",
+    "score": 339143290
+  },
+  {
+    "char": "👍",
+    "id": "1F44D",
+    "name": "THUMBS UP SIGN",
+    "score": 309851941
+  },
+  {
+    "char": "😅",
+    "id": "1F605",
+    "name": "SMILING FACE WITH OPEN MOUTH AND COLD SWEAT",
+    "score": 297421683
+  },
+  {
+    "char": "🙏",
+    "id": "1F64F",
+    "name": "PERSON WITH FOLDED HANDS",
+    "score": 286582600
+  },
+  {
+    "char": "👀",
+    "id": "1F440",
+    "name": "EYES",
+    "score": 282777824
+  },
+  {
+    "char": "🔥",
+    "id": "1F525",
+    "name": "FIRE",
+    "score": 267069358
+  },
+  {
+    "char": "💔",
+    "id": "1F494",
+    "name": "BROKEN HEART",
+    "score": 265231576
+  },
+  {
+    "char": "😌",
+    "id": "1F60C",
+    "name": "RELIEVED FACE",
+    "score": 263509286
+  },
+  {
+    "char": "😢",
+    "id": "1F622",
+    "name": "CRYING FACE",
+    "score": 258868518
+  },
+  {
+    "char": "💙",
+    "id": "1F499",
+    "name": "BLUE HEART",
+    "score": 257236211
+  },
+  {
+    "char": "😎",
+    "id": "1F60E",
+    "name": "SMILING FACE WITH SUNGLASSES",
+    "score": 256132442
+  },
+  {
+    "char": "💜",
+    "id": "1F49C",
+    "name": "PURPLE HEART",
+    "score": 244501897
+  },
+  {
+    "char": "⬅️",
+    "id": "2B05",
+    "name": "LEFTWARDS BLACK ARROW",
+    "score": 237429727
+  },
+  {
+    "char": "😳",
+    "id": "1F633",
+    "name": "FLUSHED FACE",
+    "score": 228648807
+  },
+  {
+    "char": "🎶",
+    "id": "1F3B6",
+    "name": "MULTIPLE MUSICAL NOTES",
+    "score": 228221190
+  },
+  {
+    "char": "✨",
+    "id": "2728",
+    "name": "SPARKLES",
+    "score": 225463828
+  },
+  {
+    "char": "💖",
+    "id": "1F496",
+    "name": "SPARKLING HEART",
+    "score": 207377049
+  },
+  {
+    "char": "🙌",
+    "id": "1F64C",
+    "name": "PERSON RAISING BOTH HANDS IN CELEBRATION",
+    "score": 202279885
+  },
+  {
+    "char": "💯",
+    "id": "1F4AF",
+    "name": "HUNDRED POINTS SYMBOL",
+    "score": 201567285
+  },
+  {
+    "char": "🙈",
+    "id": "1F648",
+    "name": "SEE-NO-EVIL MONKEY",
+    "score": 193629370
+  },
+  {
+    "char": "✌️",
+    "id": "270C",
+    "name": "VICTORY HAND",
+    "score": 178019161
+  },
+  {
+    "char": "😄",
+    "id": "1F604",
+    "name": "SMILING FACE WITH OPEN MOUTH AND SMILING EYES",
+    "score": 175560896
+  },
+  {
+    "char": "😋",
+    "id": "1F60B",
+    "name": "FACE SAVOURING DELICIOUS FOOD",
+    "score": 172126356
+  },
+  {
+    "char": "😑",
+    "id": "1F611",
+    "name": "EXPRESSIONLESS FACE",
+    "score": 171594269
+  },
+  {
+    "char": "😴",
+    "id": "1F634",
+    "name": "SLEEPING FACE",
+    "score": 171255146
+  },
+  {
+    "char": "😜",
+    "id": "1F61C",
+    "name": "FACE WITH STUCK-OUT TONGUE AND WINKING EYE",
+    "score": 162214400
+  },
+  {
+    "char": "😞",
+    "id": "1F61E",
+    "name": "DISAPPOINTED FACE",
+    "score": 156718199
+  },
+  {
+    "char": "😪",
+    "id": "1F62A",
+    "name": "SLEEPY FACE",
+    "score": 155874120
+  },
+  {
+    "char": "😕",
+    "id": "1F615",
+    "name": "CONFUSED FACE",
+    "score": 153137097
+  },
+  {
+    "char": "💗",
+    "id": "1F497",
+    "name": "GROWING HEART",
+    "score": 152641099
+  },
+  {
+    "char": "👏",
+    "id": "1F44F",
+    "name": "CLAPPING HANDS SIGN",
+    "score": 149365031
+  },
+  {
+    "char": "😐",
+    "id": "1F610",
+    "name": "NEUTRAL FACE",
+    "score": 146290784
+  },
+  {
+    "char": "👉",
+    "id": "1F449",
+    "name": "WHITE RIGHT POINTING BACKHAND INDEX",
+    "score": 145492419
+  },
+  {
+    "char": "💛",
+    "id": "1F49B",
+    "name": "YELLOW HEART",
+    "score": 135088734
+  },
+  {
+    "char": "💞",
+    "id": "1F49E",
+    "name": "REVOLVING HEARTS",
+    "score": 134767599
+  },
+  {
+    "char": "💪",
+    "id": "1F4AA",
+    "name": "FLEXED BICEPS",
+    "score": 131848042
+  },
+  {
+    "char": "🌹",
+    "id": "1F339",
+    "name": "ROSE",
+    "score": 131177466
+  },
+  {
+    "char": "💀",
+    "id": "1F480",
+    "name": "SKULL",
+    "score": 128745084
+  },
+  {
+    "char": "😱",
+    "id": "1F631",
+    "name": "FACE SCREAMING IN FEAR",
+    "score": 127429565
+  },
+  {
+    "char": "💘",
+    "id": "1F498",
+    "name": "HEART WITH ARROW",
+    "score": 124898728
+  },
+  {
+    "char": "😆",
+    "id": "1F606",
+    "name": "SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
+    "score": 124330252
+  },
+  {
+    "char": "😡",
+    "id": "1F621",
+    "name": "POUTING FACE",
+    "score": 122120306
+  },
+  {
+    "char": "📷",
+    "id": "1F4F7",
+    "name": "CAMERA",
+    "score": 119868271
+  },
+  {
+    "char": "🌸",
+    "id": "1F338",
+    "name": "CHERRY BLOSSOM",
+    "score": 117081420
+  },
+  {
+    "char": "😀",
+    "id": "1F600",
+    "name": "GRINNING FACE",
+    "score": 116670880
+  },
+  {
+    "char": "💋",
+    "id": "1F48B",
+    "name": "KISS MARK",
+    "score": 114782508
+  },
+  {
+    "char": "😈",
+    "id": "1F608",
+    "name": "SMILING FACE WITH HORNS",
+    "score": 110020010
+  },
+  {
+    "char": "👈",
+    "id": "1F448",
+    "name": "WHITE LEFT POINTING BACKHAND INDEX",
+    "score": 107440192
+  },
+  {
+    "char": "🎉",
+    "id": "1F389",
+    "name": "PARTY POPPER",
+    "score": 106769631
+  },
+  {
+    "char": "💁",
+    "id": "1F481",
+    "name": "INFORMATION DESK PERSON",
+    "score": 105941645
+  },
+  {
+    "char": "😃",
+    "id": "1F603",
+    "name": "SMILING FACE WITH OPEN MOUTH",
+    "score": 105851122
+  },
+  {
+    "char": "💚",
+    "id": "1F49A",
+    "name": "GREEN HEART",
+    "score": 105663832
+  },
+  {
+    "char": "🙊",
+    "id": "1F64A",
+    "name": "SPEAK-NO-EVIL MONKEY",
+    "score": 105360703
+  },
+  {
+    "char": "😫",
+    "id": "1F62B",
+    "name": "TIRED FACE",
+    "score": 103702889
+  },
+  {
+    "char": "😤",
+    "id": "1F624",
+    "name": "FACE WITH LOOK OF TRIUMPH",
+    "score": 101716328
+  },
+  {
+    "char": "▶️",
+    "id": "25B6",
+    "name": "BLACK RIGHT-POINTING TRIANGLE",
+    "score": 99348679
+  },
+  {
+    "char": "✅",
+    "id": "2705",
+    "name": "WHITE HEAVY CHECK MARK",
+    "score": 96173057
+  },
+  {
+    "char": "✋",
+    "id": "270B",
+    "name": "RAISED HAND",
+    "score": 96068456
+  },
+  {
+    "char": "💓",
+    "id": "1F493",
+    "name": "BEATING HEART",
+    "score": 95522533
+  },
+  {
+    "char": "😝",
+    "id": "1F61D",
+    "name": "FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
+    "score": 95163865
+  },
+  {
+    "char": "🌚",
+    "id": "1F31A",
+    "name": "NEW MOON WITH FACE",
+    "score": 94018482
+  },
+  {
+    "char": "😬",
+    "id": "1F62C",
+    "name": "GRIMACING FACE",
+    "score": 89329046
+  },
+  {
+    "char": "😣",
+    "id": "1F623",
+    "name": "PERSEVERING FACE",
+    "score": 88402265
+  },
+  {
+    "char": "👇",
+    "id": "1F447",
+    "name": "WHITE DOWN POINTING BACKHAND INDEX",
+    "score": 86629744
+  },
+  {
+    "char": "☀️",
+    "id": "2600",
+    "name": "BLACK SUN WITH RAYS",
+    "score": 85465455
+  },
+  {
+    "char": "✔️",
+    "id": "2714",
+    "name": "HEAVY CHECK MARK",
+    "score": 85209041
+  },
+  {
+    "char": "➡️",
+    "id": "27A1",
+    "name": "BLACK RIGHTWARDS ARROW",
+    "score": 84966315
+  },
+  {
+    "char": "😇",
+    "id": "1F607",
+    "name": "SMILING FACE WITH HALO",
+    "score": 84762550
+  },
+  {
+    "char": "👊",
+    "id": "1F44A",
+    "name": "FISTED HAND SIGN",
+    "score": 84323117
+  },
+  {
+    "char": "👑",
+    "id": "1F451",
+    "name": "CROWN",
+    "score": 83675621
+  },
+  {
+    "char": "😓",
+    "id": "1F613",
+    "name": "FACE WITH COLD SWEAT",
+    "score": 83546734
+  },
+  {
+    "char": "😻",
+    "id": "1F63B",
+    "name": "SMILING CAT FACE WITH HEART-SHAPED EYES",
+    "score": 81418146
+  },
+  {
+    "char": "🔴",
+    "id": "1F534",
+    "name": "LARGE RED CIRCLE",
+    "score": 80490913
+  },
+  {
+    "char": "😥",
+    "id": "1F625",
+    "name": "DISAPPOINTED BUT RELIEVED FACE",
+    "score": 78019042
+  },
+  {
+    "char": "😛",
+    "id": "1F61B",
+    "name": "FACE WITH STUCK-OUT TONGUE",
+    "score": 70900348
+  },
+  {
+    "char": "😚",
+    "id": "1F61A",
+    "name": "KISSING FACE WITH CLOSED EYES",
+    "score": 68940275
+  },
+  {
+    "char": "⚡️",
+    "id": "26A1",
+    "name": "HIGH VOLTAGE SIGN",
+    "score": 68149160
+  },
+  {
+    "char": "😷",
+    "id": "1F637",
+    "name": "FACE WITH MEDICAL MASK",
+    "score": 67418808
+  },
+  {
+    "char": "👋",
+    "id": "1F44B",
+    "name": "WAVING HAND SIGN",
+    "score": 67367150
+  },
+  {
+    "char": "💥",
+    "id": "1F4A5",
+    "name": "COLLISION SYMBOL",
+    "score": 67185995
+  },
+  {
+    "char": "⭐️",
+    "id": "2B50",
+    "name": "WHITE MEDIUM STAR",
+    "score": 60577680
+  },
+  {
+    "char": "😠",
+    "id": "1F620",
+    "name": "ANGRY FACE",
+    "score": 58103849
+  },
+  {
+    "char": "😶",
+    "id": "1F636",
+    "name": "FACE WITHOUT MOUTH",
+    "score": 57493608
+  },
+  {
+    "char": "😖",
+    "id": "1F616",
+    "name": "CONFOUNDED FACE",
+    "score": 57227140
+  },
+  {
+    "char": "💰",
+    "id": "1F4B0",
+    "name": "MONEY BAG",
+    "score": 57134817
+  },
+  {
+    "char": "🎧",
+    "id": "1F3A7",
+    "name": "HEADPHONE",
+    "score": 55245949
+  },
+  {
+    "char": "🌟",
+    "id": "1F31F",
+    "name": "GLOWING STAR",
+    "score": 54864635
+  },
+  {
+    "char": "‼️",
+    "id": "203C",
+    "name": "DOUBLE EXCLAMATION MARK",
+    "score": 51153301
+  },
+  {
+    "char": "🎵",
+    "id": "1F3B5",
+    "name": "MUSICAL NOTE",
+    "score": 51089587
+  },
+  {
+    "char": "💫",
+    "id": "1F4AB",
+    "name": "DIZZY SYMBOL",
+    "score": 50326983
+  },
+  {
+    "char": "💃",
+    "id": "1F483",
+    "name": "DANCER",
+    "score": 47883029
+  },
+  {
+    "char": "🙋",
+    "id": "1F64B",
+    "name": "HAPPY PERSON RAISING ONE HAND",
+    "score": 46993504
+  },
+  {
+    "char": "🌺",
+    "id": "1F33A",
+    "name": "HIBISCUS",
+    "score": 46438293
+  },
+  {
+    "char": "👎",
+    "id": "1F44E",
+    "name": "THUMBS DOWN SIGN",
+    "score": 44359615
+  },
+  {
+    "char": "⚽️",
+    "id": "26BD",
+    "name": "SOCCER BALL",
+    "score": 43691012
+  },
+  {
+    "char": "✊",
+    "id": "270A",
+    "name": "RAISED FIST",
+    "score": 43314467
+  },
+  {
+    "char": "1️⃣",
+    "id": "0031-20E3",
+    "name": "KEYCAP 1",
+    "score": 42945701
+  },
+  {
+    "char": "😹",
+    "id": "1F639",
+    "name": "CAT FACE WITH TEARS OF JOY",
+    "score": 42885238
+  },
+  {
+    "char": "💦",
+    "id": "1F4A6",
+    "name": "SPLASHING SWEAT SYMBOL",
+    "score": 42642894
+  },
+  {
+    "char": "💩",
+    "id": "1F4A9",
+    "name": "PILE OF POO",
+    "score": 42010120
+  },
+  {
+    "char": "😰",
+    "id": "1F630",
+    "name": "FACE WITH OPEN MOUTH AND COLD SWEAT",
+    "score": 41894479
+  },
+  {
+    "char": "✈️",
+    "id": "2708",
+    "name": "AIRPLANE",
+    "score": 41516930
+  },
+  {
+    "char": "👅",
+    "id": "1F445",
+    "name": "TONGUE",
+    "score": 41326429
+  },
+  {
+    "char": "2️⃣",
+    "id": "0032-20E3",
+    "name": "KEYCAP 2",
+    "score": 41179988
+  },
+  {
+    "char": "🌞",
+    "id": "1F31E",
+    "name": "SUN WITH FACE",
+    "score": 40462960
+  },
+  {
+    "char": "🔫",
+    "id": "1F52B",
+    "name": "PISTOL",
+    "score": 38542278
+  },
+  {
+    "char": "©",
+    "id": "00A9",
+    "name": "COPYRIGHT SIGN",
+    "score": 38283956
+  },
+  {
+    "char": "🍃",
+    "id": "1F343",
+    "name": "LEAF FLUTTERING IN WIND",
+    "score": 37981823
+  },
+  {
+    "char": "💭",
+    "id": "1F4AD",
+    "name": "THOUGHT BALLOON",
+    "score": 37620561
+  },
+  {
+    "char": "💎",
+    "id": "1F48E",
+    "name": "GEM STONE",
+    "score": 37099911
+  },
+  {
+    "char": "↪️",
+    "id": "21AA",
+    "name": "RIGHTWARDS ARROW WITH HOOK",
+    "score": 35643087
+  },
+  {
+    "char": "❌",
+    "id": "274C",
+    "name": "CROSS MARK",
+    "score": 34953631
+  },
+  {
+    "char": "🍀",
+    "id": "1F340",
+    "name": "FOUR LEAF CLOVER",
+    "score": 34878714
+  },
+  {
+    "char": "🎈",
+    "id": "1F388",
+    "name": "BALLOON",
+    "score": 34760806
+  },
+  {
+    "char": "👻",
+    "id": "1F47B",
+    "name": "GHOST",
+    "score": 33374809
+  },
+  {
+    "char": "❗️",
+    "id": "2757",
+    "name": "HEAVY EXCLAMATION MARK SYMBOL",
+    "score": 33069378
+  },
+  {
+    "char": "😟",
+    "id": "1F61F",
+    "name": "WORRIED FACE",
+    "score": 32747017
+  },
+  {
+    "char": "◀️",
+    "id": "25C0",
+    "name": "BLACK LEFT-POINTING TRIANGLE",
+    "score": 32519911
+  },
+  {
+    "char": "☎️",
+    "id": "260E",
+    "name": "BLACK TELEPHONE",
+    "score": 32040376
+  },
+  {
+    "char": "↩️",
+    "id": "21A9",
+    "name": "LEFTWARDS ARROW WITH HOOK",
+    "score": 32010415
+  },
+  {
+    "char": "💤",
+    "id": "1F4A4",
+    "name": "SLEEPING SYMBOL",
+    "score": 31777883
+  },
+  {
+    "char": "🙆",
+    "id": "1F646",
+    "name": "FACE WITH OK GESTURE",
+    "score": 31656764
+  },
+  {
+    "char": "🌷",
+    "id": "1F337",
+    "name": "TULIP",
+    "score": 31656511
+  },
+  {
+    "char": "💐",
+    "id": "1F490",
+    "name": "BOUQUET",
+    "score": 31311801
+  },
+  {
+    "char": "🌈",
+    "id": "1F308",
+    "name": "RAINBOW",
+    "score": 30958173
+  },
+  {
+    "char": "🎤",
+    "id": "1F3A4",
+    "name": "MICROPHONE",
+    "score": 30760540
+  },
+  {
+    "char": "🙅",
+    "id": "1F645",
+    "name": "FACE WITH NO GOOD GESTURE",
+    "score": 30759810
+  },
+  {
+    "char": "🎊",
+    "id": "1F38A",
+    "name": "CONFETTI BALL",
+    "score": 30659142
+  },
+  {
+    "char": "😨",
+    "id": "1F628",
+    "name": "FEARFUL FACE",
+    "score": 30655519
+  },
+  {
+    "char": "☕️",
+    "id": "2615",
+    "name": "HOT BEVERAGE",
+    "score": 30379773
+  },
+  {
+    "char": "😮",
+    "id": "1F62E",
+    "name": "FACE WITH OPEN MOUTH",
+    "score": 30322301
+  },
+  {
+    "char": "🇺🇸",
+    "id": "1F1FA-1F1F8",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS US",
+    "score": 30149994
+  },
+  {
+    "char": "🎥",
+    "id": "1F3A5",
+    "name": "MOVIE CAMERA",
+    "score": 30084783
+  },
+  {
+    "char": "🔞",
+    "id": "1F51E",
+    "name": "NO ONE UNDER EIGHTEEN SYMBOL",
+    "score": 29713475
+  },
+  {
+    "char": "😙",
+    "id": "1F619",
+    "name": "KISSING FACE WITH SMILING EYES",
+    "score": 29527392
+  },
+  {
+    "char": "🎁",
+    "id": "1F381",
+    "name": "WRAPPED PRESENT",
+    "score": 29363715
+  },
+  {
+    "char": "🎀",
+    "id": "1F380",
+    "name": "RIBBON",
+    "score": 29267728
+  },
+  {
+    "char": "☝️",
+    "id": "261D",
+    "name": "WHITE UP POINTING INDEX",
+    "score": 29155441
+  },
+  {
+    "char": "🌙",
+    "id": "1F319",
+    "name": "CRESCENT MOON",
+    "score": 29073467
+  },
+  {
+    "char": "🍕",
+    "id": "1F355",
+    "name": "SLICE OF PIZZA",
+    "score": 28981325
+  },
+  {
+    "char": "🍻",
+    "id": "1F37B",
+    "name": "CLINKING BEER MUGS",
+    "score": 28885095
+  },
+  {
+    "char": "🌻",
+    "id": "1F33B",
+    "name": "SUNFLOWER",
+    "score": 28185432
+  },
+  {
+    "char": "☑️",
+    "id": "2611",
+    "name": "BALLOT BOX WITH CHECK",
+    "score": 28092267
+  },
+  {
+    "char": "❄️",
+    "id": "2744",
+    "name": "SNOWFLAKE",
+    "score": 27972308
+  },
+  {
+    "char": "🏆",
+    "id": "1F3C6",
+    "name": "TROPHY",
+    "score": 27956834
+  },
+  {
+    "char": "🎂",
+    "id": "1F382",
+    "name": "BIRTHDAY CAKE",
+    "score": 27844968
+  },
+  {
+    "char": "🎄",
+    "id": "1F384",
+    "name": "CHRISTMAS TREE",
+    "score": 27079243
+  },
+  {
+    "char": "☁️",
+    "id": "2601",
+    "name": "CLOUD",
+    "score": 26445886
+  },
+  {
+    "char": "😲",
+    "id": "1F632",
+    "name": "ASTONISHED FACE",
+    "score": 25575949
+  },
+  {
+    "char": "🌴",
+    "id": "1F334",
+    "name": "PALM TREE",
+    "score": 25422877
+  },
+  {
+    "char": "🚶",
+    "id": "1F6B6",
+    "name": "PEDESTRIAN",
+    "score": 25314406
+  },
+  {
+    "char": "💝",
+    "id": "1F49D",
+    "name": "HEART WITH RIBBON",
+    "score": 25163288
+  },
+  {
+    "char": "🐶",
+    "id": "1F436",
+    "name": "DOG FACE",
+    "score": 25091709
+  },
+  {
+    "char": "👐",
+    "id": "1F450",
+    "name": "OPEN HANDS SIGN",
+    "score": 24529493
+  },
+  {
+    "char": "🐳",
+    "id": "1F433",
+    "name": "SPOUTING WHALE",
+    "score": 24435975
+  },
+  {
+    "char": "🌿",
+    "id": "1F33F",
+    "name": "HERB",
+    "score": 24090259
+  },
+  {
+    "char": "💅",
+    "id": "1F485",
+    "name": "NAIL POLISH",
+    "score": 23979132
+  },
+  {
+    "char": "😧",
+    "id": "1F627",
+    "name": "ANGUISHED FACE",
+    "score": 23847048
+  },
+  {
+    "char": "👽",
+    "id": "1F47D",
+    "name": "EXTRATERRESTRIAL ALIEN",
+    "score": 23534652
+  },
+  {
+    "char": "💟",
+    "id": "1F49F",
+    "name": "HEART DECORATION",
+    "score": 23318675
+  },
+  {
+    "char": "🙇",
+    "id": "1F647",
+    "name": "PERSON BOWING DEEPLY",
+    "score": 23129299
+  },
+  {
+    "char": "🐧",
+    "id": "1F427",
+    "name": "PENGUIN",
+    "score": 22981928
+  },
+  {
+    "char": "😯",
+    "id": "1F62F",
+    "name": "HUSHED FACE",
+    "score": 22796958
+  },
+  {
+    "char": "⚠️",
+    "id": "26A0",
+    "name": "WARNING SIGN",
+    "score": 22095023
+  },
+  {
+    "char": "🚀",
+    "id": "1F680",
+    "name": "ROCKET",
+    "score": 21996623
+  },
+  {
+    "char": "😵",
+    "id": "1F635",
+    "name": "DIZZY FACE",
+    "score": 21735115
+  },
+  {
+    "char": "💸",
+    "id": "1F4B8",
+    "name": "MONEY WITH WINGS",
+    "score": 21493712
+  },
+  {
+    "char": "🌎",
+    "id": "1F30E",
+    "name": "EARTH GLOBE AMERICAS",
+    "score": 21439912
+  },
+  {
+    "char": "🍂",
+    "id": "1F342",
+    "name": "FALLEN LEAF",
+    "score": 21344011
+  },
+  {
+    "char": "🌼",
+    "id": "1F33C",
+    "name": "BLOSSOM",
+    "score": 21263558
+  },
+  {
+    "char": "👼",
+    "id": "1F47C",
+    "name": "BABY ANGEL",
+    "score": 20386737
+  },
+  {
+    "char": "♣️",
+    "id": "2663",
+    "name": "BLACK CLUB SUIT",
+    "score": 20218010
+  },
+  {
+    "char": "🏃",
+    "id": "1F3C3",
+    "name": "RUNNER",
+    "score": 20209291
+  },
+  {
+    "char": "🌍",
+    "id": "1F30D",
+    "name": "EARTH GLOBE EUROPE-AFRICA",
+    "score": 20169092
+  },
+  {
+    "char": "🌝",
+    "id": "1F31D",
+    "name": "FULL MOON WITH FACE",
+    "score": 20040045
+  },
+  {
+    "char": "🏀",
+    "id": "1F3C0",
+    "name": "BASKETBALL AND HOOP",
+    "score": 19780266
+  },
+  {
+    "char": "🍁",
+    "id": "1F341",
+    "name": "MAPLE LEAF",
+    "score": 19775442
+  },
+  {
+    "char": "♨️",
+    "id": "2668",
+    "name": "HOT SPRINGS",
+    "score": 19629670
+  },
+  {
+    "char": "🐱",
+    "id": "1F431",
+    "name": "CAT FACE",
+    "score": 19426462
+  },
+  {
+    "char": "🚨",
+    "id": "1F6A8",
+    "name": "POLICE CARS REVOLVING LIGHT",
+    "score": 19282276
+  },
+  {
+    "char": "📹",
+    "id": "1F4F9",
+    "name": "VIDEO CAMERA",
+    "score": 19102021
+  },
+  {
+    "char": "👯",
+    "id": "1F46F",
+    "name": "WOMAN WITH BUNNY EARS",
+    "score": 19063214
+  },
+  {
+    "char": "💌",
+    "id": "1F48C",
+    "name": "LOVE LETTER",
+    "score": 18608797
+  },
+  {
+    "char": "👆",
+    "id": "1F446",
+    "name": "WHITE UP POINTING BACKHAND INDEX",
+    "score": 18470398
+  },
+  {
+    "char": "😿",
+    "id": "1F63F",
+    "name": "CRYING CAT FACE",
+    "score": 18303324
+  },
+  {
+    "char": "⬇️",
+    "id": "2B07",
+    "name": "DOWNWARDS BLACK ARROW",
+    "score": 18050291
+  },
+  {
+    "char": "🌊",
+    "id": "1F30A",
+    "name": "WATER WAVE",
+    "score": 17635446
+  },
+  {
+    "char": "💨",
+    "id": "1F4A8",
+    "name": "DASH SYMBOL",
+    "score": 17594911
+  },
+  {
+    "char": "📲",
+    "id": "1F4F2",
+    "name": "MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT",
+    "score": 17522906
+  },
+  {
+    "char": "📢",
+    "id": "1F4E2",
+    "name": "PUBLIC ADDRESS LOUDSPEAKER",
+    "score": 17475586
+  },
+  {
+    "char": "🎼",
+    "id": "1F3BC",
+    "name": "MUSICAL SCORE",
+    "score": 17253737
+  },
+  {
+    "char": "📌",
+    "id": "1F4CC",
+    "name": "PUSHPIN",
+    "score": 16905754
+  },
+  {
+    "char": "💍",
+    "id": "1F48D",
+    "name": "RING",
+    "score": 16897292
+  },
+  {
+    "char": "✖️",
+    "id": "2716",
+    "name": "HEAVY MULTIPLICATION X",
+    "score": 16867230
+  },
+  {
+    "char": "📞",
+    "id": "1F4DE",
+    "name": "TELEPHONE RECEIVER",
+    "score": 16799510
+  },
+  {
+    "char": "🌵",
+    "id": "1F335",
+    "name": "CACTUS",
+    "score": 16605095
+  },
+  {
+    "char": "🍑",
+    "id": "1F351",
+    "name": "PEACH",
+    "score": 16519762
+  },
+  {
+    "char": "📺",
+    "id": "1F4FA",
+    "name": "TELEVISION",
+    "score": 16277704
+  },
+  {
+    "char": "😗",
+    "id": "1F617",
+    "name": "KISSING FACE",
+    "score": 16032491
+  },
+  {
+    "char": "💣",
+    "id": "1F4A3",
+    "name": "BOMB",
+    "score": 15999310
+  },
+  {
+    "char": "👫",
+    "id": "1F46B",
+    "name": "MAN AND WOMAN HOLDING HANDS",
+    "score": 15856374
+  },
+  {
+    "char": "📍",
+    "id": "1F4CD",
+    "name": "ROUND PUSHPIN",
+    "score": 15842792
+  },
+  {
+    "char": "⚓️",
+    "id": "2693",
+    "name": "ANCHOR",
+    "score": 15720742
+  },
+  {
+    "char": "📱",
+    "id": "1F4F1",
+    "name": "MOBILE PHONE",
+    "score": 15537616
+  },
+  {
+    "char": "🔊",
+    "id": "1F50A",
+    "name": "SPEAKER WITH THREE SOUND WAVES",
+    "score": 15328250
+  },
+  {
+    "char": "👄",
+    "id": "1F444",
+    "name": "MOUTH",
+    "score": 15091439
+  },
+  {
+    "char": "🎯",
+    "id": "1F3AF",
+    "name": "DIRECT HIT",
+    "score": 15068092
+  },
+  {
+    "char": "🐐",
+    "id": "1F410",
+    "name": "GOAT",
+    "score": 14934855
+  },
+  {
+    "char": "🐰",
+    "id": "1F430",
+    "name": "RABBIT FACE",
+    "score": 14739438
+  },
+  {
+    "char": "🎬",
+    "id": "1F3AC",
+    "name": "CLAPPER BOARD",
+    "score": 14695720
+  },
+  {
+    "char": "⏩",
+    "id": "23E9",
+    "name": "BLACK RIGHT-POINTING DOUBLE TRIANGLE",
+    "score": 14534525
+  },
+  {
+    "char": "🐷",
+    "id": "1F437",
+    "name": "PIG FACE",
+    "score": 14520703
+  },
+  {
+    "char": "♠️",
+    "id": "2660",
+    "name": "BLACK SPADE SUIT",
+    "score": 14482860
+  },
+  {
+    "char": "🔵",
+    "id": "1F535",
+    "name": "LARGE BLUE CIRCLE",
+    "score": 14426833
+  },
+  {
+    "char": "🔝",
+    "id": "1F51D",
+    "name": "TOP WITH UPWARDS ARROW ABOVE",
+    "score": 14332086
+  },
+  {
+    "char": "😦",
+    "id": "1F626",
+    "name": "FROWNING FACE WITH OPEN MOUTH",
+    "score": 14245721
+  },
+  {
+    "char": "💏",
+    "id": "1F48F",
+    "name": "KISS",
+    "score": 14182835
+  },
+  {
+    "char": "🙉",
+    "id": "1F649",
+    "name": "HEAR-NO-EVIL MONKEY",
+    "score": 13775187
+  },
+  {
+    "char": "👸",
+    "id": "1F478",
+    "name": "PRINCESS",
+    "score": 13600448
+  },
+  {
+    "char": "🔪",
+    "id": "1F52A",
+    "name": "HOCHO",
+    "score": 13394682
+  },
+  {
+    "char": "📣",
+    "id": "1F4E3",
+    "name": "CHEERING MEGAPHONE",
+    "score": 13394119
+  },
+  {
+    "char": "☔️",
+    "id": "2614",
+    "name": "UMBRELLA WITH RAIN DROPS",
+    "score": 13386556
+  },
+  {
+    "char": "👿",
+    "id": "1F47F",
+    "name": "IMP",
+    "score": 13323804
+  },
+  {
+    "char": "⏰",
+    "id": "23F0",
+    "name": "ALARM CLOCK",
+    "score": 13314769
+  },
+  {
+    "char": "👭",
+    "id": "1F46D",
+    "name": "TWO WOMEN HOLDING HANDS",
+    "score": 13284330
+  },
+  {
+    "char": "🍒",
+    "id": "1F352",
+    "name": "CHERRIES",
+    "score": 13248564
+  },
+  {
+    "char": "🍓",
+    "id": "1F353",
+    "name": "STRAWBERRY",
+    "score": 13122871
+  },
+  {
+    "char": "🐝",
+    "id": "1F41D",
+    "name": "HONEYBEE",
+    "score": 13039071
+  },
+  {
+    "char": "😼",
+    "id": "1F63C",
+    "name": "CAT FACE WITH WRY SMILE",
+    "score": 12803532
+  },
+  {
+    "char": "💆",
+    "id": "1F486",
+    "name": "FACE MASSAGE",
+    "score": 12499399
+  },
+  {
+    "char": "😽",
+    "id": "1F63D",
+    "name": "KISSING CAT FACE WITH CLOSED EYES",
+    "score": 12489124
+  },
+  {
+    "char": "🍆",
+    "id": "1F346",
+    "name": "AUBERGINE",
+    "score": 12451718
+  },
+  {
+    "char": "🍺",
+    "id": "1F37A",
+    "name": "BEER MUG",
+    "score": 12316214
+  },
+  {
+    "char": "⭕️",
+    "id": "2B55",
+    "name": "HEAVY LARGE CIRCLE",
+    "score": 12219046
+  },
+  {
+    "char": "🏈",
+    "id": "1F3C8",
+    "name": "AMERICAN FOOTBALL",
+    "score": 12187777
+  },
+  {
+    "char": "🍷",
+    "id": "1F377",
+    "name": "WINE GLASS",
+    "score": 12147833
+  },
+  {
+    "char": "🍭",
+    "id": "1F36D",
+    "name": "LOLLIPOP",
+    "score": 12137700
+  },
+  {
+    "char": "🔸",
+    "id": "1F538",
+    "name": "SMALL ORANGE DIAMOND",
+    "score": 12056743
+  },
+  {
+    "char": "😸",
+    "id": "1F638",
+    "name": "GRINNING CAT FACE WITH SMILING EYES",
+    "score": 11939501
+  },
+  {
+    "char": "🌱",
+    "id": "1F331",
+    "name": "SEEDLING",
+    "score": 11871543
+  },
+  {
+    "char": "💢",
+    "id": "1F4A2",
+    "name": "ANGER SYMBOL",
+    "score": 11769346
+  },
+  {
+    "char": "🌏",
+    "id": "1F30F",
+    "name": "EARTH GLOBE ASIA-AUSTRALIA",
+    "score": 11714544
+  },
+  {
+    "char": "🌀",
+    "id": "1F300",
+    "name": "CYCLONE",
+    "score": 11662730
+  },
+  {
+    "char": "🐍",
+    "id": "1F40D",
+    "name": "SNAKE",
+    "score": 11647806
+  },
+  {
+    "char": "🎅",
+    "id": "1F385",
+    "name": "FATHER CHRISTMAS",
+    "score": 11600607
+  },
+  {
+    "char": "💑",
+    "id": "1F491",
+    "name": "COUPLE WITH HEART",
+    "score": 11390007
+  },
+  {
+    "char": "🐾",
+    "id": "1F43E",
+    "name": "PAW PRINTS",
+    "score": 11358799
+  },
+  {
+    "char": "♦️",
+    "id": "2666",
+    "name": "BLACK DIAMOND SUIT",
+    "score": 11252681
+  },
+  {
+    "char": "📝",
+    "id": "1F4DD",
+    "name": "MEMO",
+    "score": 11128994
+  },
+  {
+    "char": "🍩",
+    "id": "1F369",
+    "name": "DOUGHNUT",
+    "score": 11058045
+  },
+  {
+    "char": "🎃",
+    "id": "1F383",
+    "name": "JACK-O-LANTERN",
+    "score": 10943243
+  },
+  {
+    "char": "🎸",
+    "id": "1F3B8",
+    "name": "GUITAR",
+    "score": 10925718
+  },
+  {
+    "char": "🐸",
+    "id": "1F438",
+    "name": "FROG FACE",
+    "score": 10880176
+  },
+  {
+    "char": "👩",
+    "id": "1F469",
+    "name": "WOMAN",
+    "score": 10869853
+  },
+  {
+    "char": "🙀",
+    "id": "1F640",
+    "name": "WEARY CAT FACE",
+    "score": 10822807
+  },
+  {
+    "char": "🐻",
+    "id": "1F43B",
+    "name": "BEAR FACE",
+    "score": 10798153
+  },
+  {
+    "char": "🐼",
+    "id": "1F43C",
+    "name": "PANDA FACE",
+    "score": 10783448
+  },
+  {
+    "char": "💬",
+    "id": "1F4AC",
+    "name": "SPEECH BALLOON",
+    "score": 10693348
+  },
+  {
+    "char": "📚",
+    "id": "1F4DA",
+    "name": "BOOKS",
+    "score": 10691380
+  },
+  {
+    "char": "🍉",
+    "id": "1F349",
+    "name": "WATERMELON",
+    "score": 10589667
+  },
+  {
+    "char": "🇫🇷",
+    "id": "1F1EB-1F1F7",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS FR",
+    "score": 10406913
+  },
+  {
+    "char": "😺",
+    "id": "1F63A",
+    "name": "SMILING CAT FACE WITH OPEN MOUTH",
+    "score": 10345622
+  },
+  {
+    "char": "🍌",
+    "id": "1F34C",
+    "name": "BANANA",
+    "score": 10328394
+  },
+  {
+    "char": "🎮",
+    "id": "1F3AE",
+    "name": "VIDEO GAME",
+    "score": 10298589
+  },
+  {
+    "char": "🔹",
+    "id": "1F539",
+    "name": "SMALL BLUE DIAMOND",
+    "score": 10278236
+  },
+  {
+    "char": "👶",
+    "id": "1F476",
+    "name": "BABY",
+    "score": 10246264
+  },
+  {
+    "char": "💡",
+    "id": "1F4A1",
+    "name": "ELECTRIC LIGHT BULB",
+    "score": 10229704
+  },
+  {
+    "char": "🍟",
+    "id": "1F35F",
+    "name": "FRENCH FRIES",
+    "score": 10223317
+  },
+  {
+    "char": "🙍",
+    "id": "1F64D",
+    "name": "PERSON FROWNING",
+    "score": 10133946
+  },
+  {
+    "char": "🚮",
+    "id": "1F6AE",
+    "name": "PUT LITTER IN ITS PLACE SYMBOL",
+    "score": 9985812
+  },
+  {
+    "char": "▪️",
+    "id": "25AA",
+    "name": "BLACK SMALL SQUARE",
+    "score": 9863657
+  },
+  {
+    "char": "🚗",
+    "id": "1F697",
+    "name": "AUTOMOBILE",
+    "score": 9846176
+  },
+  {
+    "char": "🚬",
+    "id": "1F6AC",
+    "name": "SMOKING SYMBOL",
+    "score": 9654168
+  },
+  {
+    "char": "✏️",
+    "id": "270F",
+    "name": "PENCIL",
+    "score": 9519601
+  },
+  {
+    "char": "🐣",
+    "id": "1F423",
+    "name": "HATCHING CHICK",
+    "score": 9471191
+  },
+  {
+    "char": "🐯",
+    "id": "1F42F",
+    "name": "TIGER FACE",
+    "score": 9458380
+  },
+  {
+    "char": "👨",
+    "id": "1F468",
+    "name": "MAN",
+    "score": 9417681
+  },
+  {
+    "char": "🔮",
+    "id": "1F52E",
+    "name": "CRYSTAL BALL",
+    "score": 9412934
+  },
+  {
+    "char": "🆗",
+    "id": "1F197",
+    "name": "SQUARED OK",
+    "score": 9382726
+  },
+  {
+    "char": "™",
+    "id": "2122",
+    "name": "TRADE MARK SIGN",
+    "score": 9352998
+  },
+  {
+    "char": "🌾",
+    "id": "1F33E",
+    "name": "EAR OF RICE",
+    "score": 9226201
+  },
+  {
+    "char": "💻",
+    "id": "1F4BB",
+    "name": "PERSONAL COMPUTER",
+    "score": 9113528
+  },
+  {
+    "char": "🚫",
+    "id": "1F6AB",
+    "name": "NO ENTRY SIGN",
+    "score": 9071563
+  },
+  {
+    "char": "🏡",
+    "id": "1F3E1",
+    "name": "HOUSE WITH GARDEN",
+    "score": 9023024
+  },
+  {
+    "char": "⛄️",
+    "id": "26C4",
+    "name": "SNOWMAN WITHOUT SNOW",
+    "score": 8999671
+  },
+  {
+    "char": "👣",
+    "id": "1F463",
+    "name": "FOOTPRINTS",
+    "score": 8973304
+  },
+  {
+    "char": "🔗",
+    "id": "1F517",
+    "name": "LINK SYMBOL",
+    "score": 8967368
+  },
+  {
+    "char": "⛅️",
+    "id": "26C5",
+    "name": "SUN BEHIND CLOUD",
+    "score": 8944459
+  },
+  {
+    "char": "🐥",
+    "id": "1F425",
+    "name": "FRONT-FACING BABY CHICK",
+    "score": 8931626
+  },
+  {
+    "char": "📻",
+    "id": "1F4FB",
+    "name": "RADIO",
+    "score": 8910921
+  },
+  {
+    "char": "🔔",
+    "id": "1F514",
+    "name": "BELL",
+    "score": 8875616
+  },
+  {
+    "char": "🚖",
+    "id": "1F696",
+    "name": "ONCOMING TAXI",
+    "score": 8866574
+  },
+  {
+    "char": "🍫",
+    "id": "1F36B",
+    "name": "CHOCOLATE BAR",
+    "score": 8845087
+  },
+  {
+    "char": "🇬🇧",
+    "id": "1F1EC-1F1E7",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS GB",
+    "score": 8801465
+  },
+  {
+    "char": "🍹",
+    "id": "1F379",
+    "name": "TROPICAL DRINK",
+    "score": 8714691
+  },
+  {
+    "char": "💧",
+    "id": "1F4A7",
+    "name": "DROPLET",
+    "score": 8645030
+  },
+  {
+    "char": "🍴",
+    "id": "1F374",
+    "name": "FORK AND KNIFE",
+    "score": 8619581
+  },
+  {
+    "char": "🌌",
+    "id": "1F30C",
+    "name": "MILKY WAY",
+    "score": 8605154
+  },
+  {
+    "char": "®",
+    "id": "00AE",
+    "name": "REGISTERED SIGN",
+    "score": 8566495
+  },
+  {
+    "char": "↔️",
+    "id": "2194",
+    "name": "LEFT RIGHT ARROW",
+    "score": 8531482
+  },
+  {
+    "char": "🐢",
+    "id": "1F422",
+    "name": "TURTLE",
+    "score": 8430216
+  },
+  {
+    "char": "💉",
+    "id": "1F489",
+    "name": "SYRINGE",
+    "score": 8318971
+  },
+  {
+    "char": "⤵️",
+    "id": "2935",
+    "name": "ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS",
+    "score": 8249180
+  },
+  {
+    "char": "🍰",
+    "id": "1F370",
+    "name": "SHORTCAKE",
+    "score": 8241777
+  },
+  {
+    "char": "🍔",
+    "id": "1F354",
+    "name": "HAMBURGER",
+    "score": 8146029
+  },
+  {
+    "char": "🍬",
+    "id": "1F36C",
+    "name": "CANDY",
+    "score": 8104195
+  },
+  {
+    "char": "🏠",
+    "id": "1F3E0",
+    "name": "HOUSE BUILDING",
+    "score": 8054443
+  },
+  {
+    "char": "👹",
+    "id": "1F479",
+    "name": "JAPANESE OGRE",
+    "score": 7999488
+  },
+  {
+    "char": "❓",
+    "id": "2753",
+    "name": "BLACK QUESTION MARK ORNAMENT",
+    "score": 7942172
+  },
+  {
+    "char": "3️⃣",
+    "id": "0033-20E3",
+    "name": "KEYCAP 3",
+    "score": 7933966
+  },
+  {
+    "char": "💵",
+    "id": "1F4B5",
+    "name": "BANKNOTE WITH DOLLAR SIGN",
+    "score": 7915322
+  },
+  {
+    "char": "👾",
+    "id": "1F47E",
+    "name": "ALIEN MONSTER",
+    "score": 7785645
+  },
+  {
+    "char": "🍎",
+    "id": "1F34E",
+    "name": "RED APPLE",
+    "score": 7785152
+  },
+  {
+    "char": "⚾️",
+    "id": "26BE",
+    "name": "BASEBALL",
+    "score": 7752849
+  },
+  {
+    "char": "💄",
+    "id": "1F484",
+    "name": "LIPSTICK",
+    "score": 7717101
+  },
+  {
+    "char": "🍦",
+    "id": "1F366",
+    "name": "SOFT ICE CREAM",
+    "score": 7717053
+  },
+  {
+    "char": "🍇",
+    "id": "1F347",
+    "name": "GRAPES",
+    "score": 7657450
+  },
+  {
+    "char": "🐒",
+    "id": "1F412",
+    "name": "MONKEY",
+    "score": 7656515
+  },
+  {
+    "char": "✂️",
+    "id": "2702",
+    "name": "BLACK SCISSORS",
+    "score": 7648993
+  },
+  {
+    "char": "👠",
+    "id": "1F460",
+    "name": "HIGH-HEELED SHOE",
+    "score": 7566006
+  },
+  {
+    "char": "🇮🇹",
+    "id": "1F1EE-1F1F9",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS IT",
+    "score": 7543375
+  },
+  {
+    "char": "⚪️",
+    "id": "26AA",
+    "name": "MEDIUM WHITE CIRCLE",
+    "score": 7511886
+  },
+  {
+    "char": "🍪",
+    "id": "1F36A",
+    "name": "COOKIE",
+    "score": 7450295
+  },
+  {
+    "char": "🇪🇸",
+    "id": "1F1EA-1F1F8",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS ES",
+    "score": 7440042
+  },
+  {
+    "char": "👧",
+    "id": "1F467",
+    "name": "GIRL",
+    "score": 7413600
+  },
+  {
+    "char": "🍸",
+    "id": "1F378",
+    "name": "COCKTAIL GLASS",
+    "score": 7352684
+  },
+  {
+    "char": "🍊",
+    "id": "1F34A",
+    "name": "TANGERINE",
+    "score": 7330441
+  },
+  {
+    "char": "🐙",
+    "id": "1F419",
+    "name": "OCTOPUS",
+    "score": 7247497
+  },
+  {
+    "char": "🍍",
+    "id": "1F34D",
+    "name": "PINEAPPLE",
+    "score": 7212306
+  },
+  {
+    "char": "💊",
+    "id": "1F48A",
+    "name": "PILL",
+    "score": 7177328
+  },
+  {
+    "char": "🆒",
+    "id": "1F192",
+    "name": "SQUARED COOL",
+    "score": 7149542
+  },
+  {
+    "char": "🛃",
+    "id": "1F6C3",
+    "name": "CUSTOMS",
+    "score": 7107869
+  },
+  {
+    "char": "😾",
+    "id": "1F63E",
+    "name": "POUTING CAT FACE",
+    "score": 7048581
+  },
+  {
+    "char": "⚫️",
+    "id": "26AB",
+    "name": "MEDIUM BLACK CIRCLE",
+    "score": 7034902
+  },
+  {
+    "char": "📖",
+    "id": "1F4D6",
+    "name": "OPEN BOOK",
+    "score": 6985584
+  },
+  {
+    "char": "🌠",
+    "id": "1F320",
+    "name": "SHOOTING STAR",
+    "score": 6904141
+  },
+  {
+    "char": "🎓",
+    "id": "1F393",
+    "name": "GRADUATION CAP",
+    "score": 6820160
+  },
+  {
+    "char": "🔑",
+    "id": "1F511",
+    "name": "KEY",
+    "score": 6748897
+  },
+  {
+    "char": "🐬",
+    "id": "1F42C",
+    "name": "DOLPHIN",
+    "score": 6590707
+  },
+  {
+    "char": "🔷",
+    "id": "1F537",
+    "name": "LARGE BLUE DIAMOND",
+    "score": 6557359
+  },
+  {
+    "char": "🆘",
+    "id": "1F198",
+    "name": "SQUARED SOS",
+    "score": 6501676
+  },
+  {
+    "char": "👙",
+    "id": "1F459",
+    "name": "BIKINI",
+    "score": 6465686
+  },
+  {
+    "char": "🐦",
+    "id": "1F426",
+    "name": "BIRD",
+    "score": 6364395
+  },
+  {
+    "char": "🎆",
+    "id": "1F386",
+    "name": "FIREWORKS",
+    "score": 6287236
+  },
+  {
+    "char": "🗿",
+    "id": "1F5FF",
+    "name": "MOYAI",
+    "score": 6274279
+  },
+  {
+    "char": "🔃",
+    "id": "1F503",
+    "name": "CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
+    "score": 6230280
+  },
+  {
+    "char": "🎨",
+    "id": "1F3A8",
+    "name": "ARTIST PALETTE",
+    "score": 6203761
+  },
+  {
+    "char": "🍄",
+    "id": "1F344",
+    "name": "MUSHROOM",
+    "score": 6126387
+  },
+  {
+    "char": "💿",
+    "id": "1F4BF",
+    "name": "OPTICAL DISC",
+    "score": 6106420
+  },
+  {
+    "char": "🏁",
+    "id": "1F3C1",
+    "name": "CHEQUERED FLAG",
+    "score": 6089620
+  },
+  {
+    "char": "📕",
+    "id": "1F4D5",
+    "name": "CLOSED BOOK",
+    "score": 6083574
+  },
+  {
+    "char": "🆓",
+    "id": "1F193",
+    "name": "SQUARED FREE",
+    "score": 6040015
+  },
+  {
+    "char": "🔁",
+    "id": "1F501",
+    "name": "CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS",
+    "score": 5997549
+  },
+  {
+    "char": "↘️",
+    "id": "2198",
+    "name": "SOUTH EAST ARROW",
+    "score": 5982679
+  },
+  {
+    "char": "🚩",
+    "id": "1F6A9",
+    "name": "TRIANGULAR FLAG ON POST",
+    "score": 5864261
+  },
+  {
+    "char": "👦",
+    "id": "1F466",
+    "name": "BOY",
+    "score": 5838545
+  },
+  {
+    "char": "⁉️",
+    "id": "2049",
+    "name": "EXCLAMATION QUESTION MARK",
+    "score": 5764656
+  },
+  {
+    "char": "🔶",
+    "id": "1F536",
+    "name": "LARGE ORANGE DIAMOND",
+    "score": 5741091
+  },
+  {
+    "char": "🎭",
+    "id": "1F3AD",
+    "name": "PERFORMING ARTS",
+    "score": 5699915
+  },
+  {
+    "char": "↗️",
+    "id": "2197",
+    "name": "NORTH EAST ARROW",
+    "score": 5648698
+  },
+  {
+    "char": "⬆️",
+    "id": "2B06",
+    "name": "UPWARDS BLACK ARROW",
+    "score": 5645940
+  },
+  {
+    "char": "🏨",
+    "id": "1F3E8",
+    "name": "HOTEL",
+    "score": 5644477
+  },
+  {
+    "char": "🔻",
+    "id": "1F53B",
+    "name": "DOWN-POINTING RED TRIANGLE",
+    "score": 5643776
+  },
+  {
+    "char": "🌅",
+    "id": "1F305",
+    "name": "SUNRISE",
+    "score": 5593328
+  },
+  {
+    "char": "🍋",
+    "id": "1F34B",
+    "name": "LEMON",
+    "score": 5584659
+  },
+  {
+    "char": "4️⃣",
+    "id": "0034-20E3",
+    "name": "KEYCAP 4",
+    "score": 5544193
+  },
+  {
+    "char": "🌲",
+    "id": "1F332",
+    "name": "EVERGREEN TREE",
+    "score": 5459371
+  },
+  {
+    "char": "👺",
+    "id": "1F47A",
+    "name": "JAPANESE GOBLIN",
+    "score": 5442890
+  },
+  {
+    "char": "🐘",
+    "id": "1F418",
+    "name": "ELEPHANT",
+    "score": 5435431
+  },
+  {
+    "char": "⌚️",
+    "id": "231A",
+    "name": "WATCH",
+    "score": 5420522
+  },
+  {
+    "char": "✉️",
+    "id": "2709",
+    "name": "ENVELOPE",
+    "score": 5388131
+  },
+  {
+    "char": "♋️",
+    "id": "264B",
+    "name": "CANCER",
+    "score": 5371412
+  },
+  {
+    "char": "🐟",
+    "id": "1F41F",
+    "name": "FISH",
+    "score": 5338856
+  },
+  {
+    "char": "⏬",
+    "id": "23EC",
+    "name": "BLACK DOWN-POINTING DOUBLE TRIANGLE",
+    "score": 5316807
+  },
+  {
+    "char": "🇩🇪",
+    "id": "1F1E9-1F1EA",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS DE",
+    "score": 5304816
+  },
+  {
+    "char": "📥",
+    "id": "1F4E5",
+    "name": "INBOX TRAY",
+    "score": 5302990
+  },
+  {
+    "char": "📩",
+    "id": "1F4E9",
+    "name": "ENVELOPE WITH DOWNWARDS ARROW ABOVE",
+    "score": 5299658
+  },
+  {
+    "char": "↕️",
+    "id": "2195",
+    "name": "UP DOWN ARROW",
+    "score": 5276023
+  },
+  {
+    "char": "🐺",
+    "id": "1F43A",
+    "name": "WOLF FACE",
+    "score": 5202114
+  },
+  {
+    "char": "🌃",
+    "id": "1F303",
+    "name": "NIGHT WITH STARS",
+    "score": 5153249
+  },
+  {
+    "char": "📈",
+    "id": "1F4C8",
+    "name": "CHART WITH UPWARDS TREND",
+    "score": 5116497
+  },
+  {
+    "char": "🍏",
+    "id": "1F34F",
+    "name": "GREEN APPLE",
+    "score": 5095361
+  },
+  {
+    "char": "🔙",
+    "id": "1F519",
+    "name": "BACK WITH LEFTWARDS ARROW ABOVE",
+    "score": 5051692
+  },
+  {
+    "char": "🆚",
+    "id": "1F19A",
+    "name": "SQUARED VS",
+    "score": 5016194
+  },
+  {
+    "char": "🔐",
+    "id": "1F510",
+    "name": "CLOSED LOCK WITH KEY",
+    "score": 5003667
+  },
+  {
+    "char": "🔜",
+    "id": "1F51C",
+    "name": "SOON WITH RIGHTWARDS ARROW ABOVE",
+    "score": 4988684
+  },
+  {
+    "char": "🆕",
+    "id": "1F195",
+    "name": "SQUARED NEW",
+    "score": 4986131
+  },
+  {
+    "char": "🚘",
+    "id": "1F698",
+    "name": "ONCOMING AUTOMOBILE",
+    "score": 4983567
+  },
+  {
+    "char": "📰",
+    "id": "1F4F0",
+    "name": "NEWSPAPER",
+    "score": 4964592
+  },
+  {
+    "char": "🏊",
+    "id": "1F3CA",
+    "name": "SWIMMER",
+    "score": 4961666
+  },
+  {
+    "char": "👗",
+    "id": "1F457",
+    "name": "DRESS",
+    "score": 4875948
+  },
+  {
+    "char": "✳️",
+    "id": "2733",
+    "name": "EIGHT SPOKED ASTERISK",
+    "score": 4844375
+  },
+  {
+    "char": "🌳",
+    "id": "1F333",
+    "name": "DECIDUOUS TREE",
+    "score": 4840603
+  },
+  {
+    "char": "🐕",
+    "id": "1F415",
+    "name": "DOG",
+    "score": 4819122
+  },
+  {
+    "char": "⛔️",
+    "id": "26D4",
+    "name": "NO ENTRY",
+    "score": 4750854
+  },
+  {
+    "char": "🍗",
+    "id": "1F357",
+    "name": "POULTRY LEG",
+    "score": 4727883
+  },
+  {
+    "char": "🚦",
+    "id": "1F6A6",
+    "name": "VERTICAL TRAFFIC LIGHT",
+    "score": 4712827
+  },
+  {
+    "char": "❕",
+    "id": "2755",
+    "name": "WHITE EXCLAMATION MARK ORNAMENT",
+    "score": 4697891
+  },
+  {
+    "char": "🎩",
+    "id": "1F3A9",
+    "name": "TOP HAT",
+    "score": 4697010
+  },
+  {
+    "char": "🍼",
+    "id": "1F37C",
+    "name": "BABY BOTTLE",
+    "score": 4682839
+  },
+  {
+    "char": "🎇",
+    "id": "1F387",
+    "name": "FIREWORK SPARKLER",
+    "score": 4630771
+  },
+  {
+    "char": "🐵",
+    "id": "1F435",
+    "name": "MONKEY FACE",
+    "score": 4616833
+  },
+  {
+    "char": "5️⃣",
+    "id": "0035-20E3",
+    "name": "KEYCAP 5",
+    "score": 4554900
+  },
+  {
+    "char": "🔄",
+    "id": "1F504",
+    "name": "ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS",
+    "score": 4540394
+  },
+  {
+    "char": "⏪",
+    "id": "23EA",
+    "name": "BLACK LEFT-POINTING DOUBLE TRIANGLE",
+    "score": 4511841
+  },
+  {
+    "char": "👪",
+    "id": "1F46A",
+    "name": "FAMILY",
+    "score": 4510275
+  },
+  {
+    "char": "🌽",
+    "id": "1F33D",
+    "name": "EAR OF MAIZE",
+    "score": 4504089
+  },
+  {
+    "char": "🔺",
+    "id": "1F53A",
+    "name": "UP-POINTING RED TRIANGLE",
+    "score": 4461128
+  },
+  {
+    "char": "🌆",
+    "id": "1F306",
+    "name": "CITYSCAPE AT DUSK",
+    "score": 4450087
+  },
+  {
+    "char": "👓",
+    "id": "1F453",
+    "name": "EYEGLASSES",
+    "score": 4424656
+  },
+  {
+    "char": "🎾",
+    "id": "1F3BE",
+    "name": "TENNIS RACQUET AND BALL",
+    "score": 4398889
+  },
+  {
+    "char": "👂",
+    "id": "1F442",
+    "name": "EAR",
+    "score": 4378395
+  },
+  {
+    "char": "🐈",
+    "id": "1F408",
+    "name": "CAT",
+    "score": 4370435
+  },
+  {
+    "char": "🌕",
+    "id": "1F315",
+    "name": "FULL MOON SYMBOL",
+    "score": 4359037
+  },
+  {
+    "char": "💂",
+    "id": "1F482",
+    "name": "GUARDSMAN",
+    "score": 4358143
+  },
+  {
+    "char": "🌐",
+    "id": "1F310",
+    "name": "GLOBE WITH MERIDIANS",
+    "score": 4327526
+  },
+  {
+    "char": "👟",
+    "id": "1F45F",
+    "name": "ATHLETIC SHOE",
+    "score": 4288663
+  },
+  {
+    "char": "🌛",
+    "id": "1F31B",
+    "name": "FIRST QUARTER MOON WITH FACE",
+    "score": 4284553
+  },
+  {
+    "char": "🐠",
+    "id": "1F420",
+    "name": "TROPICAL FISH",
+    "score": 4231838
+  },
+  {
+    "char": "📆",
+    "id": "1F4C6",
+    "name": "TEAR-OFF CALENDAR",
+    "score": 4204298
+  },
+  {
+    "char": "↙️",
+    "id": "2199",
+    "name": "SOUTH WEST ARROW",
+    "score": 4202375
+  },
+  {
+    "char": "💇",
+    "id": "1F487",
+    "name": "HAIRCUT",
+    "score": 4199006
+  },
+  {
+    "char": "🔘",
+    "id": "1F518",
+    "name": "RADIO BUTTON",
+    "score": 4149905
+  },
+  {
+    "char": "⛳️",
+    "id": "26F3",
+    "name": "FLAG IN HOLE",
+    "score": 4144681
+  },
+  {
+    "char": "🐽",
+    "id": "1F43D",
+    "name": "PIG NOSE",
+    "score": 4128107
+  },
+  {
+    "char": "🌑",
+    "id": "1F311",
+    "name": "NEW MOON SYMBOL",
+    "score": 4099861
+  },
+  {
+    "char": "🍧",
+    "id": "1F367",
+    "name": "SHAVED ICE",
+    "score": 4058239
+  },
+  {
+    "char": "🐨",
+    "id": "1F428",
+    "name": "KOALA",
+    "score": 4050454
+  },
+  {
+    "char": "🍯",
+    "id": "1F36F",
+    "name": "HONEY POT",
+    "score": 4017698
+  },
+  {
+    "char": "👬",
+    "id": "1F46C",
+    "name": "TWO MEN HOLDING HANDS",
+    "score": 3962092
+  },
+  {
+    "char": "🍳",
+    "id": "1F373",
+    "name": "COOKING",
+    "score": 3937030
+  },
+  {
+    "char": "🍵",
+    "id": "1F375",
+    "name": "TEACUP WITHOUT HANDLE",
+    "score": 3928604
+  },
+  {
+    "char": "⛽️",
+    "id": "26FD",
+    "name": "FUEL PUMP",
+    "score": 3928460
+  },
+  {
+    "char": "👵",
+    "id": "1F475",
+    "name": "OLDER WOMAN",
+    "score": 3896355
+  },
+  {
+    "char": "🐴",
+    "id": "1F434",
+    "name": "HORSE FACE",
+    "score": 3884048
+  },
+  {
+    "char": "🔍",
+    "id": "1F50D",
+    "name": "LEFT-POINTING MAGNIFYING GLASS",
+    "score": 3876263
+  },
+  {
+    "char": "👤",
+    "id": "1F464",
+    "name": "BUST IN SILHOUETTE",
+    "score": 3876086
+  },
+  {
+    "char": "⏳",
+    "id": "23F3",
+    "name": "HOURGLASS WITH FLOWING SAND",
+    "score": 3874546
+  },
+  {
+    "char": "🆙",
+    "id": "1F199",
+    "name": "SQUARED UP WITH EXCLAMATION MARK",
+    "score": 3869881
+  },
+  {
+    "char": "🍝",
+    "id": "1F35D",
+    "name": "SPAGHETTI",
+    "score": 3869822
+  },
+  {
+    "char": "🍜",
+    "id": "1F35C",
+    "name": "STEAMING BOWL",
+    "score": 3863302
+  },
+  {
+    "char": "🔎",
+    "id": "1F50E",
+    "name": "RIGHT-POINTING MAGNIFYING GLASS",
+    "score": 3859406
+  },
+  {
+    "char": "🇯🇵",
+    "id": "1F1EF-1F1F5",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS JP",
+    "score": 3821888
+  },
+  {
+    "char": "🐹",
+    "id": "1F439",
+    "name": "HAMSTER FACE",
+    "score": 3820395
+  },
+  {
+    "char": "🌜",
+    "id": "1F31C",
+    "name": "LAST QUARTER MOON WITH FACE",
+    "score": 3818357
+  },
+  {
+    "char": "👃",
+    "id": "1F443",
+    "name": "NOSE",
+    "score": 3807970
+  },
+  {
+    "char": "✴️",
+    "id": "2734",
+    "name": "EIGHT POINTED BLACK STAR",
+    "score": 3806957
+  },
+  {
+    "char": "🐔",
+    "id": "1F414",
+    "name": "CHICKEN",
+    "score": 3795191
+  },
+  {
+    "char": "📦",
+    "id": "1F4E6",
+    "name": "PACKAGE",
+    "score": 3788288
+  },
+  {
+    "char": "👰",
+    "id": "1F470",
+    "name": "BRIDE WITH VEIL",
+    "score": 3774172
+  },
+  {
+    "char": "♐️",
+    "id": "2650",
+    "name": "SAGITTARIUS",
+    "score": 3750903
+  },
+  {
+    "char": "🎱",
+    "id": "1F3B1",
+    "name": "BILLIARDS",
+    "score": 3739203
+  },
+  {
+    "char": "💠",
+    "id": "1F4A0",
+    "name": "DIAMOND SHAPE WITH A DOT INSIDE",
+    "score": 3725771
+  },
+  {
+    "char": "🙎",
+    "id": "1F64E",
+    "name": "PERSON WITH POUTING FACE",
+    "score": 3719202
+  },
+  {
+    "char": "🌄",
+    "id": "1F304",
+    "name": "SUNRISE OVER MOUNTAINS",
+    "score": 3702900
+  },
+  {
+    "char": "👕",
+    "id": "1F455",
+    "name": "T-SHIRT",
+    "score": 3693493
+  },
+  {
+    "char": "❇️",
+    "id": "2747",
+    "name": "SPARKLE",
+    "score": 3664147
+  },
+  {
+    "char": "🛅",
+    "id": "1F6C5",
+    "name": "LEFT LUGGAGE",
+    "score": 3645702
+  },
+  {
+    "char": "↖️",
+    "id": "2196",
+    "name": "NORTH WEST ARROW",
+    "score": 3630467
+  },
+  {
+    "char": "㊙️",
+    "id": "3299",
+    "name": "CIRCLED IDEOGRAPH SECRET",
+    "score": 3618896
+  },
+  {
+    "char": "📅",
+    "id": "1F4C5",
+    "name": "CALENDAR",
+    "score": 3569852
+  },
+  {
+    "char": "0️⃣",
+    "id": "0030-20E3",
+    "name": "KEYCAP 0",
+    "score": 3539258
+  },
+  {
+    "char": "🍞",
+    "id": "1F35E",
+    "name": "BREAD",
+    "score": 3538492
+  },
+  {
+    "char": "🐮",
+    "id": "1F42E",
+    "name": "COW FACE",
+    "score": 3508837
+  },
+  {
+    "char": "🐭",
+    "id": "1F42D",
+    "name": "MOUSE FACE",
+    "score": 3454246
+  },
+  {
+    "char": "🐎",
+    "id": "1F40E",
+    "name": "HORSE",
+    "score": 3447988
+  },
+  {
+    "char": "🍥",
+    "id": "1F365",
+    "name": "FISH CAKE WITH SWIRL DESIGN",
+    "score": 3441820
+  },
+  {
+    "char": "👖",
+    "id": "1F456",
+    "name": "JEANS",
+    "score": 3431067
+  },
+  {
+    "char": "🔒",
+    "id": "1F512",
+    "name": "LOCK",
+    "score": 3430526
+  },
+  {
+    "char": "🍅",
+    "id": "1F345",
+    "name": "TOMATO",
+    "score": 3419852
+  },
+  {
+    "char": "➖",
+    "id": "2796",
+    "name": "HEAVY MINUS SIGN",
+    "score": 3402854
+  },
+  {
+    "char": "🐞",
+    "id": "1F41E",
+    "name": "LADY BEETLE",
+    "score": 3382936
+  },
+  {
+    "char": "📡",
+    "id": "1F4E1",
+    "name": "SATELLITE ANTENNA",
+    "score": 3377100
+  },
+  {
+    "char": "〰",
+    "id": "3030",
+    "name": "WAVY DASH",
+    "score": 3354782
+  },
+  {
+    "char": "🚿",
+    "id": "1F6BF",
+    "name": "SHOWER",
+    "score": 3354224
+  },
+  {
+    "char": "🐉",
+    "id": "1F409",
+    "name": "DRAGON",
+    "score": 3340855
+  },
+  {
+    "char": "➕",
+    "id": "2795",
+    "name": "HEAVY PLUS SIGN",
+    "score": 3326887
+  },
+  {
+    "char": "🔰",
+    "id": "1F530",
+    "name": "JAPANESE SYMBOL FOR BEGINNER",
+    "score": 3291189
+  },
+  {
+    "char": "🐛",
+    "id": "1F41B",
+    "name": "BUG",
+    "score": 3285402
+  },
+  {
+    "char": "🍣",
+    "id": "1F363",
+    "name": "SUSHI",
+    "score": 3272515
+  },
+  {
+    "char": "💲",
+    "id": "1F4B2",
+    "name": "HEAVY DOLLAR SIGN",
+    "score": 3268621
+  },
+  {
+    "char": "🐑",
+    "id": "1F411",
+    "name": "SHEEP",
+    "score": 3258034
+  },
+  {
+    "char": "👥",
+    "id": "1F465",
+    "name": "BUSTS IN SILHOUETTE",
+    "score": 3245011
+  },
+  {
+    "char": "➰",
+    "id": "27B0",
+    "name": "CURLY LOOP",
+    "score": 3230409
+  },
+  {
+    "char": "🚙",
+    "id": "1F699",
+    "name": "RECREATIONAL VEHICLE",
+    "score": 3206907
+  },
+  {
+    "char": "👮",
+    "id": "1F46E",
+    "name": "POLICE OFFICER",
+    "score": 3180321
+  },
+  {
+    "char": "Ⓜ️",
+    "id": "24C2",
+    "name": "CIRCLED LATIN CAPITAL LETTER M",
+    "score": 3180002
+  },
+  {
+    "char": "🚲",
+    "id": "1F6B2",
+    "name": "BICYCLE",
+    "score": 3113427
+  },
+  {
+    "char": "👴",
+    "id": "1F474",
+    "name": "OLDER MAN",
+    "score": 3087035
+  },
+  {
+    "char": "🐇",
+    "id": "1F407",
+    "name": "RABBIT",
+    "score": 3083673
+  },
+  {
+    "char": "🔱",
+    "id": "1F531",
+    "name": "TRIDENT EMBLEM",
+    "score": 3049644
+  },
+  {
+    "char": "⤴️",
+    "id": "2934",
+    "name": "ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS",
+    "score": 3047561
+  },
+  {
+    "char": "♈️",
+    "id": "2648",
+    "name": "ARIES",
+    "score": 3044805
+  },
+  {
+    "char": "⛵️",
+    "id": "26F5",
+    "name": "SAILBOAT",
+    "score": 3034702
+  },
+  {
+    "char": "🔽",
+    "id": "1F53D",
+    "name": "DOWN-POINTING SMALL RED TRIANGLE",
+    "score": 3032144
+  },
+  {
+    "char": "🐤",
+    "id": "1F424",
+    "name": "BABY CHICK",
+    "score": 3028315
+  },
+  {
+    "char": "✒️",
+    "id": "2712",
+    "name": "BLACK NIB",
+    "score": 3014888
+  },
+  {
+    "char": "🎐",
+    "id": "1F390",
+    "name": "WIND CHIME",
+    "score": 3009901
+  },
+  {
+    "char": "🐓",
+    "id": "1F413",
+    "name": "ROOSTER",
+    "score": 2958478
+  },
+  {
+    "char": "⌛️",
+    "id": "231B",
+    "name": "HOURGLASS",
+    "score": 2956533
+  },
+  {
+    "char": "🔌",
+    "id": "1F50C",
+    "name": "ELECTRIC PLUG",
+    "score": 2947987
+  },
+  {
+    "char": "🔆",
+    "id": "1F506",
+    "name": "HIGH BRIGHTNESS SYMBOL",
+    "score": 2937762
+  },
+  {
+    "char": "🔋",
+    "id": "1F50B",
+    "name": "BATTERY",
+    "score": 2934482
+  },
+  {
+    "char": "🔛",
+    "id": "1F51B",
+    "name": "ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE",
+    "score": 2930749
+  },
+  {
+    "char": "㊗️",
+    "id": "3297",
+    "name": "CIRCLED IDEOGRAPH CONGRATULATION",
+    "score": 2930246
+  },
+  {
+    "char": "🎹",
+    "id": "1F3B9",
+    "name": "MUSICAL KEYBOARD",
+    "score": 2924887
+  },
+  {
+    "char": "🐋",
+    "id": "1F40B",
+    "name": "WHALE",
+    "score": 2893978
+  },
+  {
+    "char": "🐊",
+    "id": "1F40A",
+    "name": "CROCODILE",
+    "score": 2871454
+  },
+  {
+    "char": "🅰",
+    "id": "1F170",
+    "name": "NEGATIVE SQUARED LATIN CAPITAL LETTER A",
+    "score": 2865852
+  },
+  {
+    "char": "🍱",
+    "id": "1F371",
+    "name": "BENTO BOX",
+    "score": 2846006
+  },
+  {
+    "char": "♒️",
+    "id": "2652",
+    "name": "AQUARIUS",
+    "score": 2837813
+  },
+  {
+    "char": "🆔",
+    "id": "1F194",
+    "name": "SQUARED ID",
+    "score": 2827671
+  },
+  {
+    "char": "♉️",
+    "id": "2649",
+    "name": "TAURUS",
+    "score": 2826762
+  },
+  {
+    "char": "🎣",
+    "id": "1F3A3",
+    "name": "FISHING POLE AND FISH",
+    "score": 2819085
+  },
+  {
+    "char": "🏄",
+    "id": "1F3C4",
+    "name": "SURFER",
+    "score": 2804820
+  },
+  {
+    "char": "🎻",
+    "id": "1F3BB",
+    "name": "VIOLIN",
+    "score": 2776456
+  },
+  {
+    "char": "🍨",
+    "id": "1F368",
+    "name": "ICE CREAM",
+    "score": 2775962
+  },
+  {
+    "char": "👳",
+    "id": "1F473",
+    "name": "MAN WITH TURBAN",
+    "score": 2767162
+  },
+  {
+    "char": "🍤",
+    "id": "1F364",
+    "name": "FRIED SHRIMP",
+    "score": 2749045
+  },
+  {
+    "char": "♏️",
+    "id": "264F",
+    "name": "SCORPIUS",
+    "score": 2739989
+  },
+  {
+    "char": "🇷🇺",
+    "id": "1F1F7-1F1FA",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS RU",
+    "score": 2734325
+  },
+  {
+    "char": "🎲",
+    "id": "1F3B2",
+    "name": "GAME DIE",
+    "score": 2692350
+  },
+  {
+    "char": "💮",
+    "id": "1F4AE",
+    "name": "WHITE FLOWER",
+    "score": 2656142
+  },
+  {
+    "char": "🎋",
+    "id": "1F38B",
+    "name": "TANABATA TREE",
+    "score": 2638372
+  },
+  {
+    "char": "🐀",
+    "id": "1F400",
+    "name": "RAT",
+    "score": 2633080
+  },
+  {
+    "char": "❎",
+    "id": "274E",
+    "name": "NEGATIVE SQUARED CROSS MARK",
+    "score": 2632429
+  },
+  {
+    "char": "〽️",
+    "id": "303D",
+    "name": "PART ALTERNATION MARK",
+    "score": 2622057
+  },
+  {
+    "char": "🅱",
+    "id": "1F171",
+    "name": "NEGATIVE SQUARED LATIN CAPITAL LETTER B",
+    "score": 2621101
+  },
+  {
+    "char": "🐌",
+    "id": "1F40C",
+    "name": "SNAIL",
+    "score": 2618701
+  },
+  {
+    "char": "🎎",
+    "id": "1F38E",
+    "name": "JAPANESE DOLLS",
+    "score": 2600528
+  },
+  {
+    "char": "🚺",
+    "id": "1F6BA",
+    "name": "WOMENS SYMBOL",
+    "score": 2579402
+  },
+  {
+    "char": "🍚",
+    "id": "1F35A",
+    "name": "COOKED RICE",
+    "score": 2552964
+  },
+  {
+    "char": "🔓",
+    "id": "1F513",
+    "name": "OPEN LOCK",
+    "score": 2548377
+  },
+  {
+    "char": "💒",
+    "id": "1F492",
+    "name": "WEDDING",
+    "score": 2547251
+  },
+  {
+    "char": "🌒",
+    "id": "1F312",
+    "name": "WAXING CRESCENT MOON SYMBOL",
+    "score": 2540361
+  },
+  {
+    "char": "▫️",
+    "id": "25AB",
+    "name": "WHITE SMALL SQUARE",
+    "score": 2529399
+  },
+  {
+    "char": "🚌",
+    "id": "1F68C",
+    "name": "BUS",
+    "score": 2488825
+  },
+  {
+    "char": "🚂",
+    "id": "1F682",
+    "name": "STEAM LOCOMOTIVE",
+    "score": 2470079
+  },
+  {
+    "char": "🐚",
+    "id": "1F41A",
+    "name": "SPIRAL SHELL",
+    "score": 2457617
+  },
+  {
+    "char": "6️⃣",
+    "id": "0036-20E3",
+    "name": "KEYCAP 6",
+    "score": 2452858
+  },
+  {
+    "char": "🗽",
+    "id": "1F5FD",
+    "name": "STATUE OF LIBERTY",
+    "score": 2448670
+  },
+  {
+    "char": "🔨",
+    "id": "1F528",
+    "name": "HAMMER",
+    "score": 2448283
+  },
+  {
+    "char": "👱",
+    "id": "1F471",
+    "name": "PERSON WITH BLOND HAIR",
+    "score": 2445222
+  },
+  {
+    "char": "📊",
+    "id": "1F4CA",
+    "name": "BAR CHART",
+    "score": 2437961
+  },
+  {
+    "char": "♌️",
+    "id": "264C",
+    "name": "LEO",
+    "score": 2433667
+  },
+  {
+    "char": "🍖",
+    "id": "1F356",
+    "name": "MEAT ON BONE",
+    "score": 2420658
+  },
+  {
+    "char": "🌋",
+    "id": "1F30B",
+    "name": "VOLCANO",
+    "score": 2420196
+  },
+  {
+    "char": "🌓",
+    "id": "1F313",
+    "name": "FIRST QUARTER MOON SYMBOL",
+    "score": 2416798
+  },
+  {
+    "char": "♊️",
+    "id": "264A",
+    "name": "GEMINI",
+    "score": 2389019
+  },
+  {
+    "char": "♓️",
+    "id": "2653",
+    "name": "PISCES",
+    "score": 2374963
+  },
+  {
+    "char": "🚼",
+    "id": "1F6BC",
+    "name": "BABY SYMBOL",
+    "score": 2362731
+  },
+  {
+    "char": "🌘",
+    "id": "1F318",
+    "name": "WANING CRESCENT MOON SYMBOL",
+    "score": 2354607
+  },
+  {
+    "char": "👚",
+    "id": "1F45A",
+    "name": "WOMANS CLOTHES",
+    "score": 2316366
+  },
+  {
+    "char": "🕕",
+    "id": "1F555",
+    "name": "CLOCK FACE SIX OCLOCK",
+    "score": 2282767
+  },
+  {
+    "char": "💳",
+    "id": "1F4B3",
+    "name": "CREDIT CARD",
+    "score": 2280208
+  },
+  {
+    "char": "🐜",
+    "id": "1F41C",
+    "name": "ANT",
+    "score": 2273924
+  },
+  {
+    "char": "🍐",
+    "id": "1F350",
+    "name": "PEAR",
+    "score": 2264106
+  },
+  {
+    "char": "🐩",
+    "id": "1F429",
+    "name": "POODLE",
+    "score": 2260463
+  },
+  {
+    "char": "⛪️",
+    "id": "26EA",
+    "name": "CHURCH",
+    "score": 2256967
+  },
+  {
+    "char": "🚴",
+    "id": "1F6B4",
+    "name": "BICYCLIST",
+    "score": 2243488
+  },
+  {
+    "char": "🕛",
+    "id": "1F55B",
+    "name": "CLOCK FACE TWELVE OCLOCK",
+    "score": 2240405
+  },
+  {
+    "char": "🚚",
+    "id": "1F69A",
+    "name": "DELIVERY TRUCK",
+    "score": 2237903
+  },
+  {
+    "char": "7️⃣",
+    "id": "0037-20E3",
+    "name": "KEYCAP 7",
+    "score": 2232727
+  },
+  {
+    "char": "🐖",
+    "id": "1F416",
+    "name": "PIG",
+    "score": 2231575
+  },
+  {
+    "char": "🌔",
+    "id": "1F314",
+    "name": "WAXING GIBBOUS MOON SYMBOL",
+    "score": 2211276
+  },
+  {
+    "char": "📉",
+    "id": "1F4C9",
+    "name": "CHART WITH DOWNWARDS TREND",
+    "score": 2190527
+  },
+  {
+    "char": "🕐",
+    "id": "1F550",
+    "name": "CLOCK FACE ONE OCLOCK",
+    "score": 2159737
+  },
+  {
+    "char": "🌗",
+    "id": "1F317",
+    "name": "LAST QUARTER MOON SYMBOL",
+    "score": 2148826
+  },
+  {
+    "char": "ℹ️",
+    "id": "2139",
+    "name": "INFORMATION SOURCE",
+    "score": 2139688
+  },
+  {
+    "char": "📀",
+    "id": "1F4C0",
+    "name": "DVD",
+    "score": 2103992
+  },
+  {
+    "char": "🏫",
+    "id": "1F3EB",
+    "name": "SCHOOL",
+    "score": 2090940
+  },
+  {
+    "char": "♑️",
+    "id": "2651",
+    "name": "CAPRICORN",
+    "score": 2090916
+  },
+  {
+    "char": "📄",
+    "id": "1F4C4",
+    "name": "PAGE FACING UP",
+    "score": 2090121
+  },
+  {
+    "char": "🇰🇷",
+    "id": "1F1F0-1F1F7",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS KR",
+    "score": 2089599
+  },
+  {
+    "char": "🏢",
+    "id": "1F3E2",
+    "name": "OFFICE BUILDING",
+    "score": 2084228
+  },
+  {
+    "char": "📛",
+    "id": "1F4DB",
+    "name": "NAME BADGE",
+    "score": 2069980
+  },
+  {
+    "char": "👔",
+    "id": "1F454",
+    "name": "NECKTIE",
+    "score": 2061841
+  },
+  {
+    "char": "📋",
+    "id": "1F4CB",
+    "name": "CLIPBOARD",
+    "score": 2053049
+  },
+  {
+    "char": "🌇",
+    "id": "1F307",
+    "name": "SUNSET OVER BUILDINGS",
+    "score": 2041335
+  },
+  {
+    "char": "🍲",
+    "id": "1F372",
+    "name": "POT OF FOOD",
+    "score": 2039195
+  },
+  {
+    "char": "🏥",
+    "id": "1F3E5",
+    "name": "HOSPITAL",
+    "score": 2012757
+  },
+  {
+    "char": "🏩",
+    "id": "1F3E9",
+    "name": "LOVE HOTEL",
+    "score": 2001388
+  },
+  {
+    "char": "🍮",
+    "id": "1F36E",
+    "name": "CUSTARD",
+    "score": 1989435
+  },
+  {
+    "char": "♍️",
+    "id": "264D",
+    "name": "VIRGO",
+    "score": 1983887
+  },
+  {
+    "char": "🌰",
+    "id": "1F330",
+    "name": "CHESTNUT",
+    "score": 1981463
+  },
+  {
+    "char": "📮",
+    "id": "1F4EE",
+    "name": "POSTBOX",
+    "score": 1979750
+  },
+  {
+    "char": "🐲",
+    "id": "1F432",
+    "name": "DRAGON FACE",
+    "score": 1957904
+  },
+  {
+    "char": "🔉",
+    "id": "1F509",
+    "name": "SPEAKER WITH ONE SOUND WAVE",
+    "score": 1954921
+  },
+  {
+    "char": "🌖",
+    "id": "1F316",
+    "name": "WANING GIBBOUS MOON SYMBOL",
+    "score": 1954745
+  },
+  {
+    "char": "🏪",
+    "id": "1F3EA",
+    "name": "CONVENIENCE STORE",
+    "score": 1948274
+  },
+  {
+    "char": "🛀",
+    "id": "1F6C0",
+    "name": "BATH",
+    "score": 1945707
+  },
+  {
+    "char": "🚑",
+    "id": "1F691",
+    "name": "AMBULANCE",
+    "score": 1937843
+  },
+  {
+    "char": "🇨🇳",
+    "id": "1F1E8-1F1F3",
+    "name": "REGIONAL INDICATOR SYMBOL LETTERS CN",
+    "score": 1936378
+  },
+  {
+    "char": "👢",
+    "id": "1F462",
+    "name": "WOMANS BOOTS",
+    "score": 1932377
+  },
+  {
+    "char": "♎️",
+    "id": "264E",
+    "name": "LIBRA",
+    "score": 1925885
+  },
+  {
+    "char": "🏉",
+    "id": "1F3C9",
+    "name": "RUGBY FOOTBALL",
+    "score": 1921754
+  },
+  {
+    "char": "🔈",
+    "id": "1F508",
+    "name": "SPEAKER",
+    "score": 1920518
+  },
+  {
+    "char": "🐄",
+    "id": "1F404",
+    "name": "COW",
+    "score": 1911217
+  },
+  {
+    "char": "🍛",
+    "id": "1F35B",
+    "name": "CURRY AND RICE",
+    "score": 1904847
+  },
+  {
+    "char": "🎪",
+    "id": "1F3AA",
+    "name": "CIRCUS TENT",
+    "score": 1897225
+  },
+  {
+    "char": "🅾",
+    "id": "1F17E",
+    "name": "NEGATIVE SQUARED LATIN CAPITAL LETTER O",
+    "score": 1884375
+  },
+  {
+    "char": "🈹",
+    "id": "1F239",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-5272",
+    "score": 1879751
+  },
+  {
+    "char": "🚔",
+    "id": "1F694",
+    "name": "ONCOMING POLICE CAR",
+    "score": 1875920
+  },
+  {
+    "char": "🎷",
+    "id": "1F3B7",
+    "name": "SAXOPHONE",
+    "score": 1872453
+  },
+  {
+    "char": "🏂",
+    "id": "1F3C2",
+    "name": "SNOWBOARDER",
+    "score": 1856380
+  },
+  {
+    "char": "💼",
+    "id": "1F4BC",
+    "name": "BRIEFCASE",
+    "score": 1843660
+  },
+  {
+    "char": "🎺",
+    "id": "1F3BA",
+    "name": "TRUMPET",
+    "score": 1835334
+  },
+  {
+    "char": "🚪",
+    "id": "1F6AA",
+    "name": "DOOR",
+    "score": 1834890
+  },
+  {
+    "char": "🏇",
+    "id": "1F3C7",
+    "name": "HORSE RACING",
+    "score": 1825742
+  },
+  {
+    "char": "❔",
+    "id": "2754",
+    "name": "WHITE QUESTION MARK ORNAMENT",
+    "score": 1801324
+  },
+  {
+    "char": "🍡",
+    "id": "1F361",
+    "name": "DANGO",
+    "score": 1792173
+  },
+  {
+    "char": "🐡",
+    "id": "1F421",
+    "name": "BLOWFISH",
+    "score": 1748924
+  },
+  {
+    "char": "🎰",
+    "id": "1F3B0",
+    "name": "SLOT MACHINE",
+    "score": 1731162
+  },
+  {
+    "char": "🅿️",
+    "id": "1F17F",
+    "name": "NEGATIVE SQUARED LATIN CAPITAL LETTER P",
+    "score": 1730896
+  },
+  {
+    "char": "🚓",
+    "id": "1F693",
+    "name": "POLICE CAR",
+    "score": 1725229
+  },
+  {
+    "char": "👲",
+    "id": "1F472",
+    "name": "MAN WITH GUA PI MAO",
+    "score": 1690220
+  },
+  {
+    "char": "🎫",
+    "id": "1F3AB",
+    "name": "TICKET",
+    "score": 1689237
+  },
+  {
+    "char": "👜",
+    "id": "1F45C",
+    "name": "HANDBAG",
+    "score": 1685575
+  },
+  {
+    "char": "🎡",
+    "id": "1F3A1",
+    "name": "FERRIS WHEEL",
+    "score": 1673501
+  },
+  {
+    "char": "🐂",
+    "id": "1F402",
+    "name": "OX",
+    "score": 1665705
+  },
+  {
+    "char": "👞",
+    "id": "1F45E",
+    "name": "MANS SHOE",
+    "score": 1662732
+  },
+  {
+    "char": "🐅",
+    "id": "1F405",
+    "name": "TIGER",
+    "score": 1655852
+  },
+  {
+    "char": "👒",
+    "id": "1F452",
+    "name": "WOMANS HAT",
+    "score": 1641678
+  },
+  {
+    "char": "🕒",
+    "id": "1F552",
+    "name": "CLOCK FACE THREE OCLOCK",
+    "score": 1630767
+  },
+  {
+    "char": "🚽",
+    "id": "1F6BD",
+    "name": "TOILET",
+    "score": 1628870
+  },
+  {
+    "char": "🏰",
+    "id": "1F3F0",
+    "name": "EUROPEAN CASTLE",
+    "score": 1628020
+  },
+  {
+    "char": "🎒",
+    "id": "1F392",
+    "name": "SCHOOL SATCHEL",
+    "score": 1618234
+  },
+  {
+    "char": "🃏",
+    "id": "1F0CF",
+    "name": "PLAYING CARD BLACK JOKER",
+    "score": 1608790
+  },
+  {
+    "char": "🚢",
+    "id": "1F6A2",
+    "name": "SHIP",
+    "score": 1597476
+  },
+  {
+    "char": "🚒",
+    "id": "1F692",
+    "name": "FIRE ENGINE",
+    "score": 1588980
+  },
+  {
+    "char": "🗻",
+    "id": "1F5FB",
+    "name": "MOUNT FUJI",
+    "score": 1587045
+  },
+  {
+    "char": "🐏",
+    "id": "1F40F",
+    "name": "RAM",
+    "score": 1582148
+  },
+  {
+    "char": "💶",
+    "id": "1F4B6",
+    "name": "BANKNOTE WITH EURO SIGN",
+    "score": 1570299
+  },
+  {
+    "char": "💈",
+    "id": "1F488",
+    "name": "BARBER POLE",
+    "score": 1557486
+  },
+  {
+    "char": "📎",
+    "id": "1F4CE",
+    "name": "PAPERCLIP",
+    "score": 1557202
+  },
+  {
+    "char": "🔕",
+    "id": "1F515",
+    "name": "BELL WITH CANCELLATION STROKE",
+    "score": 1556178
+  },
+  {
+    "char": "9️⃣",
+    "id": "0039-20E3",
+    "name": "KEYCAP 9",
+    "score": 1552140
+  },
+  {
+    "char": "🍈",
+    "id": "1F348",
+    "name": "MELON",
+    "score": 1549168
+  },
+  {
+    "char": "8️⃣",
+    "id": "0038-20E3",
+    "name": "KEYCAP 8",
+    "score": 1547365
+  },
+  {
+    "char": "💴",
+    "id": "1F4B4",
+    "name": "BANKNOTE WITH YEN SIGN",
+    "score": 1542225
+  },
+  {
+    "char": "🌂",
+    "id": "1F302",
+    "name": "CLOSED UMBRELLA",
+    "score": 1524063
+  },
+  {
+    "char": "💷",
+    "id": "1F4B7",
+    "name": "BANKNOTE WITH POUND SIGN",
+    "score": 1509946
+  },
+  {
+    "char": "🎳",
+    "id": "1F3B3",
+    "name": "BOWLING",
+    "score": 1494285
+  },
+  {
+    "char": "🔅",
+    "id": "1F505",
+    "name": "LOW BRIGHTNESS SYMBOL",
+    "score": 1471548
+  },
+  {
+    "char": "🚧",
+    "id": "1F6A7",
+    "name": "CONSTRUCTION SIGN",
+    "score": 1470600
+  },
+  {
+    "char": "🎢",
+    "id": "1F3A2",
+    "name": "ROLLER COASTER",
+    "score": 1468293
+  },
+  {
+    "char": "🐫",
+    "id": "1F42B",
+    "name": "BACTRIAN CAMEL",
+    "score": 1462320
+  },
+  {
+    "char": "🍙",
+    "id": "1F359",
+    "name": "RICE BALL",
+    "score": 1457067
+  },
+  {
+    "char": "🐪",
+    "id": "1F42A",
+    "name": "DROMEDARY CAMEL",
+    "score": 1429177
+  },
+  {
+    "char": "🎌",
+    "id": "1F38C",
+    "name": "CROSSED FLAGS",
+    "score": 1421581
+  },
+  {
+    "char": "🚁",
+    "id": "1F681",
+    "name": "HELICOPTER",
+    "score": 1411144
+  },
+  {
+    "char": "◾️",
+    "id": "25FE",
+    "name": "BLACK MEDIUM SMALL SQUARE",
+    "score": 1405161
+  },
+  {
+    "char": "📨",
+    "id": "1F4E8",
+    "name": "INCOMING ENVELOPE",
+    "score": 1399509
+  },
+  {
+    "char": "⛺️",
+    "id": "26FA",
+    "name": "TENT",
+    "score": 1396833
+  },
+  {
+    "char": "🔼",
+    "id": "1F53C",
+    "name": "UP-POINTING SMALL RED TRIANGLE",
+    "score": 1393529
+  },
+  {
+    "char": "🚕",
+    "id": "1F695",
+    "name": "TAXI",
+    "score": 1381174
+  },
+  {
+    "char": "👷",
+    "id": "1F477",
+    "name": "CONSTRUCTION WORKER",
+    "score": 1371962
+  },
+  {
+    "char": "🎍",
+    "id": "1F38D",
+    "name": "PINE DECORATION",
+    "score": 1370630
+  },
+  {
+    "char": "🗼",
+    "id": "1F5FC",
+    "name": "TOKYO TOWER",
+    "score": 1360685
+  },
+  {
+    "char": "⬜️",
+    "id": "2B1C",
+    "name": "WHITE LARGE SQUARE",
+    "score": 1346913
+  },
+  {
+    "char": "👛",
+    "id": "1F45B",
+    "name": "PURSE",
+    "score": 1339938
+  },
+  {
+    "char": "🚣",
+    "id": "1F6A3",
+    "name": "ROWBOAT",
+    "score": 1318559
+  },
+  {
+    "char": "🔚",
+    "id": "1F51A",
+    "name": "END WITH LEFTWARDS ARROW ABOVE",
+    "score": 1300602
+  },
+  {
+    "char": "🎠",
+    "id": "1F3A0",
+    "name": "CAROUSEL HORSE",
+    "score": 1291485
+  },
+  {
+    "char": "📬",
+    "id": "1F4EC",
+    "name": "OPEN MAILBOX WITH RAISED FLAG",
+    "score": 1289767
+  },
+  {
+    "char": "🍠",
+    "id": "1F360",
+    "name": "ROASTED SWEET POTATO",
+    "score": 1283972
+  },
+  {
+    "char": "🎏",
+    "id": "1F38F",
+    "name": "CARP STREAMER",
+    "score": 1261711
+  },
+  {
+    "char": "🌁",
+    "id": "1F301",
+    "name": "FOGGY",
+    "score": 1239063
+  },
+  {
+    "char": "🔲",
+    "id": "1F532",
+    "name": "BLACK SQUARE BUTTON",
+    "score": 1230867
+  },
+  {
+    "char": "♿️",
+    "id": "267F",
+    "name": "WHEELCHAIR SYMBOL",
+    "score": 1230784
+  },
+  {
+    "char": "👘",
+    "id": "1F458",
+    "name": "KIMONO",
+    "score": 1229974
+  },
+  {
+    "char": "💱",
+    "id": "1F4B1",
+    "name": "CURRENCY EXCHANGE",
+    "score": 1227946
+  },
+  {
+    "char": "🐗",
+    "id": "1F417",
+    "name": "BOAR",
+    "score": 1205318
+  },
+  {
+    "char": "🐃",
+    "id": "1F403",
+    "name": "WATER BUFFALO",
+    "score": 1203989
+  },
+  {
+    "char": "🔟",
+    "id": "1F51F",
+    "name": "KEYCAP TEN",
+    "score": 1199153
+  },
+  {
+    "char": "💽",
+    "id": "1F4BD",
+    "name": "MINIDISC",
+    "score": 1192012
+  },
+  {
+    "char": "📴",
+    "id": "1F4F4",
+    "name": "MOBILE PHONE OFF",
+    "score": 1176884
+  },
+  {
+    "char": "🔖",
+    "id": "1F516",
+    "name": "BOOKMARK",
+    "score": 1174438
+  },
+  {
+    "char": "⬛️",
+    "id": "2B1B",
+    "name": "BLACK LARGE SQUARE",
+    "score": 1167914
+  },
+  {
+    "char": "🚹",
+    "id": "1F6B9",
+    "name": "MENS SYMBOL",
+    "score": 1163249
+  },
+  {
+    "char": "🔦",
+    "id": "1F526",
+    "name": "ELECTRIC TORCH",
+    "score": 1146278
+  },
+  {
+    "char": "🕑",
+    "id": "1F551",
+    "name": "CLOCK FACE TWO OCLOCK",
+    "score": 1139976
+  },
+  {
+    "char": "➿",
+    "id": "27BF",
+    "name": "DOUBLE CURLY LOOP",
+    "score": 1139039
+  },
+  {
+    "char": "◼️",
+    "id": "25FC",
+    "name": "BLACK MEDIUM SQUARE",
+    "score": 1136790
+  },
+  {
+    "char": "🌉",
+    "id": "1F309",
+    "name": "BRIDGE AT NIGHT",
+    "score": 1111964
+  },
+  {
+    "char": "⏫",
+    "id": "23EB",
+    "name": "BLACK UP-POINTING DOUBLE TRIANGLE",
+    "score": 1102660
+  },
+  {
+    "char": "📧",
+    "id": "1F4E7",
+    "name": "E-MAIL SYMBOL",
+    "score": 1084729
+  },
+  {
+    "char": "🐆",
+    "id": "1F406",
+    "name": "LEOPARD",
+    "score": 1080050
+  },
+  {
+    "char": "🎑",
+    "id": "1F391",
+    "name": "MOON VIEWING CEREMONY",
+    "score": 1076279
+  },
+  {
+    "char": "🔭",
+    "id": "1F52D",
+    "name": "TELESCOPE",
+    "score": 1074532
+  },
+  {
+    "char": "🕓",
+    "id": "1F553",
+    "name": "CLOCK FACE FOUR OCLOCK",
+    "score": 1066540
+  },
+  {
+    "char": "🕥",
+    "id": "1F565",
+    "name": "CLOCK FACE TEN-THIRTY",
+    "score": 1063138
+  },
+  {
+    "char": "🚍",
+    "id": "1F68D",
+    "name": "ONCOMING BUS",
+    "score": 1057815
+  },
+  {
+    "char": "🚛",
+    "id": "1F69B",
+    "name": "ARTICULATED LORRY",
+    "score": 1053517
+  },
+  {
+    "char": "🏦",
+    "id": "1F3E6",
+    "name": "BANK",
+    "score": 1039227
+  },
+  {
+    "char": "📼",
+    "id": "1F4FC",
+    "name": "VIDEOCASSETTE",
+    "score": 1036894
+  },
+  {
+    "char": "💺",
+    "id": "1F4BA",
+    "name": "SEAT",
+    "score": 1033031
+  },
+  {
+    "char": "📶",
+    "id": "1F4F6",
+    "name": "ANTENNA WITH BARS",
+    "score": 1029749
+  },
+  {
+    "char": "#️⃣",
+    "id": "0023-20E3",
+    "name": "HASH KEY",
+    "score": 1028240
+  },
+  {
+    "char": "⛲️",
+    "id": "26F2",
+    "name": "FOUNTAIN",
+    "score": 990977
+  },
+  {
+    "char": "🔳",
+    "id": "1F533",
+    "name": "WHITE SQUARE BUTTON",
+    "score": 988947
+  },
+  {
+    "char": "🏬",
+    "id": "1F3EC",
+    "name": "DEPARTMENT STORE",
+    "score": 984531
+  },
+  {
+    "char": "🔂",
+    "id": "1F502",
+    "name": "CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY",
+    "score": 978706
+  },
+  {
+    "char": "📃",
+    "id": "1F4C3",
+    "name": "PAGE WITH CURL",
+    "score": 978010
+  },
+  {
+    "char": "👡",
+    "id": "1F461",
+    "name": "WOMANS SANDAL",
+    "score": 972337
+  },
+  {
+    "char": "🔯",
+    "id": "1F52F",
+    "name": "SIX POINTED STAR WITH MIDDLE DOT",
+    "score": 967194
+  },
+  {
+    "char": "🕘",
+    "id": "1F558",
+    "name": "CLOCK FACE NINE OCLOCK",
+    "score": 966359
+  },
+  {
+    "char": "📒",
+    "id": "1F4D2",
+    "name": "LEDGER",
+    "score": 963999
+  },
+  {
+    "char": "📜",
+    "id": "1F4DC",
+    "name": "SCROLL",
+    "score": 956039
+  },
+  {
+    "char": "📓",
+    "id": "1F4D3",
+    "name": "NOTEBOOK",
+    "score": 953170
+  },
+  {
+    "char": "💾",
+    "id": "1F4BE",
+    "name": "FLOPPY DISK",
+    "score": 950583
+  },
+  {
+    "char": "🔧",
+    "id": "1F527",
+    "name": "WRENCH",
+    "score": 947482
+  },
+  {
+    "char": "🏧",
+    "id": "1F3E7",
+    "name": "AUTOMATED TELLER MACHINE",
+    "score": 916036
+  },
+  {
+    "char": "🛁",
+    "id": "1F6C1",
+    "name": "BATHTUB",
+    "score": 909904
+  },
+  {
+    "char": "🔬",
+    "id": "1F52C",
+    "name": "MICROSCOPE",
+    "score": 900678
+  },
+  {
+    "char": "🕗",
+    "id": "1F557",
+    "name": "CLOCK FACE EIGHT OCLOCK",
+    "score": 898364
+  },
+  {
+    "char": "🔇",
+    "id": "1F507",
+    "name": "SPEAKER WITH CANCELLATION STROKE",
+    "score": 887778
+  },
+  {
+    "char": "📗",
+    "id": "1F4D7",
+    "name": "GREEN BOOK",
+    "score": 886385
+  },
+  {
+    "char": "🍢",
+    "id": "1F362",
+    "name": "ODEN",
+    "score": 885098
+  },
+  {
+    "char": "🏤",
+    "id": "1F3E4",
+    "name": "EUROPEAN POST OFFICE",
+    "score": 881794
+  },
+  {
+    "char": "📘",
+    "id": "1F4D8",
+    "name": "BLUE BOOK",
+    "score": 880444
+  },
+  {
+    "char": "🕙",
+    "id": "1F559",
+    "name": "CLOCK FACE TEN OCLOCK",
+    "score": 868060
+  },
+  {
+    "char": "🕔",
+    "id": "1F554",
+    "name": "CLOCK FACE FIVE OCLOCK",
+    "score": 862286
+  },
+  {
+    "char": "🍶",
+    "id": "1F376",
+    "name": "SAKE BOTTLE AND CUP",
+    "score": 859218
+  },
+  {
+    "char": "🕖",
+    "id": "1F556",
+    "name": "CLOCK FACE SEVEN OCLOCK",
+    "score": 857849
+  },
+  {
+    "char": "🚵",
+    "id": "1F6B5",
+    "name": "MOUNTAIN BICYCLIST",
+    "score": 851507
+  },
+  {
+    "char": "🐁",
+    "id": "1F401",
+    "name": "MOUSE",
+    "score": 851360
+  },
+  {
+    "char": "◻️",
+    "id": "25FB",
+    "name": "WHITE MEDIUM SQUARE",
+    "score": 847082
+  },
+  {
+    "char": "🚄",
+    "id": "1F684",
+    "name": "HIGH-SPEED TRAIN",
+    "score": 847058
+  },
+  {
+    "char": "🍘",
+    "id": "1F358",
+    "name": "RICE CRACKER",
+    "score": 824852
+  },
+  {
+    "char": "🎽",
+    "id": "1F3BD",
+    "name": "RUNNING SHIRT WITH SASH",
+    "score": 818532
+  },
+  {
+    "char": "🕦",
+    "id": "1F566",
+    "name": "CLOCK FACE ELEVEN-THIRTY",
+    "score": 818318
+  },
+  {
+    "char": "🚜",
+    "id": "1F69C",
+    "name": "TRACTOR",
+    "score": 817465
+  },
+  {
+    "char": "🚃",
+    "id": "1F683",
+    "name": "RAILWAY CAR",
+    "score": 786335
+  },
+  {
+    "char": "📏",
+    "id": "1F4CF",
+    "name": "STRAIGHT RULER",
+    "score": 782474
+  },
+  {
+    "char": "🎿",
+    "id": "1F3BF",
+    "name": "SKI AND SKI BOOT",
+    "score": 781066
+  },
+  {
+    "char": "⛎",
+    "id": "26CE",
+    "name": "OPHIUCHUS",
+    "score": 771920
+  },
+  {
+    "char": "🚤",
+    "id": "1F6A4",
+    "name": "SPEEDBOAT",
+    "score": 771473
+  },
+  {
+    "char": "💹",
+    "id": "1F4B9",
+    "name": "CHART WITH UPWARDS TREND AND YEN SIGN",
+    "score": 768509
+  },
+  {
+    "char": "🏮",
+    "id": "1F3EE",
+    "name": "IZAKAYA LANTERN",
+    "score": 762310
+  },
+  {
+    "char": "🎦",
+    "id": "1F3A6",
+    "name": "CINEMA",
+    "score": 760120
+  },
+  {
+    "char": "🚐",
+    "id": "1F690",
+    "name": "MINIBUS",
+    "score": 748579
+  },
+  {
+    "char": "🉐",
+    "id": "1F250",
+    "name": "CIRCLED IDEOGRAPH ADVANTAGE",
+    "score": 737540
+  },
+  {
+    "char": "◽️",
+    "id": "25FD",
+    "name": "WHITE MEDIUM SMALL SQUARE",
+    "score": 732569
+  },
+  {
+    "char": "🚥",
+    "id": "1F6A5",
+    "name": "HORIZONTAL TRAFFIC LIGHT",
+    "score": 731430
+  },
+  {
+    "char": "🕚",
+    "id": "1F55A",
+    "name": "CLOCK FACE ELEVEN OCLOCK",
+    "score": 727187
+  },
+  {
+    "char": "📠",
+    "id": "1F4E0",
+    "name": "FAX MACHINE",
+    "score": 666592
+  },
+  {
+    "char": "🚇",
+    "id": "1F687",
+    "name": "METRO",
+    "score": 665091
+  },
+  {
+    "char": "📳",
+    "id": "1F4F3",
+    "name": "VIBRATION MODE",
+    "score": 659193
+  },
+  {
+    "char": "🚆",
+    "id": "1F686",
+    "name": "TRAIN",
+    "score": 652700
+  },
+  {
+    "char": "📵",
+    "id": "1F4F5",
+    "name": "NO MOBILE PHONES",
+    "score": 652128
+  },
+  {
+    "char": "🏭",
+    "id": "1F3ED",
+    "name": "FACTORY",
+    "score": 644698
+  },
+  {
+    "char": "🚅",
+    "id": "1F685",
+    "name": "HIGH-SPEED TRAIN WITH BULLET NOSE",
+    "score": 632055
+  },
+  {
+    "char": "🚭",
+    "id": "1F6AD",
+    "name": "NO SMOKING SYMBOL",
+    "score": 629055
+  },
+  {
+    "char": "🕞",
+    "id": "1F55E",
+    "name": "CLOCK FACE THREE-THIRTY",
+    "score": 619081
+  },
+  {
+    "char": "📙",
+    "id": "1F4D9",
+    "name": "ORANGE BOOK",
+    "score": 613525
+  },
+  {
+    "char": "🚋",
+    "id": "1F68B",
+    "name": "TRAM CAR",
+    "score": 585729
+  },
+  {
+    "char": "🏣",
+    "id": "1F3E3",
+    "name": "JAPANESE POST OFFICE",
+    "score": 579052
+  },
+  {
+    "char": "🔀",
+    "id": "1F500",
+    "name": "TWISTED RIGHTWARDS ARROWS",
+    "score": 572502
+  },
+  {
+    "char": "📑",
+    "id": "1F4D1",
+    "name": "BOOKMARK TABS",
+    "score": 561090
+  },
+  {
+    "char": "🏯",
+    "id": "1F3EF",
+    "name": "JAPANESE CASTLE",
+    "score": 557654
+  },
+  {
+    "char": "🎴",
+    "id": "1F3B4",
+    "name": "FLOWER PLAYING CARDS",
+    "score": 552368
+  },
+  {
+    "char": "🚉",
+    "id": "1F689",
+    "name": "STATION",
+    "score": 544822
+  },
+  {
+    "char": "🚈",
+    "id": "1F688",
+    "name": "LIGHT RAIL",
+    "score": 542649
+  },
+  {
+    "char": "🚊",
+    "id": "1F68A",
+    "name": "TRAM",
+    "score": 536192
+  },
+  {
+    "char": "🚎",
+    "id": "1F68E",
+    "name": "TROLLEYBUS",
+    "score": 534987
+  },
+  {
+    "char": "🔩",
+    "id": "1F529",
+    "name": "NUT AND BOLT",
+    "score": 523211
+  },
+  {
+    "char": "📯",
+    "id": "1F4EF",
+    "name": "POSTAL HORN",
+    "score": 518701
+  },
+  {
+    "char": "🚾",
+    "id": "1F6BE",
+    "name": "WATER CLOSET",
+    "score": 516974
+  },
+  {
+    "char": "🆎",
+    "id": "1F18E",
+    "name": "NEGATIVE SQUARED AB",
+    "score": 511221
+  },
+  {
+    "char": "📂",
+    "id": "1F4C2",
+    "name": "OPEN FILE FOLDER",
+    "score": 509171
+  },
+  {
+    "char": "📫",
+    "id": "1F4EB",
+    "name": "CLOSED MAILBOX WITH RAISED FLAG",
+    "score": 504009
+  },
+  {
+    "char": "🆖",
+    "id": "1F196",
+    "name": "SQUARED NG",
+    "score": 497031
+  },
+  {
+    "char": "🚷",
+    "id": "1F6B7",
+    "name": "NO PEDESTRIANS",
+    "score": 495817
+  },
+  {
+    "char": "📐",
+    "id": "1F4D0",
+    "name": "TRIANGULAR RULER",
+    "score": 482711
+  },
+  {
+    "char": "📔",
+    "id": "1F4D4",
+    "name": "NOTEBOOK WITH DECORATIVE COVER",
+    "score": 476132
+  },
+  {
+    "char": "📤",
+    "id": "1F4E4",
+    "name": "OUTBOX TRAY",
+    "score": 453164
+  },
+  {
+    "char": "🚳",
+    "id": "1F6B3",
+    "name": "NO BICYCLES",
+    "score": 452098
+  },
+  {
+    "char": "🈯️",
+    "id": "1F22F",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-6307",
+    "score": 446727
+  },
+  {
+    "char": "📟",
+    "id": "1F4DF",
+    "name": "PAGER",
+    "score": 437993
+  },
+  {
+    "char": "🔢",
+    "id": "1F522",
+    "name": "INPUT SYMBOL FOR NUMBERS",
+    "score": 429321
+  },
+  {
+    "char": "📁",
+    "id": "1F4C1",
+    "name": "FILE FOLDER",
+    "score": 417755
+  },
+  {
+    "char": "🚟",
+    "id": "1F69F",
+    "name": "SUSPENSION RAILWAY",
+    "score": 417100
+  },
+  {
+    "char": "🚸",
+    "id": "1F6B8",
+    "name": "CHILDREN CROSSING",
+    "score": 414994
+  },
+  {
+    "char": "🚻",
+    "id": "1F6BB",
+    "name": "RESTROOM",
+    "score": 413686
+  },
+  {
+    "char": "🔏",
+    "id": "1F50F",
+    "name": "LOCK WITH INK PEN",
+    "score": 409456
+  },
+  {
+    "char": "➗",
+    "id": "2797",
+    "name": "HEAVY DIVISION SIGN",
+    "score": 406214
+  },
+  {
+    "char": "🚏",
+    "id": "1F68F",
+    "name": "BUS STOP",
+    "score": 402169
+  },
+  {
+    "char": "🚡",
+    "id": "1F6A1",
+    "name": "AERIAL TRAMWAY",
+    "score": 392056
+  },
+  {
+    "char": "👝",
+    "id": "1F45D",
+    "name": "POUCH",
+    "score": 390251
+  },
+  {
+    "char": "🗾",
+    "id": "1F5FE",
+    "name": "SILHOUETTE OF JAPAN",
+    "score": 388991
+  },
+  {
+    "char": "🀄️",
+    "id": "1F004",
+    "name": "MAHJONG TILE RED DRAGON",
+    "score": 384467
+  },
+  {
+    "char": "🕤",
+    "id": "1F564",
+    "name": "CLOCK FACE NINE-THIRTY",
+    "score": 379016
+  },
+  {
+    "char": "🚞",
+    "id": "1F69E",
+    "name": "MOUNTAIN RAILWAY",
+    "score": 374088
+  },
+  {
+    "char": "🕜",
+    "id": "1F55C",
+    "name": "CLOCK FACE ONE-THIRTY",
+    "score": 368431
+  },
+  {
+    "char": "🈁",
+    "id": "1F201",
+    "name": "SQUARED KATAKANA KOKO",
+    "score": 366592
+  },
+  {
+    "char": "🆑",
+    "id": "1F191",
+    "name": "SQUARED CL",
+    "score": 358000
+  },
+  {
+    "char": "🛄",
+    "id": "1F6C4",
+    "name": "BAGGAGE CLAIM",
+    "score": 357948
+  },
+  {
+    "char": "🈳",
+    "id": "1F233",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-7A7A",
+    "score": 351348
+  },
+  {
+    "char": "🚠",
+    "id": "1F6A0",
+    "name": "MOUNTAIN CABLEWAY",
+    "score": 346946
+  },
+  {
+    "char": "🕝",
+    "id": "1F55D",
+    "name": "CLOCK FACE TWO-THIRTY",
+    "score": 340292
+  },
+  {
+    "char": "📪",
+    "id": "1F4EA",
+    "name": "CLOSED MAILBOX WITH LOWERED FLAG",
+    "score": 325099
+  },
+  {
+    "char": "🕢",
+    "id": "1F562",
+    "name": "CLOCK FACE SEVEN-THIRTY",
+    "score": 324891
+  },
+  {
+    "char": "🈺",
+    "id": "1F23A",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-55B6",
+    "score": 321204
+  },
+  {
+    "char": "🈵",
+    "id": "1F235",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-6E80",
+    "score": 320405
+  },
+  {
+    "char": "🈂",
+    "id": "1F202",
+    "name": "SQUARED KATAKANA SA",
+    "score": 317516
+  },
+  {
+    "char": "🕣",
+    "id": "1F563",
+    "name": "CLOCK FACE EIGHT-THIRTY",
+    "score": 316247
+  },
+  {
+    "char": "🕟",
+    "id": "1F55F",
+    "name": "CLOCK FACE FOUR-THIRTY",
+    "score": 313635
+  },
+  {
+    "char": "🈶",
+    "id": "1F236",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-6709",
+    "score": 311745
+  },
+  {
+    "char": "🈲",
+    "id": "1F232",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-7981",
+    "score": 301283
+  },
+  {
+    "char": "🉑",
+    "id": "1F251",
+    "name": "CIRCLED IDEOGRAPH ACCEPT",
+    "score": 301181
+  },
+  {
+    "char": "🚰",
+    "id": "1F6B0",
+    "name": "POTABLE WATER SYMBOL",
+    "score": 300588
+  },
+  {
+    "char": "🈚️",
+    "id": "1F21A",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-7121",
+    "score": 299832
+  },
+  {
+    "char": "🕠",
+    "id": "1F560",
+    "name": "CLOCK FACE FIVE-THIRTY",
+    "score": 296308
+  },
+  {
+    "char": "📭",
+    "id": "1F4ED",
+    "name": "OPEN MAILBOX WITH LOWERED FLAG",
+    "score": 289115
+  },
+  {
+    "char": "🕡",
+    "id": "1F561",
+    "name": "CLOCK FACE SIX-THIRTY",
+    "score": 281186
+  },
+  {
+    "char": "🚝",
+    "id": "1F69D",
+    "name": "MONORAIL",
+    "score": 274251
+  },
+  {
+    "char": "🈷",
+    "id": "1F237",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-6708",
+    "score": 273185
+  },
+  {
+    "char": "🈴",
+    "id": "1F234",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-5408",
+    "score": 268585
+  },
+  {
+    "char": "🕧",
+    "id": "1F567",
+    "name": "CLOCK FACE TWELVE-THIRTY",
+    "score": 263486
+  },
+  {
+    "char": "🈸",
+    "id": "1F238",
+    "name": "SQUARED CJK UNIFIED IDEOGRAPH-7533",
+    "score": 261109
+  },
+  {
+    "char": "🔠",
+    "id": "1F520",
+    "name": "INPUT SYMBOL FOR LATIN CAPITAL LETTERS",
+    "score": 254759
+  },
+  {
+    "char": "🛂",
+    "id": "1F6C2",
+    "name": "PASSPORT CONTROL",
+    "score": 246141
+  },
+  {
+    "char": "🚯",
+    "id": "1F6AF",
+    "name": "DO NOT LITTER SYMBOL",
+    "score": 242329
+  },
+  {
+    "char": "📇",
+    "id": "1F4C7",
+    "name": "CARD INDEX",
+    "score": 242130
+  },
+  {
+    "char": "🚱",
+    "id": "1F6B1",
+    "name": "NON-POTABLE WATER SYMBOL",
+    "score": 236132
+  },
+  {
+    "char": "🔡",
+    "id": "1F521",
+    "name": "INPUT SYMBOL FOR LATIN SMALL LETTERS",
+    "score": 232234
+  },
+  {
+    "char": "🔤",
+    "id": "1F524",
+    "name": "INPUT SYMBOL FOR LATIN LETTERS",
+    "score": 224134
+  },
+  {
+    "char": "🔣",
+    "id": "1F523",
+    "name": "INPUT SYMBOL FOR SYMBOLS",
+    "score": 210510
+  }
+]

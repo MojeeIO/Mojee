@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.mojee.io/sitemap.xml.gz
+Sitemap: https://mojeeio.github.io/mojee/sitemap.xml.gz
