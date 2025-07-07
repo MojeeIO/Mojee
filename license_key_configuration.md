@@ -1,9 +1,8 @@
 ---
-icon: shield-check
+icon: ":key:"
+order: 50
 ---
 # License Key Configuration
-
-A Mojee license key can be purchased online at [mojee.io/pricing](https://mojee.io/pricing).
 
 A license key is required to unlock all 1743 emojis supported by Mojee. Without a License Key, only the 100 most popular emoji's are supported. See [licensing](README.md#licensing) for more details.
 

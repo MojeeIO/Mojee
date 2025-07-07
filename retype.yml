@@ -1,29 +1,30 @@
 input: .
 output: .retype
 
-url: mojeeio.github.io/docs
+url: mojeeio.github.io/mojee
 
 edit:
-  repo: "https://github.com/MojeeIO/docs"
+  repo: "https://github.com/MojeeIO/mojee"
   branch: master
 
 branding:
   label: docs
   logo: static/logo.svg
 
+theme:
+  base:
+    base-color: "#EE9638"
+    base-link-weight: 500
+    nav-item-text-active-weight: 700
+    image-rounded: 0.75rem
+
 links:
   - text: Home
-    link: https://mojee.io/
+    link: /
 
   - text: Emojis
-    link: https://mojee.io/emojis
+    link: /emojis
 
-  - text: Pricing
-    link: https://mojee.io/pricing
-  
-  - text: Docs
-    link: /
-  
   - text: GitHub
     link: https://github.com/MojeeIO/Mojee
 
