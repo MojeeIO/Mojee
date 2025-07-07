@@ -3,6 +3,10 @@
     "output": ".retype",
     "cname": "docs.mojee.io",
 
+  "generator": {
+    "paths": "relative"
+  },
+
     "meta": {
       "title": " | Mojee Documentation"
     },
