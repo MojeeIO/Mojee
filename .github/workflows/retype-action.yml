@@ -24,8 +24,13 @@ jobs:
           ssh-key: ${{ secrets.MOJEE_DEV_DEPLOY_KEY }}
           path: mojee-dev
 
-      - uses: retypeapp/action-build@latest
+      - name: Build with Retype
+        uses: retypeapp/action-build@latest
 
-      - uses: retypeapp/action-github-pages@latest
+      - name: Remove mojee-dev directory before deployment
+        run: rm -rf mojee-dev
+
+      - name: Deploy to GitHub Pages
+        uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
