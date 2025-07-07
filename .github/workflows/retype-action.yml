@@ -14,15 +14,15 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout main docs repository
+        uses: actions/checkout@v4
+
+      - name: Checkout mojee-dev repository
+        uses: actions/checkout@v4
         with:
           repository: mojeeio/mojee-dev
           ssh-key: ${{ secrets.MOJEE_DEV_DEPLOY_KEY }}
-          path: mojee-dev-${{ github.run_id }}-${{ github.run_number }}
-
-      - name: move private repo to same level
-        shell: bash
-        run: mv mojee-dev-${{ github.run_id }}-${{ github.run_number }} ../mojee-dev
+          path: mojee-dev
 
       - uses: retypeapp/action-build@latest
 
