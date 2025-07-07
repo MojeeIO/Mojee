@@ -1,12 +1,12 @@
 ---
 title: Welcome
-icon: home
+icon: ":house:"
 ---
 # Welcome to Mojee :zany_face:
 
 ## What is Mojee?
 
-[Mojee](https://mojee.io/) is a lightning :zap: fast Emoji library for .NET.
+**Mojee** is a lightning :zap: fast Emoji library for .NET.
 
 ![](static/hero.png)
 
@@ -309,7 +309,7 @@ Emoji: 😄
 
 ## Licensing
 
-Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless a license key is [purchased](https://mojee.io/pricing).
+Mojee is free to use in both open-source and commercial applications, although with support for a limited set of emojis unless used with license key.
 
 The 100 most popular emojis used on Twitter are supported for free, which covers approximately 4 out of every 5 emojis tweeted. The following table documents the 100 emojis currently supported in the free (no license key) version of Mojee. With each new release, Mojee will be updated with the latest 100 most popular emojis used on Twitter.
 
@@ -327,4 +327,4 @@ The 100 most popular emojis used on Twitter are supported for free, which covers
 
 Please see the [License Key Configuration](license_key_configuration.md) guide for instructions on how to add your Mojee License key to a project.
 
-[Purchasing](https://mojee.io/pricing) a **Pro** or **Team** license key will unlock the full power of Mojee with support for all 1743 emojis.
+Purchasing a **Pro** or **Team** license key will unlock the full power of Mojee with support for all 1743 emojis.
