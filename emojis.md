@@ -7,7 +7,7 @@ order: 100
 
 Below you’ll find all available emojis, their shortcodes, aliases, descriptions, and related tags.
 
-Count: {{ emojis.size + emojis2.size }}
+Emoji count: **{{ emojis.size + emojis2.size }}**
 
 {.compact}
 | Emoji | Shortcode | Description | Tags |
