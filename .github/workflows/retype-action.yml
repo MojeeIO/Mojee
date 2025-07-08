@@ -25,7 +25,7 @@ jobs:
           path: mojee-dev
 
       - name: Build with Retype
-        uses: retypeapp/action-build@latest
+        uses: retypeapp/action-build@next
 
       - name: Remove mojee-dev directory before deployment
         run: rm -rf mojee-dev
