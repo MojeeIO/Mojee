@@ -13,6 +13,9 @@ branding:
 nav:
   mode: stack
 
+templating:
+  loopLimit: 2000
+
 theme:
   base:
     base-color: "#EE9638"

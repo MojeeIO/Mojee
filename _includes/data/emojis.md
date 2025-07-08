@@ -8497,9 +8497,7 @@ emojis = [
       "seven",
       "thirty"
     ]
-  }
-]
-emojis2 = [
+  }, 
   {
     "id": "1F557",
     "shortcode": "clock8",
