@@ -26,6 +26,8 @@ jobs:
 
       - name: Build with Retype
         uses: retypeapp/action-build@next
+        with:
+          key: ${{ secrets.RETYPE_KEY }}
 
       - name: Remove mojee-dev directory before deployment
         run: rm -rf mojee-dev
